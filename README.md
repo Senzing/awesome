@@ -26,6 +26,7 @@ Inspired by [other awesome sites](#other-awesome-sites).
 - [docker-compose-db2-demo](https://github.com/Senzing/docker-compose-db2-demo) - Demonstrates docker-compose formation of Senzing, single DB2 instance, and a simple Flask web app.
 - [docker-compose-db2-cluster-demo](https://github.com/Senzing/docker-compose-db2-cluster-demo) - Demonstrates docker-compose formation of Senzing, DB2 database cluster, and a simple Flask web app.
 - [docker-compose-mysql-demo](https://github.com/Senzing/docker-compose-mysql-demo) - Demonstrates docker-compose formation of Senzing, MySQL, phpMyAdmin, and a simple Flask web app.
+- [docker-compose-stream-demo](https://github.com/Senzing/docker-compose-stream-loader-demo) - Demonstrates docker-compose formation for loading Senzing G2 via Kafka.
 
 ## Dockerfiles
 
@@ -41,8 +42,10 @@ Inspired by [other awesome sites](#other-awesome-sites).
 - [senzing/g2loader-db2](https://github.com/Senzing/docker-g2loader-db2)- Dockerfile of Senzing's G2Loader.py for single DB2 database.
 - [senzing/g2loader](https://github.com/Senzing/docker-g2loader) - Dockerfile of Senzing's G2Loader.py for MySQL.
 - [senzing/mysql](https://github.com/Senzing/docker-mysql) - Dockerfile of MySQL command line interpreter.
+- [senzing/mysql-init](https://github.com/Senzing/docker-mysql-init) - Initialize mysql database with a one-time command.
 - [senzing/python-3.6-base](https://github.com/Senzing/docker-python-3.6-base) - Dockerfile for Senzing, MySQL, and python 3.6 base installation.
 - [senzing/python-base](https://github.com/Senzing/docker-python-base) - Dockerfile for Senzing, MySQL, and python 2.7 base installation.
+- [senzing/python-base-complete](https://github.com/Senzing/docker-python-base-complete) - Dockerfile for embedded Senzing, MySQL, and python 2.7 base installation.
 - [senzing/python-db2-base](https://github.com/Senzing/docker-python-db2-base) - Dockerfile for Senzing, single DB2 instance, and python 2.7.
 - [senzing/python-db2-cluster-base](https://github.com/Senzing/docker-python-db2-cluster-base) - Dockerfile for Senzing, DB2 cluster, and python 2.7.
 - [senzing/python-db2-cluster-demo](https://github.com/Senzing/docker-python-db2-cluster-demo) - Dockerfile demonstrating simple Flask app using Senzing and DB2 cluster.
@@ -61,6 +64,14 @@ Inspired by [other awesome sites](#other-awesome-sites).
 *Tools for managing Senzing.*
 
 - [migrate](https://github.com/Senzing/migrate) - Python tool for migrating Senzing configuration to a new release.
+- [mock-data-generator](https://github.com/Senzing/mock-data-generator) - Python tool for generating mock Senzing data and sending it to Kafka or STDOUT.
+- [stream-loader](https://github.com/Senzing/stream-loader) - Python tool for loading Senzing G2 from Kafka, URL-addressable file, or STDIN.
+
+## Work in progress
+
+*Fresh meat.*
+
+- [rest-api-proposal](https://github.com/Senzing/rest-api-proposal) - OpenAPI specification of Senzing REST API.
 
 ## Other awesome sites
 
