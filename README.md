@@ -26,7 +26,7 @@ Inspired by [other awesome sites](#other-awesome-sites).
 - [docker-compose-db2-demo](https://github.com/Senzing/docker-compose-db2-demo) - Demonstrates docker-compose formation of Senzing, single DB2 instance, and a simple Flask web app.
 - [docker-compose-db2-cluster-demo](https://github.com/Senzing/docker-compose-db2-cluster-demo) - Demonstrates docker-compose formation of Senzing, DB2 database cluster, and a simple Flask web app.
 - [docker-compose-mysql-demo](https://github.com/Senzing/docker-compose-mysql-demo) - Demonstrates docker-compose formation of Senzing, MySQL, phpMyAdmin, and a simple Flask web app.
-- [docker-compose-stream-demo](https://github.com/Senzing/docker-compose-stream-loader-demo) - Demonstrates docker-compose formation for loading Senzing G2 via Kafka.
+- [docker-compose-stream-loader-kafka-demo](https://github.com/Senzing/docker-compose-stream-loader-kafka-demo) - Demonstrates docker-compose formation for loading Senzing G2 via Kafka.
 
 ## Dockerfiles
 
