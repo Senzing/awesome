@@ -74,7 +74,7 @@ Inspired by [other awesome sites](#other-awesome-sites).
 *Fresh meat.*
 
 - [senzing-rest-api](https://github.com/Senzing/senzing-rest-api) - OpenAPI specification of Senzing REST API.
-- [senzing/jupyter](https://github.com/Senzing/docker-jupyter) - Example Senzing Jupyter notebooks
+- [senzing/jupyter](https://github.com/Senzing/docker-jupyter) - Example Senzing Jupyter notebooks.
 - [elastic-search](https://github.com/Senzing/elasticsearch)
 - [example-senzing-projects](https://github.com/Senzing/example-senzing-projects)
 - [relationship-graph-examples](https://github.com/Senzing/relationship-graph-examples)
