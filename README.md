@@ -41,6 +41,7 @@ Inspired by [other awesome sites](#other-awesome-sites).
 - [senzing/g2loader-db2-cluster](https://github.com/Senzing/docker-g2loader-db2-cluster) - Dockerfile of Senzing's python G2Loader for DB2 cluster.
 - [senzing/g2loader-db2](https://github.com/Senzing/docker-g2loader-db2)- Dockerfile of Senzing's G2Loader.py for single DB2 database.
 - [senzing/g2loader](https://github.com/Senzing/docker-g2loader) - Dockerfile of Senzing's G2Loader.py for MySQL.
+- [senzing/jupyter](https://github.com/Senzing/docker-jupyter) - Example Senzing Jupyter notebooks.
 - [senzing/mock-data-generator](https://github.com/Senzing/mock-data-generator) - Dockerfile wrapping `mock-data-generator.py`.
 - [senzing/mysql](https://github.com/Senzing/docker-mysql) - Dockerfile of MySQL command line interpreter.
 - [senzing/mysql-init](https://github.com/Senzing/docker-mysql-init) - Initialize mysql database with a one-time command.
@@ -60,6 +61,7 @@ Inspired by [other awesome sites](#other-awesome-sites).
 
 - [awesome](https://github.com/Senzing/awesome) - Curated list of awesome Senzing software and resources.
 - [knowledge-base](https://github.com/Senzing/knowledge-base) - HOWTOs, tasks, explanations, and more knowledge.
+- [senzing-rest-api](https://github.com/Senzing/senzing-rest-api) - OpenAPI specification of Senzing REST API.
 
 ## Utilities
 
@@ -73,7 +75,14 @@ Inspired by [other awesome sites](#other-awesome-sites).
 
 *Fresh meat.*
 
-- [rest-api-proposal](https://github.com/Senzing/rest-api-proposal) - OpenAPI specification of Senzing REST API.
+- [elastic-search](https://github.com/Senzing/elasticsearch)
+- [example-senzing-projects](https://github.com/Senzing/example-senzing-projects)
+- [relationship-graph-examples](https://github.com/Senzing/relationship-graph-examples)
+- [rest-api-client-ng](https://github.com/Senzing/rest-api-client-ng)
+- [sdk-components-examples](https://github.com/Senzing/sdk-components-examples)
+- [sdk-components-ng](https://github.com/Senzing/sdk-components-ng)
+- [sdk-components-web](https://github.com/Senzing/sdk-components-web)
+- [senzing-api-server](https://github.com/Senzing/senzing-api-server)
 
 ## Other awesome sites
 
