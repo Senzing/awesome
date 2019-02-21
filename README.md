@@ -17,6 +17,7 @@ Inspired by [other awesome sites](#other-awesome-sites).
 
 - [hello-senzing-springboot-java](https://github.com/Senzing/hello-senzing-springboot-java) - Demonstrates how to create an HTTP interface to Senzing using SpringBoot.
 - [webapp-drillthrough-demo](https://github.com/Senzing/webapp-drillthrough-demo) - A demonstration of Senzing drill through using Senzing developer toolkit, Node-RED, and Python Flask.
+- [rancher-demo](https://github.com/Senzing/rancher-demo) - A demonstration of Senzing in a Rancher environment.
 
 ### docker-compose demonstrations
 
@@ -61,6 +62,7 @@ Inspired by [other awesome sites](#other-awesome-sites).
 
 - [awesome](https://github.com/Senzing/awesome) - Curated list of awesome Senzing software and resources.
 - [knowledge-base](https://github.com/Senzing/knowledge-base) - HOWTOs, tasks, explanations, and more knowledge.
+- [rancher-catalog](https://github.com/Senzing/rancher-catalog) - Charts for use with Rancher and Kubernetes.
 - [senzing-rest-api](https://github.com/Senzing/senzing-rest-api) - OpenAPI specification of Senzing REST API.
 
 ## Utilities
@@ -79,9 +81,6 @@ Inspired by [other awesome sites](#other-awesome-sites).
 - [example-senzing-projects](https://github.com/Senzing/example-senzing-projects)
 - [relationship-graph-examples](https://github.com/Senzing/relationship-graph-examples)
 - [rest-api-client-ng](https://github.com/Senzing/rest-api-client-ng)
-- [sdk-components-examples](https://github.com/Senzing/sdk-components-examples)
-- [sdk-components-ng](https://github.com/Senzing/sdk-components-ng)
-- [sdk-components-web](https://github.com/Senzing/sdk-components-web)
 - [senzing-api-server](https://github.com/Senzing/senzing-api-server)
 
 ## Other awesome sites
