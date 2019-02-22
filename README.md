@@ -80,7 +80,7 @@ Inspired by [other awesome sites](#other-awesome-sites).
 - [elastic-search](https://github.com/Senzing/elasticsearch)
 - [example-senzing-projects](https://github.com/Senzing/example-senzing-projects)
 - [relationship-graph-examples](https://github.com/Senzing/relationship-graph-examples)
-- [rest-api-client-ng](https://github.com/Senzing/rest-api-client-ng)
+- [rest-api-client-ng](https://github.com/Senzing/rest-api-client-ng) - Angular TypeScript interfaces, and classes for interacting with the senzing-api-server.
 - [senzing-api-server](https://github.com/Senzing/senzing-api-server)
 
 ## Other awesome sites
