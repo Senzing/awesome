@@ -61,8 +61,8 @@ Inspired by [other awesome sites](#other-awesome-sites).
 *Non-code information.*
 
 - [awesome](https://github.com/Senzing/awesome) - Curated list of awesome Senzing software and resources.
+- [charts](https://github.com/Senzing/charts) - Charts for use with Rancher and Kubernetes.
 - [knowledge-base](https://github.com/Senzing/knowledge-base) - HOWTOs, tasks, explanations, and more knowledge.
-- [rancher-catalog](https://github.com/Senzing/rancher-catalog) - Charts for use with Rancher and Kubernetes.
 - [senzing-rest-api](https://github.com/Senzing/senzing-rest-api) - OpenAPI specification of Senzing REST API.
 
 ## Utilities
