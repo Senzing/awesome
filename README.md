@@ -27,6 +27,7 @@ Inspired by [other awesome sites](#other-awesome-sites).
 - [docker-compose-db2-demo](https://github.com/Senzing/docker-compose-db2-demo) - Demonstrates docker-compose formation of Senzing, single DB2 instance, and a simple Flask web app.
 - [docker-compose-db2-cluster-demo](https://github.com/Senzing/docker-compose-db2-cluster-demo) - Demonstrates docker-compose formation of Senzing, DB2 database cluster, and a simple Flask web app.
 - [docker-compose-mysql-demo](https://github.com/Senzing/docker-compose-mysql-demo) - Demonstrates docker-compose formation of Senzing, MySQL, phpMyAdmin, and a simple Flask web app.
+- [docker-compose-postgresql-demo](https://github.com/Senzing/docker-compose-postgresql-demo) - Demonstrates docker-compose formation of Senzing, PostgreSQL, phpPgAdmin, and a simple Flask web app.
 - [docker-compose-stream-loader-kafka-demo](https://github.com/Senzing/docker-compose-stream-loader-kafka-demo) - Demonstrates docker-compose formation for loading Senzing G2 via Kafka.
 
 ## Dockerfiles
@@ -37,23 +38,22 @@ Inspired by [other awesome sites](#other-awesome-sites).
 - [senzing/db2](https://github.com/Senzing/docker-db2) - Dockerfile for the DB2 Command Line Processor (CLP).
 - [senzing/db2express-c](https://github.com/Senzing/docker-db2express-c) - Dockerfile wrapping ibmcom/db2express-c docker image.
 - [senzing/g2command-db2-cluster](https://github.com/Senzing/docker-g2command-db2-cluster) - Dockerfile of Senzing's G2Command.py for DB2 cluster.
-- [senzing/g2command-db2](https://github.com/Senzing/docker-g2command-db2) - Dockerfile of Senzing's G2Command.py for single DB2 database.
 - [senzing/g2command](https://github.com/Senzing/docker-g2command) - Dockerfile of Senzing's G2Command.py for MySQL.
 - [senzing/g2loader-db2-cluster](https://github.com/Senzing/docker-g2loader-db2-cluster) - Dockerfile of Senzing's python G2Loader for DB2 cluster.
-- [senzing/g2loader-db2](https://github.com/Senzing/docker-g2loader-db2)- Dockerfile of Senzing's G2Loader.py for single DB2 database.
 - [senzing/g2loader](https://github.com/Senzing/docker-g2loader) - Dockerfile of Senzing's G2Loader.py for MySQL.
 - [senzing/jupyter](https://github.com/Senzing/docker-jupyter) - Example Senzing Jupyter notebooks.
 - [senzing/mock-data-generator](https://github.com/Senzing/mock-data-generator) - Dockerfile wrapping `mock-data-generator.py`.
 - [senzing/mysql](https://github.com/Senzing/docker-mysql) - Dockerfile of MySQL command line interpreter.
 - [senzing/mysql-init](https://github.com/Senzing/docker-mysql-init) - Initialize mysql database with a one-time command.
 - [senzing/python-3.6-base](https://github.com/Senzing/docker-python-3.6-base) - Dockerfile for Senzing, MySQL, and python 3.6 base installation.
-- [senzing/python-base](https://github.com/Senzing/docker-python-base) - Dockerfile for Senzing, MySQL, and python 2.7 base installation.
 - [senzing/python-base-complete](https://github.com/Senzing/docker-python-base-complete) - Dockerfile for embedded Senzing, MySQL, and python 2.7 base installation.
 - [senzing/python-db2-base](https://github.com/Senzing/docker-python-db2-base) - Dockerfile for Senzing, single DB2 instance, and python 2.7.
 - [senzing/python-db2-cluster-base](https://github.com/Senzing/docker-python-db2-cluster-base) - Dockerfile for Senzing, DB2 cluster, and python 2.7.
 - [senzing/python-db2-cluster-demo](https://github.com/Senzing/docker-python-db2-cluster-demo) - Dockerfile demonstrating simple Flask app using Senzing and DB2 cluster.
 - [senzing/python-demo](https://github.com/Senzing/docker-python-demo) - Dockerfile demonstrating simple Flask app using Senzing and MySQL.
 - [senzing/stream-loader](https://github.com/Senzing/stream-loader) - Dockerfile  wrapping `stream-loader.py`.
+- [senzing/python-mysql-base](https://github.com/Senzing/docker-python-mysql-base) - Dockerfile for Senzing, MySQL, and python 2.7 base installation.
+- [senzing/python-postgresql-base](https://github.com/Senzing/docker-python-postgresql-base) - Dockerfile for Senzing, PostgreSQL, and python 2.7 base installation.
 
 ## Resources
 
