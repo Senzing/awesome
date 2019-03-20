@@ -52,7 +52,6 @@ Inspired by [other awesome sites](#other-awesome-sites).
 - [senzing/python-db2-base](https://github.com/Senzing/docker-python-db2-base) - Dockerfile for Senzing, single DB2 instance, and python 2.7.
 - [senzing/python-db2-cluster-base](https://github.com/Senzing/docker-python-db2-cluster-base) - Dockerfile for Senzing, DB2 cluster, and python 2.7.
 - [senzing/python-db2-cluster-demo](https://github.com/Senzing/docker-python-db2-cluster-demo) - Dockerfile demonstrating simple Flask app using Senzing and DB2 cluster.
-- [senzing/python-db2-demo](https://github.com/Senzing/docker-python-db2-demo) - Dockerfile demonstrating simple Flask app using Senzing and single DB2 instance.
 - [senzing/python-demo](https://github.com/Senzing/docker-python-demo) - Dockerfile demonstrating simple Flask app using Senzing and MySQL.
 - [senzing/stream-loader](https://github.com/Senzing/stream-loader) - Dockerfile  wrapping `stream-loader.py`.
 
