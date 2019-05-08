@@ -24,8 +24,8 @@ it's available as a docker image on [hub.docker.com](https://hub.docker.com/u/se
 
 - [Senzing community Dockerfiles](https://github.com/Senzing?q=docker-) - List of all "docker-" repositories on Senzing Community site.
 
-| Image name with link to GitHub | DockerHub | Description |
-|--------------------------------|:---------:|-------------|
+| Image name with GitHub link | DockerHub | Description |
+|-----------------------------|:---------:|-------------|
 | [senzing/db2](https://github.com/Senzing/docker-db2) | | Dockerfile for the DB2 Command Line Processor (CLP).
 | [senzing/db2express-c](https://github.com/Senzing/docker-db2express-c) | | Dockerfile wrapping ibmcom/db2express-c docker image.
 | [senzing/g2command](https://github.com/Senzing/docker-g2command) | [:whale:](https://hub.docker.com/r/senzing/g2command) | Dockerfile wrapping Senzing's G2Command.py.
