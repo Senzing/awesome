@@ -20,7 +20,7 @@ Inspired by [other awesome sites](#other-awesome-sites).
 
 *Dockerfiles for building docker images.
 The clickable [:whale:](https://hub.docker.com/u/senzing) icon means
-it's available as a docker image on [hub.docker.com](https://hub.docker.com/u/senzing)*
+it's available as a docker image on [hub.docker.com](https://hub.docker.com/u/senzing).*
 
 - [Senzing community Dockerfiles](https://github.com/Senzing?q=docker-) - List of all "docker-" repositories on Senzing Community site.
 - [senzing/db2](https://github.com/Senzing/docker-db2) - Dockerfile for the DB2 Command Line Processor (CLP).
@@ -29,10 +29,10 @@ it's available as a docker image on [hub.docker.com](https://hub.docker.com/u/se
 - [senzing/g2command-db2-cluster](https://github.com/Senzing/docker-g2command-db2-cluster) - Dockerfile of Senzing's G2Command.py for DB2 cluster.
 - [senzing/g2loader](https://github.com/Senzing/docker-g2loader) [:whale:](https://hub.docker.com/r/senzing/g2loader) - Dockerfile wrapping Senzing's G2Loader.py.
 - [senzing/g2loader-db2-cluster](https://github.com/Senzing/docker-g2loader-db2-cluster) - Dockerfile of Senzing's python G2Loader for DB2 cluster.
-- [senzing/jupyter](https://github.com/Senzing/docker-jupyter) [:whale:](https://hub.docker.com/r/senzing/jupyter) - Example Senzing Jupyter notebooks.
+- [senzing/jupyter](https://github.com/Senzing/docker-jupyter) [:whale:](https://hub.docker.com/r/senzing/jupyter) - Dockerfile for running example Senzing Jupyter notebooks.
 - [senzing/mock-data-generator](https://github.com/Senzing/mock-data-generator) [:whale:](https://hub.docker.com/r/senzing/mock-data-generator)  - Dockerfile wrapping `mock-data-generator.py`.
 - [senzing/mysql](https://github.com/Senzing/docker-mysql) - Dockerfile of MySQL command line interpreter.
-- [senzing/mysql-init](https://github.com/Senzing/docker-mysql-init) - Initialize mysql database with a one-time command.
+- [senzing/mysql-init](https://github.com/Senzing/docker-mysql-init) - Dockerfile for initializing mysql database with a one-time command.
 - [senzing/opt-senzing](https://github.com/Senzing/docker-opt-senzing) - Dockerfile containing a "baked-in" /opt/senzing directory.
 - [senzing/python-3.6-base](https://github.com/Senzing/docker-python-3.6-base) - Dockerfile for Senzing, MySQL, and python 3.6 base installation.
 - [senzing/python-base-complete](https://github.com/Senzing/docker-python-base-complete) - Dockerfile for embedded Senzing, MySQL, and python 2.7 base installation.
@@ -62,14 +62,14 @@ it's available as a docker image on [hub.docker.com](https://hub.docker.com/u/se
 
 ### Kubernetes demonstrations
 
-*Step-by-step instructions demonstrating usage of Senzing on kubernetes-based systems.*
+*Step-by-step instructions demonstrating use of Senzing on kubernetes-based systems.*
 
 - [kubernetes-demo](https://github.com/Senzing/kubernetes-demo) - Demonstrates Kubernetes deployment of Senzing with queue, database, and a simple Flask web app.
 - [rancher-demo](https://github.com/Senzing/rancher-demo) - Demonstrates Rancher deployment of Senzing with queue, database, and a simple Flask web app.
 
 ## Demonstrations
 
-*Step-by-step instructions demonstrating usage of Senzing.*
+*Step-by-step instructions demonstrating use of Senzing.*
 
 - [webapp-drillthrough-demo](https://github.com/Senzing/webapp-drillthrough-demo) - A demonstration of Senzing drill through using Senzing developer toolkit, Node-RED, and Python Flask.
 - [hello-senzing-springboot-java](https://github.com/Senzing/hello-senzing-springboot-java) - Demonstrates how to create an HTTP interface to Senzing using SpringBoot.
