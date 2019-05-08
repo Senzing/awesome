@@ -18,7 +18,9 @@ Inspired by [other awesome sites](#other-awesome-sites).
 
 ### Dockerfiles
 
-*Dockerfiles for building docker images.  The clickable [:whale:](https://hub.docker.com/u/senzing) icon means it's available as a docker image on [hub.docker.com](https://hub.docker.com/u/senzing)*
+*Dockerfiles for building docker images.
+The clickable [:whale:](https://hub.docker.com/u/senzing) icon means
+it's available as a docker image on [hub.docker.com](https://hub.docker.com/u/senzing)*
 
 - [Senzing community Dockerfiles](https://github.com/Senzing?q=docker-) - List of all "docker-" repositories on Senzing Community site.
 - [senzing/db2](https://github.com/Senzing/docker-db2) - Dockerfile for the DB2 Command Line Processor (CLP).
@@ -60,8 +62,10 @@ Inspired by [other awesome sites](#other-awesome-sites).
 
 ### Kubernetes demonstrations
 
+*Step-by-step instructions demonstrating usage of Senzing on kubernetes-based systems.*
+
 - [kubernetes-demo](https://github.com/Senzing/kubernetes-demo) - Demonstrates Kubernetes deployment of Senzing with queue, database, and a simple Flask web app.
-- [rancher-demo](https://github.com/Senzing/rancher-demo) - A demonstration of Senzing in a Rancher environment.
+- [rancher-demo](https://github.com/Senzing/rancher-demo) - Demonstrates Rancher deployment of Senzing with queue, database, and a simple Flask web app.
 
 ## Demonstrations
 
@@ -75,7 +79,7 @@ Inspired by [other awesome sites](#other-awesome-sites).
 *Non-code information.*
 
 - [awesome](https://github.com/Senzing/awesome) - Curated list of awesome Senzing software and resources.
-- [charts](https://github.com/Senzing/charts) - Charts for use with Rancher and Kubernetes.
+- [charts](https://github.com/Senzing/charts) - Charts for use with Helm, Rancher, and Kubernetes.
 - [knowledge-base](https://github.com/Senzing/knowledge-base) - HOWTOs, tasks, explanations, and more knowledge.
 - [senzing-rest-api](https://github.com/Senzing/senzing-rest-api) - OpenAPI specification of Senzing REST API.
 
@@ -86,8 +90,8 @@ Inspired by [other awesome sites](#other-awesome-sites).
 - [migrate](https://github.com/Senzing/migrate) - Python tool for migrating Senzing configuration to a new release.
 - [mock-data-generator.py](https://github.com/Senzing/mock-data-generator) - Python tool for generating mock Senzing data and sending it to Kafka, RabbitMQ, or STDOUT.
 - [senzing-api-server](https://github.com/Senzing/senzing-api-server) - Server of Senzing REST API.
-- [senzing-package.py](https://github.com/Senzing/senzing-api-server) - Install Senzing TGZ file.
-- [stream-loader.py](https://github.com/Senzing/stream-loader) - Python tool for loading Senzing G2 from Kafka, URL-addressable file, or STDIN.
+- [senzing-package.py](https://github.com/Senzing/senzing-package) - Python tool for installing Senzing TGZ file.
+- [stream-loader.py](https://github.com/Senzing/stream-loader) - Python tool for loading Senzing G2 from RabbitMQ, Kafka, URL-addressable file, or STDIN.
 
 ## Work in progress
 
