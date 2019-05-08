@@ -22,7 +22,6 @@ Inspired by [other awesome sites](#other-awesome-sites).
 The clickable [:whale:](https://hub.docker.com/u/senzing) icon means
 it's available as a docker image on [hub.docker.com](https://hub.docker.com/u/senzing).*
 
-
 - [Senzing community Dockerfiles](https://github.com/Senzing?q=docker-) - List of all "docker-" repositories on Senzing Community site.
 
 | Image name with link to GitHub | DockerHub | Description |
