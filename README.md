@@ -18,7 +18,7 @@ Inspired by [other awesome sites](#other-awesome-sites).
 
 ### Dockerfiles
 
-*Dockerfiles for building docker images.  The clickable :whale: icon means it's available as a docker image on [hub.docker.com](https://hub.docker.com/u/senzing)*
+*Dockerfiles for building docker images.  The clickable [:whale:](https://hub.docker.com/u/senzing) icon means it's available as a docker image on [hub.docker.com](https://hub.docker.com/u/senzing)*
 
 - [Senzing community Dockerfiles](https://github.com/Senzing?q=docker-) - List of all "docker-" repositories on Senzing Community site.
 - [senzing/db2](https://github.com/Senzing/docker-db2) - Dockerfile for the DB2 Command Line Processor (CLP).
