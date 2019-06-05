@@ -57,11 +57,8 @@ it's available as a docker image on [hub.docker.com](https://hub.docker.com/u/se
 *Docker formations using docker-compose.*
 
 - [Senzing community docker-compose](https://github.com/Senzing?q=docker-compose-) - List of all "docker-compose" repositories on Senzing Community site.
-- [docker-compose-db2-demo](https://github.com/Senzing/docker-compose-db2-demo) - Demonstrates docker-compose formation of Senzing, single DB2 instance, and a simple Flask web app.
 - [docker-compose-db2-cluster-demo](https://github.com/Senzing/docker-compose-db2-cluster-demo) - Demonstrates docker-compose formation of Senzing, DB2 database cluster, and a simple Flask web app.
 - [docker-compose-demo](https://github.com/Senzing/docker-compose-demo) - Demonstrates docker-compose formation of Senzing with queue, database, and a simple Flask web app.
-- [docker-compose-mysql-demo](https://github.com/Senzing/docker-compose-mysql-demo) - Demonstrates docker-compose formation of Senzing, MySQL, phpMyAdmin, and a simple Flask web app.
-- [docker-compose-postgresql-demo](https://github.com/Senzing/docker-compose-postgresql-demo) - Demonstrates docker-compose formation of Senzing, PostgreSQL, phpPgAdmin, and a simple Flask web app.
 
 ### Kubernetes demonstrations
 
