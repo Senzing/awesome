@@ -48,7 +48,7 @@ it's available as a docker image on [hub.docker.com](https://hub.docker.com/u/se
 | [senzing/python-mysql-base](https://github.com/Senzing/docker-python-mysql-base) | | Dockerfile for Senzing, MySQL, and python 2.7 base installation.
 | [senzing/python-postgresql-base](https://github.com/Senzing/docker-python-postgresql-base) | | Dockerfile for Senzing, PostgreSQL, and python 2.7 base installation.
 | [senzing/senzing-api-server](https://github.com/Senzing/senzing-api-server) | [:whale:](https://hub.docker.com/r/senzing/senzing-api-server) | Dockerfile for server of Senzing REST API.
-| [senzing/senzing-base](https://github.com/Senzing/docker-senzing-base) | [:whale:]( [:whale:](https://hub.docker.com/r/senzing/senzing-base) | Dockerfile used in FROM statements.
+| [senzing/senzing-base](https://github.com/Senzing/docker-senzing-base) | [:whale:](https://hub.docker.com/r/senzing/senzing-base) | Dockerfile used in FROM statements.
 | [senzing/senzing-debug](https://github.com/Senzing/docker-senzing-debug) | [:whale:](https://hub.docker.com/r/senzing/senzing-debug) | Dockerfile for debugging Senzing deployments.
 | [senzing/senzing-package](https://github.com/Senzing/senzing-package) | [:whale:](https://hub.docker.com/_/senzing-package) | Dockerfile wrapping `senzing-package.py`.
 | [senzing/senzing-poc-utility](https://github.com/Senzing/docker-senzing-poc-utility) | [:whale:](https://hub.docker.com/r/senzing/senzing-poc-utility) | Dockerfile wrapping Senzing's POC utility.
