@@ -28,6 +28,8 @@ it's available as a docker image on [hub.docker.com](https://hub.docker.com/u/se
 |-----------------------------|:---------:|-------------|
 | [senzing/db2](https://github.com/Senzing/docker-db2) | | Dockerfile for the DB2 Command Line Processor (CLP).
 | [senzing/db2express-c](https://github.com/Senzing/docker-db2express-c) | | Dockerfile wrapping ibmcom/db2express-c docker image.
+| [senzing/entity-search-web-app](https://github.com/Senzing/entity-search-web-app) | [:whale:](https://hub.docker.com/r/senzing/entity-search-web-app) | Dockerfile wrapping entity-search-web-app.
+| [senzing/g2configtool](https://github.com/Senzing/docker-g2configtool) | [:whale:](https://github.com/Senzing/docker-g2configtool) | Dockerfile wrapping Senzing's G2ConfigTool.py.
 | [senzing/g2command](https://github.com/Senzing/docker-g2command) | [:whale:](https://hub.docker.com/r/senzing/g2command) | Dockerfile wrapping Senzing's G2Command.py.
 | [senzing/g2command-db2-cluster](https://github.com/Senzing/docker-g2command-db2-cluster) | | Dockerfile of Senzing's G2Command.py for DB2 cluster.
 | [senzing/g2loader](https://github.com/Senzing/docker-g2loader) | [:whale:](https://hub.docker.com/r/senzing/g2loader) | Dockerfile wrapping Senzing's G2Loader.py.
@@ -48,7 +50,7 @@ it's available as a docker image on [hub.docker.com](https://hub.docker.com/u/se
 | [senzing/senzing-api-server](https://github.com/Senzing/senzing-api-server) | [:whale:](https://hub.docker.com/r/senzing/senzing-api-server) | Dockerfile for server of Senzing REST API.
 | [senzing/senzing-base](https://github.com/Senzing/docker-senzing-base) | [:whale:](https://hub.docker.com/r/senzing/senzing-base) | Dockerfile used in FROM statements.
 | [senzing/senzing-debug](https://github.com/Senzing/docker-senzing-debug) | [:whale:](https://hub.docker.com/r/senzing/senzing-debug) | Dockerfile for debugging Senzing deployments.
-| [senzing/senzing-package](https://github.com/Senzing/senzing-package) | | Dockerfile wrapping `senzing-package.py`.
+| [senzing/senzing-package](https://github.com/Senzing/senzing-package) | [:whale:](https://hub.docker.com/_/senzing-package) | Dockerfile wrapping `senzing-package.py`.
 | [senzing/senzing-poc-utility](https://github.com/Senzing/docker-senzing-poc-utility) | [:whale:](https://hub.docker.com/r/senzing/senzing-poc-utility) | Dockerfile wrapping Senzing's POC utility.
 | [senzing/stream-loader](https://github.com/Senzing/stream-loader) | [:whale:](https://hub.docker.com/r/senzing/stream-loader) | Dockerfile  wrapping `stream-loader.py`.
 
@@ -57,15 +59,15 @@ it's available as a docker image on [hub.docker.com](https://hub.docker.com/u/se
 *Docker formations using docker-compose.*
 
 - [Senzing community docker-compose](https://github.com/Senzing?q=docker-compose-) - List of all "docker-compose" repositories on Senzing Community site.
-- [docker-compose-db2-cluster-demo](https://github.com/Senzing/docker-compose-db2-cluster-demo) - Demonstrates docker-compose formation of Senzing, DB2 database cluster, and a simple Flask web app.
 - [docker-compose-demo](https://github.com/Senzing/docker-compose-demo) - Demonstrates docker-compose formation of Senzing with queue, database, and a simple Flask web app.
+- [docker-compose-db2-cluster-demo](https://github.com/Senzing/docker-compose-db2-cluster-demo) - Demonstrates docker-compose formation of Senzing, DB2 database cluster, and a simple Flask web app.
 
 ### Kubernetes demonstrations
 
 *Step-by-step instructions demonstrating use of Senzing on kubernetes-based systems.*
 
-- [kubernetes-demo](https://github.com/Senzing/kubernetes-demo) - Demonstrates Kubernetes deployment of Senzing with queue, database, and a simple Flask web app.
-- [rancher-demo](https://github.com/Senzing/rancher-demo) - Demonstrates Rancher deployment of Senzing with queue, database, and a simple Flask web app.
+- [kubernetes-demo](https://github.com/Senzing/kubernetes-demo) - Demonstrates Kubernetes deployment of Senzing with queue, database, and Senzing API server.
+- [rancher-demo](https://github.com/Senzing/rancher-demo) - Demonstrates Rancher deployment of Senzing with queue, database, and Senzing API server.
 
 ## Demonstrations
 
@@ -98,9 +100,11 @@ it's available as a docker image on [hub.docker.com](https://hub.docker.com/u/se
 *Fresh meat.*
 
 - [elastic-search](https://github.com/Senzing/elasticsearch)
+- [entity-search-web-app](https://github.com/Senzing/entity-search-web-app)
 - [example-senzing-projects](https://github.com/Senzing/example-senzing-projects)
 - [ibm-icp4d-guide](https://github.com/Senzing/ibm-icp4d-guide) - Reference implementation for Senzing on IBM Cloud Private for Data.
 - [rest-api-client-ng](https://github.com/Senzing/rest-api-client-ng) - Angular TypeScript interfaces, and classes for interacting with the senzing-api-server.
+- [Senzing Jupyter notebooks](https://github.com/Senzing/docker-jupyter/tree/master/notebooks) - Jupyter Notebooks showing examples of Senzing use.
 
 ## Other awesome sites
 
