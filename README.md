@@ -52,7 +52,7 @@ it's available as a docker image on [hub.docker.com](https://hub.docker.com/u/se
 | [senzing/senzing-debug](https://github.com/Senzing/docker-senzing-debug) | [:whale:](https://hub.docker.com/r/senzing/senzing-debug) | Dockerfile for debugging Senzing deployments.
 | [senzing/senzing-poc-utility](https://github.com/Senzing/docker-senzing-poc-utility) | [:whale:](https://hub.docker.com/r/senzing/senzing-poc-utility) | Dockerfile wrapping Senzing's POC utility.
 | [senzing/stream-loader](https://github.com/Senzing/stream-loader) | [:whale:](https://hub.docker.com/r/senzing/stream-loader) | Dockerfile  wrapping `stream-loader.py`.
-| [store/senzing/senzing-package](https://github.com/Senzing/senzing-package) | [:whale:](https://hub.docker.com/_/senzing-package) | Dockerfile wrapping `senzing-package.py`.
+| [store/senzing/senzing-package](https://github.com/Senzing/senzing-package) | [:whale:](https://hub.docker.com/_/senzing-package) | Dockerfile wrapping `senzing-package.py`. Requires [accepting EULA](https://github.com/Senzing/knowledge-base/blob/master/HOWTO/accept-eula.md#storesenzingsenzing-package-docker-image).
 
 ### docker-compose demonstrations
 
