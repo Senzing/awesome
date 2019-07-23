@@ -8,12 +8,10 @@
 The clickable [:whale:](https://hub.docker.com/u/senzing) icon means
 it's available as a docker image on [hub.docker.com](https://hub.docker.com/u/senzing).*
 
-- [Senzing community Dockerfiles](https://github.com/Senzing?q=docker-) - List of all "docker-" repositories on Senzing Community site.
-
 | Image name with GitHub link                                                                  | Non-root           | Immutable          | DockerHub | Description |
 |----------------------------------------------------------------------------------------------|:------------------:|:------------------:|:---------:|-------------|
-| [senzing/db2](https://github.com/Senzing/docker-db2)                                         | :heavy_check_mark: | :heavy_check_mark: | | Dockerfile for the DB2 Command Line Processor (CLP).
-| [senzing/db2express-c](https://github.com/Senzing/docker-db2express-c)                       | :no_entry_sign:    |                    | | Dockerfile wrapping ibmcom/db2express-c docker image.
+| [senzing/db2](https://github.com/Senzing/docker-db2)                                         |                    |                    | | Dockerfile for the DB2 Command Line Processor (CLP).
+| [senzing/db2express-c](https://github.com/Senzing/docker-db2express-c)                       |                    |                    | | Dockerfile wrapping ibmcom/db2express-c docker image.
 | [senzing/entity-search-web-app](https://github.com/Senzing/entity-search-web-app)            |                    |                    | [:whale:](https://hub.docker.com/r/senzing/entity-search-web-app) | Dockerfile wrapping entity-search-web-app.
 | [senzing/g2configtool](https://github.com/Senzing/docker-g2configtool)                       |                    |                    | [:whale:](https://github.com/Senzing/docker-g2configtool) | Dockerfile wrapping Senzing's G2ConfigTool.py.
 | [senzing/g2command](https://github.com/Senzing/docker-g2command)                             |                    |                    | [:whale:](https://hub.docker.com/r/senzing/g2command) | Dockerfile wrapping Senzing's G2Command.py.
@@ -34,8 +32,8 @@ it's available as a docker image on [hub.docker.com](https://hub.docker.com/u/se
 | [senzing/python-mysql-base](https://github.com/Senzing/docker-python-mysql-base)             |                    |                    | | Dockerfile for Senzing, MySQL, and python 2.7 base installation.
 | [senzing/python-postgresql-base](https://github.com/Senzing/docker-python-postgresql-base)   |                    |                    | | Dockerfile for Senzing, PostgreSQL, and python 2.7 base installation.
 | [senzing/senzing-api-server](https://github.com/Senzing/senzing-api-server)                  |                    |                    | [:whale:](https://hub.docker.com/r/senzing/senzing-api-server) | Dockerfile for server of Senzing REST API.
-| [senzing/senzing-base](https://github.com/Senzing/docker-senzing-base)                       |                    |                    | [:whale:](https://hub.docker.com/r/senzing/senzing-base) | Dockerfile used in FROM statements.
-| [senzing/senzing-debug](https://github.com/Senzing/docker-senzing-debug)                     |                    |                    | [:whale:](https://hub.docker.com/r/senzing/senzing-debug) | Dockerfile for debugging Senzing deployments.
+| [senzing/senzing-base](https://github.com/Senzing/docker-senzing-base)                       | :heavy_check_mark: | :heavy_check_mark: | [:whale:](https://hub.docker.com/r/senzing/senzing-base) | Dockerfile used in FROM statements.
+| [senzing/senzing-debug](https://github.com/Senzing/docker-senzing-debug)                     | :no_entry_sign:    | :no_entry_sign:    | [:whale:](https://hub.docker.com/r/senzing/senzing-debug) | Dockerfile for debugging Senzing deployments.
 | [senzing/senzing-poc-utility](https://github.com/Senzing/docker-senzing-poc-utility)         |                    |                    | [:whale:](https://hub.docker.com/r/senzing/senzing-poc-utility) | Dockerfile wrapping Senzing's POC utility.
 | [senzing/stream-loader](https://github.com/Senzing/stream-loader)                            |                    |                    | [:whale:](https://hub.docker.com/r/senzing/stream-loader) | Dockerfile  wrapping `stream-loader.py`.
 | [senzing/web-app-demo](https://github.com/Senzing/docker-web-app-demo)                       |                    |                    | [:whale:](https://hub.docker.com/r/senzing/web-app-demo) | Dockerfile wrapping "Entity Search Web App".
