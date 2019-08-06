@@ -39,14 +39,12 @@ it's available as a docker image on [hub.docker.com](https://hub.docker.com/u/se
 | [senzing/mysql](https://github.com/Senzing/docker-mysql) | | Dockerfile of MySQL command line interpreter.
 | [senzing/mysql-init](https://github.com/Senzing/docker-mysql-init) | | Dockerfile for initializing mysql database with a one-time command.
 | [senzing/opt-senzing](https://github.com/Senzing/docker-opt-senzing) | | Dockerfile containing a "baked-in" /opt/senzing directory.
-| [senzing/python-3.6-base](https://github.com/Senzing/docker-python-3.6-base) | | Dockerfile for Senzing, MySQL, and python 3.6 base installation.
-| [senzing/python-base-complete](https://github.com/Senzing/docker-python-base-complete) | | Dockerfile for embedded Senzing, MySQL, and python 2.7 base installation.
-| [senzing/python-db2-base](https://github.com/Senzing/docker-python-db2-base) | | Dockerfile for Senzing, single DB2 instance, and python 2.7.
-| [senzing/python-db2-cluster-base](https://github.com/Senzing/docker-python-db2-cluster-base) | | Dockerfile for Senzing, DB2 cluster, and python 2.7.
+| [senzing/python-base-complete](https://github.com/Senzing/docker-python-base-complete) | | Dockerfile for embedded Senzing, MySQL, and python 3.7 base installation.
+| [senzing/python-db2-base](https://github.com/Senzing/docker-python-db2-base) | | Dockerfile for Senzing, single DB2 instance, and python 3.7.
+| [senzing/python-db2-cluster-base](https://github.com/Senzing/docker-python-db2-cluster-base) | | Dockerfile for Senzing, DB2 cluster, and python 3.7.
 | [senzing/python-db2-cluster-demo](https://github.com/Senzing/docker-python-db2-cluster-demo) | | Dockerfile demonstrating simple Flask app using Senzing and DB2 cluster.
 | [senzing/python-demo](https://github.com/Senzing/docker-python-demo) | [:whale:](https://hub.docker.com/r/senzing/python-demo) | Dockerfile demonstrating simple Flask app using Senzing.
-| [senzing/python-mysql-base](https://github.com/Senzing/docker-python-mysql-base) | | Dockerfile for Senzing, MySQL, and python 2.7 base installation.
-| [senzing/python-postgresql-base](https://github.com/Senzing/docker-python-postgresql-base) | | Dockerfile for Senzing, PostgreSQL, and python 2.7 base installation.
+| [senzing/python-postgresql-base](https://github.com/Senzing/docker-python-postgresql-base) | | Dockerfile for Senzing, PostgreSQL, and python 3.7 base installation.
 | [senzing/senzing-api-server](https://github.com/Senzing/senzing-api-server) | [:whale:](https://hub.docker.com/r/senzing/senzing-api-server) | Dockerfile for server of Senzing REST API.
 | [senzing/senzing-base](https://github.com/Senzing/docker-senzing-base) | [:whale:](https://hub.docker.com/r/senzing/senzing-base) | Dockerfile used in FROM statements.
 | [senzing/senzing-debug](https://github.com/Senzing/docker-senzing-debug) | [:whale:](https://hub.docker.com/r/senzing/senzing-debug) | Dockerfile for debugging Senzing deployments.
