@@ -28,7 +28,7 @@ The following icons are clickable:
 |-----------------------------|:----:|:----:|-------------|
 | [senzing/db2](https://github.com/Senzing/docker-db2) | | | Dockerfile for the DB2 Command Line Processor (CLP).
 | [senzing/db2express-c](https://github.com/Senzing/docker-db2express-c) | | | Dockerfile wrapping ibmcom/db2express-c docker image.
-| [senzing/entity-search-web-app](https://github.com/Senzing/entity-search-web-app) | [:whale:](https://hub.docker.com/r/senzing/entity-search-web-app) | [:gear:](https://github.com/Senzing/charts/tree/master/charts/senzing-entity-search-web-app/senzing-entity-search-web-app) | Dockerfile wrapping entity-search-web-app.
+| [senzing/entity-search-web-app](https://github.com/Senzing/entity-search-web-app) | [:whale:](https://hub.docker.com/r/senzing/entity-search-web-app) | [:gear:](https://github.com/Senzing/charts/tree/master/charts/senzing-entity-search-web-app) | Dockerfile wrapping entity-search-web-app.
 | [senzing/g2configtool](https://github.com/Senzing/docker-g2configtool) | [:whale:](https://github.com/Senzing/docker-g2configtool) | | Dockerfile wrapping Senzing's G2ConfigTool.py.
 | [senzing/g2command](https://github.com/Senzing/docker-g2command) | [:whale:](https://hub.docker.com/r/senzing/g2command) | | Dockerfile wrapping Senzing's G2Command.py.
 | [senzing/g2command-db2-cluster](https://github.com/Senzing/docker-g2command-db2-cluster) | | | Dockerfile of Senzing's G2Command.py for DB2 cluster.
@@ -81,7 +81,7 @@ The following icons are clickable:
 - [docker-init-container](https://github.com/Senzing/docker-init-container) - Dockerfile used to initialize Senzing artifacts.
 - [docker-jupyter](https://github.com/Senzing/docker-jupyter) - Dockerfile for running example Senzing Jupyter notebooks.
 - [docker-mysql-init](https://github.com/Senzing/docker-mysql-init) - Dockerfile for initializing mysql database with a one-time command.
-- [docker-poc-notebook](https://github.com/Senzing/docker-poc-notebook) - None
+- [docker-poc-notebook](https://github.com/Senzing/docker-poc-notebook) - Jupyter notebook for showing POC results.
 - [docker-senzing-base](https://github.com/Senzing/docker-senzing-base) - Dockerfile used in FROM statements.
 - [docker-senzing-debug](https://github.com/Senzing/docker-senzing-debug) - Dockerfile for debugging Senzing deployments.
 - [docker-senzing-poc-utility](https://github.com/Senzing/docker-senzing-poc-utility) - Dockerfile wrapping Senzing's POC utility.
@@ -109,23 +109,23 @@ The following icons are clickable:
 
 ## Mapper
 
-*Mapping ...*
+*Convert industry standard formats to Senzing-ready format.*
 
-- [mapper-base](https://github.com/Senzing/mapper-base) - None
-- [mapper-dnb](https://github.com/Senzing/mapper-dnb) - None
-- [mapper-dowjones](https://github.com/Senzing/mapper-dowjones) - None
-- [mapper-ijic](https://github.com/Senzing/mapper-ijic) - None
+- [mapper-base](https://github.com/Senzing/mapper-base) - Base functions used to map a variety of formats to a Senzing-acceptable format.
+- [mapper-dnb](https://github.com/Senzing/mapper-dnb) - Map DNB format to Senzing format.
+- [mapper-dowjones](https://github.com/Senzing/mapper-dowjones) - Map Dow Jones Watchlist format to Senzing format.
+- [mapper-ijic](https://github.com/Senzing/mapper-ijic) - Map ICIJ format to Senzing format.
 - [mapper-ofac](https://github.com/Senzing/mapper-ofac) - OFAC to JSON mapper.
 
 ## Proof of Concept
 
-*Inital work to ...*
+*Tools to work with Proof of Concept engagements.*
 
-- [docker-poc-notebook](https://github.com/Senzing/docker-poc-notebook) - None
+- [docker-poc-notebook](https://github.com/Senzing/docker-poc-notebook) - Jupyter notebook for showing POC results.
 - [docker-senzing-poc-utility](https://github.com/Senzing/docker-senzing-poc-utility) - Dockerfile wrapping Senzing's POC utility.
-- [poc-csv-tools](https://github.com/Senzing/poc-csv-tools) - None
-- [poc-snapshot](https://github.com/Senzing/poc-snapshot) - None
-- [poc-viewer](https://github.com/Senzing/poc-viewer) - None
+- [poc-csv-tools](https://github.com/Senzing/poc-csv-tools) - Exemplar artifacts (files) that can be used in other Senzing repositories.
+- [poc-snapshot](https://github.com/Senzing/poc-snapshot) - Snapshot the current state of the records loaded in a Senzing repository.
+- [poc-viewer](https://github.com/Senzing/poc-viewer) - Interactive command line utility that works along with the poc-snapshot utility.
 
 ## Resources
 
