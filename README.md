@@ -16,13 +16,13 @@ Inspired by [other awesome sites](#other-awesome-sites).
 
 ## Docker
 
-### Dockerfiles
-
 *Dockerfiles for building docker images.*
+
 - [Senzing community Dockerfiles](https://github.com/Senzing?q=docker-) - List of all "docker-" repositories on Senzing Community site.
 
 **Legend:**
 The following icons are clickable:
+
 - [:whale:](https://hub.docker.com/u/senzing) - Available as a docker image on [hub.docker.com](https://hub.docker.com/u/senzing).
 - [:gear:](https://github.com/Senzing/charts/tree/master/charts) - Available as a Helm Chart on [https://github.com/Senzing/charts](https://github.com/Senzing/charts)
 
@@ -55,57 +55,112 @@ The following icons are clickable:
 | [senzing/web-app-demo](https://github.com/Senzing/docker-web-app-demo) | [:whale:](https://hub.docker.com/r/senzing/web-app-demo) | | Dockerfile wrapping "Entity Search Web App".
 | [store/senzing/senzing-package](https://github.com/Senzing/senzing-package) | [:whale:](https://hub.docker.com/_/senzing-package) | | Dockerfile wrapping `senzing-package.py`. Requires [accepting EULA](https://github.com/Senzing/knowledge-base/blob/master/HOWTO/accept-eula.md#storesenzingsenzing-package-docker-image).
 
-### docker-compose demonstrations
+## Dockerfiles
+
+*Docker projects.*
+
+- [configurator](https://github.com/Senzing/configurator) - Web service for configuring Senzing.
+- [docker-app-demo](https://github.com/Senzing/docker-app-demo) - Use "docker-app" to create a docker formation.
+- [docker-db2-driver-installer](https://github.com/Senzing/docker-db2-driver-installer) - Install DB2 client drivers on mounted volumes.
+- [docker-g2command](https://github.com/Senzing/docker-g2command) - Dockerfile wrapping Senzing's G2Command.py.
+- [docker-g2configtool](https://github.com/Senzing/docker-g2configtool) - Dockerfile wratpping G2ConfigTool.
+- [docker-g2loader](https://github.com/Senzing/docker-g2loader) - Dockerfile wrapping Senzing's G2Loader.py.
+- [docker-ibm-db2](https://github.com/Senzing/docker-ibm-db2) - Wrapper for `ibmcom/db2`
+- [docker-init-container](https://github.com/Senzing/docker-init-container) - Dockerfile used to initialize Senzing artifacts.
+- [docker-jupyter](https://github.com/Senzing/docker-jupyter) - Dockerfile for running example Senzing Jupyter notebooks.
+- [docker-mysql-init](https://github.com/Senzing/docker-mysql-init) - Dockerfile for initializing mysql database with a one-time command.
+- [docker-poc-notebook](https://github.com/Senzing/docker-poc-notebook) - None
+- [docker-senzing-base](https://github.com/Senzing/docker-senzing-base) - Dockerfile used in FROM statements.
+- [docker-senzing-debug](https://github.com/Senzing/docker-senzing-debug) - Dockerfile for debugging Senzing deployments.
+- [docker-senzing-poc-utility](https://github.com/Senzing/docker-senzing-poc-utility) - Dockerfile wrapping Senzing's POC utility.
+- [docker-web-app-demo](https://github.com/Senzing/docker-web-app-demo) - Senzing API server and Senzing Entity WebApp combo.
+- [docker-yum](https://github.com/Senzing/docker-yum) - A dockerized version of yum
+- [docker-yumdownloader](https://github.com/Senzing/docker-yumdownloader) - A docker wrapper over yumdownloader
+- [entity-search-web-app](https://github.com/Senzing/entity-search-web-app) - A lightweight http server providing a web UI for entity search through the senzing api server.
+- [mock-data-generator](https://github.com/Senzing/mock-data-generator) - Python tool for generating mock Senzing data and sending it to Kafka, RabbitMQ, or STDOUT.
+- [resolver](https://github.com/Senzing/resolver) - Ephemeral Senzing entity-resolution.
+- [senzing-api-server](https://github.com/Senzing/senzing-api-server) - Server of Senzing REST API. Senzing: THE FIRST REAL-TIME AI FOR ENTITY RESOLUTION
+- [stream-loader](https://github.com/Senzing/stream-loader) - Python tool for loading Senzing G2 from RabbitMQ, Kafka, URL-addressable file, or STDIN.
+
+## docker-compose
 
 *Docker formations using docker-compose.*
 
-- [Senzing community docker-compose](https://github.com/Senzing?q=docker-compose-) - List of all "docker-compose" repositories on Senzing Community site.
-- [docker-compose-demo](https://github.com/Senzing/docker-compose-demo) - Demonstrates docker-compose formation of Senzing with queue, database, and a simple Flask web app.
-- [docker-compose-db2-cluster-demo](https://github.com/Senzing/docker-compose-db2-cluster-demo) - Demonstrates docker-compose formation of Senzing, DB2 database cluster, and a simple Flask web app.
-
-### Kubernetes demonstrations
-
-*Step-by-step instructions demonstrating use of Senzing on kubernetes-based systems.*
-
-- [kubernetes-demo](https://github.com/Senzing/kubernetes-demo) - Demonstrates Kubernetes deployment of Senzing with queue, database, and Senzing API server.
-- [rancher-demo](https://github.com/Senzing/rancher-demo) - Demonstrates Rancher deployment of Senzing with queue, database, and Senzing API server.
+- [docker-compose-demo](https://github.com/Senzing/docker-compose-demo) - Demonstrates docker-compose formation of Senzing with queue, database, and the Senzing Entity Search WebApp
 
 ## Demonstrations
 
 *Step-by-step instructions demonstrating use of Senzing.*
 
-- [webapp-drillthrough-demo](https://github.com/Senzing/webapp-drillthrough-demo) - A demonstration of Senzing drill through using Senzing developer toolkit, Node-RED, and Python Flask.
+- [docker-app-demo](https://github.com/Senzing/docker-app-demo) - Use "docker-app" to create a docker formation.
+- [docker-compose-db2-cluster-demo](https://github.com/Senzing/docker-compose-db2-cluster-demo) - Demonstrates docker-compose formation of Senzing, DB2 database cluster, and a simple Flask web app.
+- [docker-compose-demo](https://github.com/Senzing/docker-compose-demo) - Demonstrates docker-compose formation of Senzing with queue, database, and the Senzing Entity Search WebApp
+- [docker-web-app-demo](https://github.com/Senzing/docker-web-app-demo) - Senzing API server and Senzing Entity WebApp combo.
 - [hello-senzing-springboot-java](https://github.com/Senzing/hello-senzing-springboot-java) - Demonstrates how to create an HTTP interface to Senzing using SpringBoot.
+- [ibm-openshift-guide](https://github.com/Senzing/ibm-openshift-guide) - Create a docker formation using minishift.
+- [kubernetes-demo](https://github.com/Senzing/kubernetes-demo) - Demonstrates Kubernetes deployment of Senzing with queue, database, and Senzing API server.
+- [rancher-demo](https://github.com/Senzing/rancher-demo) - Demonstrates Rancher deployment of Senzing with queue, database, and Senzing API server.
+- [webapp-drillthrough-demo](https://github.com/Senzing/webapp-drillthrough-demo) - A demonstration of Senzing drill through using Senzing developer toolkit, Node-RED, and Python Flask.
+
+## Kubernetes
+
+*Step-by-step instructions demonstrating use of Senzing on kubernetes-based systems.*
+
+- [charts](https://github.com/Senzing/charts) - Charts for use with Rancher and Kubernetes.
+- [kubernetes-demo](https://github.com/Senzing/kubernetes-demo) - Demonstrates Kubernetes deployment of Senzing with queue, database, and Senzing API server.
+
+## Mapper
+
+*Mapping ...*
+
+- [mapper-base](https://github.com/Senzing/mapper-base) - None
+- [mapper-dnb](https://github.com/Senzing/mapper-dnb) - None
+- [mapper-dowjones](https://github.com/Senzing/mapper-dowjones) - None
+- [mapper-ijic](https://github.com/Senzing/mapper-ijic) - None
+- [mapper-ofac](https://github.com/Senzing/mapper-ofac) - OFAC to JSON mapper.
+
+## Proof of Concept (POC)
+
+*Inital work to ...*
+
+- [docker-poc-notebook](https://github.com/Senzing/docker-poc-notebook) - None
+- [docker-senzing-poc-utility](https://github.com/Senzing/docker-senzing-poc-utility) - Dockerfile wrapping Senzing's POC utility.
+- [poc-csv-tools](https://github.com/Senzing/poc-csv-tools) - None
+- [poc-snapshot](https://github.com/Senzing/poc-snapshot) - None
+- [poc-viewer](https://github.com/Senzing/poc-viewer) - None
 
 ## Resources
 
 *Non-code information.*
 
-- [awesome](https://github.com/Senzing/awesome) - Curated list of awesome Senzing software and resources.
-- [charts](https://github.com/Senzing/charts) - Charts for use with Helm, Rancher, and Kubernetes.
+- [awesome](https://github.com/Senzing/awesome) - Curated list of awesome software and resources for Senzing, The First Real-Time AI for Entity Resolution
+- [charts](https://github.com/Senzing/charts) - Charts for use with Rancher and Kubernetes.
 - [knowledge-base](https://github.com/Senzing/knowledge-base) - HOWTOs, tasks, explanations, and more knowledge.
 - [senzing-rest-api](https://github.com/Senzing/senzing-rest-api) - OpenAPI specification of Senzing REST API.
+- [senzing.github.io](https://github.com/Senzing/senzing.github.io) - Organization site at http://senzing.github.io
 
 ## Utilities
 
 *Tools for working with Senzing.*
 
+- [configurator](https://github.com/Senzing/configurator) - Web service for configuring Senzing.
+- [docker-init-container](https://github.com/Senzing/docker-init-container) - Dockerfile used to initialize Senzing artifacts.
+- [entity-search-web-app](https://github.com/Senzing/entity-search-web-app) - A lightweight http server providing a web UI for entity search through the senzing api server.
 - [migrate](https://github.com/Senzing/migrate) - Python tool for migrating Senzing configuration to a new release.
-- [mock-data-generator.py](https://github.com/Senzing/mock-data-generator) - Python tool for generating mock Senzing data and sending it to Kafka, RabbitMQ, or STDOUT.
-- [senzing-api-server](https://github.com/Senzing/senzing-api-server) - Server of Senzing REST API.
-- [senzing-package.py](https://github.com/Senzing/senzing-package) - Python tool for installing Senzing TGZ file.
-- [stream-loader.py](https://github.com/Senzing/stream-loader) - Python tool for loading Senzing G2 from RabbitMQ, Kafka, URL-addressable file, or STDIN.
+- [mock-data-generator](https://github.com/Senzing/mock-data-generator) - Python tool for generating mock Senzing data and sending it to Kafka, RabbitMQ, or STDOUT.
+- [resolver](https://github.com/Senzing/resolver) - Ephemeral Senzing entity-resolution.
+- [senzing-api-server](https://github.com/Senzing/senzing-api-server) - Server of Senzing REST API. Senzing: THE FIRST REAL-TIME AI FOR ENTITY RESOLUTION
+- [senzing-package](https://github.com/Senzing/senzing-package) - Python tool for installing Senzing TGZ file.
+- [stream-loader](https://github.com/Senzing/stream-loader) - Python tool for loading Senzing G2 from RabbitMQ, Kafka, URL-addressable file, or STDIN.
 
 ## Work in progress
 
 *Fresh meat.*
 
-- [elastic-search](https://github.com/Senzing/elasticsearch)
-- [entity-search-web-app](https://github.com/Senzing/entity-search-web-app)
-- [example-senzing-projects](https://github.com/Senzing/example-senzing-projects)
+- [elasticsearch](https://github.com/Senzing/elasticsearch) - Using G2 engine with ElasticSearch indexing engine.
 - [ibm-icp4d-guide](https://github.com/Senzing/ibm-icp4d-guide) - Reference implementation for Senzing on IBM Cloud Private for Data.
-- [rest-api-client-ng](https://github.com/Senzing/rest-api-client-ng) - Angular TypeScript interfaces, and classes for interacting with the senzing-api-server.
-- [Senzing Jupyter notebooks](https://github.com/Senzing/docker-jupyter/tree/master/notebooks) - Jupyter Notebooks showing examples of Senzing use.
+- [openshift-demo](https://github.com/Senzing/openshift-demo) - Demonstration using minishift.
+- [stream-configuration](https://github.com/Senzing/stream-configuration) - :construction: [Under construction] Temporary Senzing configuration service
 
 ## Other awesome sites
 
