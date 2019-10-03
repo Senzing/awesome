@@ -18,14 +18,16 @@ Inspired by [other awesome sites](#other-awesome-sites).
 
 ### Dockerfiles
 
-*Dockerfiles for building docker images.
-The clickable [:whale:](https://hub.docker.com/u/senzing) icon means
-it's available as a docker image on [hub.docker.com](https://hub.docker.com/u/senzing).*
-
+*Dockerfiles for building docker images.*
 - [Senzing community Dockerfiles](https://github.com/Senzing?q=docker-) - List of all "docker-" repositories on Senzing Community site.
 
-| Image name with GitHub link | DockerHub | Helm Chart | Description |
-|-----------------------------|:---------:|:----------:|-------------|
+**Legend:**
+The following icons are clickable:
+- [:whale:](https://hub.docker.com/u/senzing) - Available as a docker image on [hub.docker.com](https://hub.docker.com/u/senzing).
+- [:gear:](https://github.com/Senzing/charts/tree/master/charts) - Available as a Helm Chart on [https://github.com/Senzing/charts](https://github.com/Senzing/charts)
+
+| Image name with GitHub link |      |      | Description |
+|-----------------------------|:----:|:----:|-------------|
 | [senzing/db2](https://github.com/Senzing/docker-db2) | | | Dockerfile for the DB2 Command Line Processor (CLP).
 | [senzing/db2express-c](https://github.com/Senzing/docker-db2express-c) | | | Dockerfile wrapping ibmcom/db2express-c docker image.
 | [senzing/entity-search-web-app](https://github.com/Senzing/entity-search-web-app) | [:whale:](https://hub.docker.com/r/senzing/entity-search-web-app) | :gear: | Dockerfile wrapping entity-search-web-app.
