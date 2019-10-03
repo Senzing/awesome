@@ -28,7 +28,7 @@ The following icons are clickable:
 |-----------------------------|:----:|:----:|-------------|
 | [senzing/db2](https://github.com/Senzing/docker-db2) | | | Dockerfile for the DB2 Command Line Processor (CLP).
 | [senzing/db2express-c](https://github.com/Senzing/docker-db2express-c) | | | Dockerfile wrapping ibmcom/db2express-c docker image.
-| [senzing/entity-search-web-app](https://github.com/Senzing/entity-search-web-app) | [:whale:](https://hub.docker.com/r/senzing/entity-search-web-app) | :gear: | Dockerfile wrapping entity-search-web-app.
+| [senzing/entity-search-web-app](https://github.com/Senzing/entity-search-web-app) | [:whale:](https://hub.docker.com/r/senzing/entity-search-web-app) | [:gear:](https://github.com/Senzing/charts/tree/master/charts/senzing-entity-search-web-app/senzing-entity-search-web-app) | Dockerfile wrapping entity-search-web-app.
 | [senzing/g2configtool](https://github.com/Senzing/docker-g2configtool) | [:whale:](https://github.com/Senzing/docker-g2configtool) | | Dockerfile wrapping Senzing's G2ConfigTool.py.
 | [senzing/g2command](https://github.com/Senzing/docker-g2command) | [:whale:](https://hub.docker.com/r/senzing/g2command) | | Dockerfile wrapping Senzing's G2Command.py.
 | [senzing/g2command-db2-cluster](https://github.com/Senzing/docker-g2command-db2-cluster) | | | Dockerfile of Senzing's G2Command.py for DB2 cluster.
