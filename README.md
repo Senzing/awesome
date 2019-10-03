@@ -6,19 +6,17 @@ Inspired by [other awesome sites](#other-awesome-sites).
 ## Contents
 
 1. [Docker](#docker)
-    1. [Dockerfiles](#dockerfiles)
-    1. [docker-compose demonstrations](#docker-compose-demonstrations)
-    1. [Kubernetes demonstrations](#kubernetes-demonstrations)
+1. [Dockerfiles](#dockerfiles)
+1. [docker-compose](#docker-compose)
+1. [Kubernetes](#kubernetes)
+1. [Mapper](#mapper)
+
 1. [Demonstrations](#demonstrations)
 1. [Resources](#resources)
 1. [Utilities](#utilities)
 1. [Work in progress](#work-in-progress)
 
 ## Docker
-
-*Dockerfiles for building docker images.*
-
-- [Senzing community Dockerfiles](https://github.com/Senzing?q=docker-) - List of all "docker-" repositories on Senzing Community site.
 
 **Legend:**
 The following icons are clickable:
