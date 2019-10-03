@@ -6,15 +6,16 @@ Inspired by [other awesome sites](#other-awesome-sites).
 ## Contents
 
 1. [Docker](#docker)
+1. [Demonstrations](#demonstrations)
 1. [Dockerfiles](#dockerfiles)
 1. [docker-compose](#docker-compose)
 1. [Kubernetes](#kubernetes)
 1. [Mapper](#mapper)
-
-1. [Demonstrations](#demonstrations)
+1. [Proof of Concept](#proof-of-concept)
 1. [Resources](#resources)
 1. [Utilities](#utilities)
 1. [Work in progress](#work-in-progress)
+1. [Other awesome sites](#other-awesome-sites)
 
 ## Docker
 
