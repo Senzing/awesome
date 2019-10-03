@@ -53,9 +53,23 @@ The following icons are clickable:
 | [senzing/web-app-demo](https://github.com/Senzing/docker-web-app-demo) | [:whale:](https://hub.docker.com/r/senzing/web-app-demo) | | Dockerfile wrapping "Entity Search Web App".
 | [store/senzing/senzing-package](https://github.com/Senzing/senzing-package) | [:whale:](https://hub.docker.com/_/senzing-package) | | Dockerfile wrapping `senzing-package.py`. Requires [accepting EULA](https://github.com/Senzing/knowledge-base/blob/master/HOWTO/accept-eula.md#storesenzingsenzing-package-docker-image).
 
+## Demonstrations
+
+*Step-by-step instructions demonstrating use of Senzing.*
+
+- [docker-app-demo](https://github.com/Senzing/docker-app-demo) - Use "docker-app" to create a docker formation.
+- [docker-compose-db2-cluster-demo](https://github.com/Senzing/docker-compose-db2-cluster-demo) - Demonstrates docker-compose formation of Senzing, DB2 database cluster, and a simple Flask web app.
+- [docker-compose-demo](https://github.com/Senzing/docker-compose-demo) - Demonstrates docker-compose formation of Senzing with queue, database, and the Senzing Entity Search WebApp
+- [docker-web-app-demo](https://github.com/Senzing/docker-web-app-demo) - Senzing API server and Senzing Entity WebApp combo.
+- [hello-senzing-springboot-java](https://github.com/Senzing/hello-senzing-springboot-java) - Demonstrates how to create an HTTP interface to Senzing using SpringBoot.
+- [ibm-openshift-guide](https://github.com/Senzing/ibm-openshift-guide) - Create a docker formation using minishift.
+- [kubernetes-demo](https://github.com/Senzing/kubernetes-demo) - Demonstrates Kubernetes deployment of Senzing with queue, database, and Senzing API server.
+- [rancher-demo](https://github.com/Senzing/rancher-demo) - Demonstrates Rancher deployment of Senzing with queue, database, and Senzing API server.
+- [webapp-drillthrough-demo](https://github.com/Senzing/webapp-drillthrough-demo) - A demonstration of Senzing drill through using Senzing developer toolkit, Node-RED, and Python Flask.
+
 ## Dockerfiles
 
-*Docker projects.*
+*Repositories with Dockerfiles.*
 
 - [configurator](https://github.com/Senzing/configurator) - Web service for configuring Senzing.
 - [docker-app-demo](https://github.com/Senzing/docker-app-demo) - Use "docker-app" to create a docker formation.
@@ -77,7 +91,7 @@ The following icons are clickable:
 - [entity-search-web-app](https://github.com/Senzing/entity-search-web-app) - A lightweight http server providing a web UI for entity search through the senzing api server.
 - [mock-data-generator](https://github.com/Senzing/mock-data-generator) - Python tool for generating mock Senzing data and sending it to Kafka, RabbitMQ, or STDOUT.
 - [resolver](https://github.com/Senzing/resolver) - Ephemeral Senzing entity-resolution.
-- [senzing-api-server](https://github.com/Senzing/senzing-api-server) - Server of Senzing REST API. Senzing: THE FIRST REAL-TIME AI FOR ENTITY RESOLUTION
+- [senzing-api-server](https://github.com/Senzing/senzing-api-server) - Server of Senzing REST API.
 - [stream-loader](https://github.com/Senzing/stream-loader) - Python tool for loading Senzing G2 from RabbitMQ, Kafka, URL-addressable file, or STDIN.
 
 ## docker-compose
@@ -85,20 +99,6 @@ The following icons are clickable:
 *Docker formations using docker-compose.*
 
 - [docker-compose-demo](https://github.com/Senzing/docker-compose-demo) - Demonstrates docker-compose formation of Senzing with queue, database, and the Senzing Entity Search WebApp
-
-## Demonstrations
-
-*Step-by-step instructions demonstrating use of Senzing.*
-
-- [docker-app-demo](https://github.com/Senzing/docker-app-demo) - Use "docker-app" to create a docker formation.
-- [docker-compose-db2-cluster-demo](https://github.com/Senzing/docker-compose-db2-cluster-demo) - Demonstrates docker-compose formation of Senzing, DB2 database cluster, and a simple Flask web app.
-- [docker-compose-demo](https://github.com/Senzing/docker-compose-demo) - Demonstrates docker-compose formation of Senzing with queue, database, and the Senzing Entity Search WebApp
-- [docker-web-app-demo](https://github.com/Senzing/docker-web-app-demo) - Senzing API server and Senzing Entity WebApp combo.
-- [hello-senzing-springboot-java](https://github.com/Senzing/hello-senzing-springboot-java) - Demonstrates how to create an HTTP interface to Senzing using SpringBoot.
-- [ibm-openshift-guide](https://github.com/Senzing/ibm-openshift-guide) - Create a docker formation using minishift.
-- [kubernetes-demo](https://github.com/Senzing/kubernetes-demo) - Demonstrates Kubernetes deployment of Senzing with queue, database, and Senzing API server.
-- [rancher-demo](https://github.com/Senzing/rancher-demo) - Demonstrates Rancher deployment of Senzing with queue, database, and Senzing API server.
-- [webapp-drillthrough-demo](https://github.com/Senzing/webapp-drillthrough-demo) - A demonstration of Senzing drill through using Senzing developer toolkit, Node-RED, and Python Flask.
 
 ## Kubernetes
 
@@ -117,7 +117,7 @@ The following icons are clickable:
 - [mapper-ijic](https://github.com/Senzing/mapper-ijic) - None
 - [mapper-ofac](https://github.com/Senzing/mapper-ofac) - OFAC to JSON mapper.
 
-## Proof of Concept (POC)
+## Proof of Concept
 
 *Inital work to ...*
 
@@ -147,7 +147,7 @@ The following icons are clickable:
 - [migrate](https://github.com/Senzing/migrate) - Python tool for migrating Senzing configuration to a new release.
 - [mock-data-generator](https://github.com/Senzing/mock-data-generator) - Python tool for generating mock Senzing data and sending it to Kafka, RabbitMQ, or STDOUT.
 - [resolver](https://github.com/Senzing/resolver) - Ephemeral Senzing entity-resolution.
-- [senzing-api-server](https://github.com/Senzing/senzing-api-server) - Server of Senzing REST API. Senzing: THE FIRST REAL-TIME AI FOR ENTITY RESOLUTION
+- [senzing-api-server](https://github.com/Senzing/senzing-api-server) - Server of Senzing REST API.
 - [senzing-package](https://github.com/Senzing/senzing-package) - Python tool for installing Senzing TGZ file.
 - [stream-loader](https://github.com/Senzing/stream-loader) - Python tool for loading Senzing G2 from RabbitMQ, Kafka, URL-addressable file, or STDIN.
 
