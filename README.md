@@ -8,8 +8,8 @@ Inspired by [other awesome sites](#other-awesome-sites).
 1. [Demonstrations](#demonstrations)
 1. Docker
     1. [Dockerfiles](#dockerfiles)
-    1. [docker-compose](#docker-compose)
     1. [DockerHub](#dockerhub)
+    1. [docker-compose](#docker-compose)
     1. [Kubernetes](#kubernetes)
     1. [Helm Charts](#helm-charts)
 1. [Mapper](#mapper)
@@ -62,12 +62,6 @@ Inspired by [other awesome sites](#other-awesome-sites).
 1. [senzing-package](https://github.com/Senzing/senzing-package) - Python tool for installing Senzing TGZ file.
 1. [stream-loader](https://github.com/Senzing/stream-loader) - Python tool for loading Senzing G2 from RabbitMQ, Kafka, URL-addressable file, or STDIN.
 
-## docker-compose
-
-*Docker formations using docker-compose.*
-
-1. [docker-compose-demo](https://github.com/Senzing/docker-compose-demo) - Demonstrates docker-compose formation of Senzing with queue, database, and the Senzing Entity Search WebApp.
-
 ## DockerHub
 
 *Git repositories with Docker images on DockerHub.*
@@ -95,6 +89,12 @@ Inspired by [other awesome sites](#other-awesome-sites).
 1. [resolver](https://github.com/Senzing/resolver) - Ephemeral Senzing entity-resolution.
 1. [senzing-api-server](https://github.com/Senzing/senzing-api-server) - Server of Senzing REST API.
 1. [stream-loader](https://github.com/Senzing/stream-loader) - Python tool for loading Senzing G2 from RabbitMQ, Kafka, URL-addressable file, or STDIN.
+
+## docker-compose
+
+*Docker formations using docker-compose.*
+
+1. [docker-compose-demo](https://github.com/Senzing/docker-compose-demo) - Demonstrates docker-compose formation of Senzing with queue, database, and the Senzing Entity Search WebApp.
 
 ## Kubernetes
 
