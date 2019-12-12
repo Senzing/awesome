@@ -28,7 +28,7 @@ Inspired by [other awesome sites](#other-awesome-sites).
 1. [docker-app-demo](https://github.com/Senzing/docker-app-demo) - Uses `docker-app` to create a docker formation demonstrating Senzing.
 1. [docker-compose-demo](https://github.com/Senzing/docker-compose-demo) - Uses `docker-compose` to create a docker formation demonstrating Senzing.
 1. [docker-python-demo](https://github.com/Senzing/docker-python-demo) - Dockerfile demonstrating simple Flask app using Senzing.
-1. [docker-web-app-demo](https://github.com/Senzing/docker-web-app-demo) - Docker image with Senzing API server and Senzing Entity WebApp combined.
+1. [docker-web-app-demo](https://github.com/Senzing/docker-web-app-demo) - Dockerfile combining Senzing API server and Senzing Entity WebApp.
 1. [ibm-openshift-guide](https://github.com/Senzing/ibm-openshift-guide) - Demonstrates OpenShift deployment of Senzing with queue, Db2, and Senzing API server.
 1. [kubernetes-demo](https://github.com/Senzing/kubernetes-demo) - Demonstrates Kubernetes deployment of Senzing with queue, database, and Senzing API server.
 
@@ -53,7 +53,7 @@ Inspired by [other awesome sites](#other-awesome-sites).
 1. [docker-senzing-base](https://github.com/Senzing/docker-senzing-base) - Dockerfile used in FROM statements.
 1. [docker-senzing-debug](https://github.com/Senzing/docker-senzing-debug) - Dockerfile for debugging Senzing deployments.
 1. [docker-senzing-poc-utility](https://github.com/Senzing/docker-senzing-poc-utility) - Dockerfile wrapping Senzing's POC utility.
-1. [docker-web-app-demo](https://github.com/Senzing/docker-web-app-demo) - Docker image with Senzing API server and Senzing Entity WebApp combined.
+1. [docker-web-app-demo](https://github.com/Senzing/docker-web-app-demo) - Dockerfile combining Senzing API server and Senzing Entity WebApp.
 1. [docker-yum](https://github.com/Senzing/docker-yum) - Dockerfile wrapping `yum`, a package manager.
 1. [docker-yumdownloader](https://github.com/Senzing/docker-yumdownloader) - Dockerfile wrapping `yumdownloader`.
 1. [entity-search-web-app](https://github.com/Senzing/entity-search-web-app) - A lightweight http server providing a web UI for entity search through the senzing api server.
@@ -83,7 +83,7 @@ Inspired by [other awesome sites](#other-awesome-sites).
 1. [docker-senzing-debug](https://github.com/Senzing/docker-senzing-debug) - Dockerfile for debugging Senzing deployments.
 1. [docker-senzing-poc-utility](https://github.com/Senzing/docker-senzing-poc-utility) - Dockerfile wrapping Senzing's POC utility.
 1. [docker-test](https://github.com/Senzing/docker-test) - Used in Spikes. Not for production.
-1. [docker-web-app-demo](https://github.com/Senzing/docker-web-app-demo) - Docker image with Senzing API server and Senzing Entity WebApp combined.
+1. [docker-web-app-demo](https://github.com/Senzing/docker-web-app-demo) - Dockerfile combining Senzing API server and Senzing Entity WebApp.
 1. [docker-yum](https://github.com/Senzing/docker-yum) - Dockerfile wrapping `yum`, a package manager.
 1. [docker-yumdownloader](https://github.com/Senzing/docker-yumdownloader) - Dockerfile wrapping `yumdownloader`.
 1. [entity-search-web-app](https://github.com/Senzing/entity-search-web-app) - A lightweight http server providing a web UI for entity search through the senzing api server.
