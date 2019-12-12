@@ -24,15 +24,12 @@ Inspired by [other awesome sites](#other-awesome-sites).
 *Step-by-step instructions demonstrating use of Senzing.*
 
 1. [docker-app-demo](https://github.com/Senzing/docker-app-demo) - Use "docker-app" to create a docker formation.
-1. [docker-compose-db2-cluster-demo](https://github.com/Senzing/docker-compose-db2-cluster-demo) - :warning: [Obsolete] Demonstrates docker-compose formation of Senzing, DB2 database cluster, and a simple Flask web app.
 1. [docker-compose-demo](https://github.com/Senzing/docker-compose-demo) - Demonstrates docker-compose formation of Senzing with queue, database, and the Senzing Entity Search WebApp.
 1. [docker-python-demo](https://github.com/Senzing/docker-python-demo) - Dockerfile demonstrating simple Flask app using Senzing.
 1. [docker-web-app-demo](https://github.com/Senzing/docker-web-app-demo) - Senzing API server and Senzing Entity WebApp combo.
 1. [hello-senzing-springboot-java](https://github.com/Senzing/hello-senzing-springboot-java) - :warning: [Obsolete] Demonstrates how to create an HTTP interface to Senzing using SpringBoot.
 1. [ibm-openshift-guide](https://github.com/Senzing/ibm-openshift-guide) - Demonstrates OpenShift deployment of Senzing with queue, Db2, and Senzing API server.
 1. [kubernetes-demo](https://github.com/Senzing/kubernetes-demo) - Demonstrates Kubernetes deployment of Senzing with queue, database, and Senzing API server.
-1. [rancher-demo](https://github.com/Senzing/rancher-demo) - :warning: [Obsolete] Demonstrates Rancher deployment of Senzing with queue, database, and Senzing API server.
-1. [webapp-drillthrough-demo](https://github.com/Senzing/webapp-drillthrough-demo) - :warning: [Obsolete] A demonstration of Senzing drill through using Senzing developer toolkit, Node-RED, and Python Flask.
 
 ## Dockerfiles
 
@@ -46,7 +43,6 @@ Inspired by [other awesome sites](#other-awesome-sites).
 1. [docker-g2command](https://github.com/Senzing/docker-g2command) - Dockerfile wrapping Senzing's G2Command.py.
 1. [docker-g2configtool](https://github.com/Senzing/docker-g2configtool) - Dockerfile wratpping G2ConfigTool.
 1. [docker-g2loader](https://github.com/Senzing/docker-g2loader) - Dockerfile wrapping Senzing's G2Loader.py.
-1. [docker-g2loader-db2-cluster](https://github.com/Senzing/docker-g2loader-db2-cluster) - :warning: [Obsolete] Dockerfile of Senzing's python G2Loader for DB2 cluster.
 1. [docker-hello-world](https://github.com/Senzing/docker-hello-world) - Dockerfile for testing docker formations.
 1. [docker-ibm-db2](https://github.com/Senzing/docker-ibm-db2) - Wrapper for `ibmcom/db2`.
 1. [docker-init-container](https://github.com/Senzing/docker-init-container) - Dockerfile used to initialize Senzing artifacts.
