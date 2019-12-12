@@ -15,8 +15,10 @@ Inspired by [other awesome sites](#other-awesome-sites).
 1. [Mapper](#mapper)
 1. [Proof of Concept](#proof-of-concept)
 1. [Resources](#resources)
+1. [User Interface](#user-interface)
 1. [Utilities](#utilities)
-1. [Work in progress](#work-in-progress)
+1. [Under construction](#under-construction)
+1. [Obsolete](#obsolete)
 1. [Other awesome sites](#other-awesome-sites)
 
 ## Demonstrations
@@ -27,7 +29,6 @@ Inspired by [other awesome sites](#other-awesome-sites).
 1. [docker-compose-demo](https://github.com/Senzing/docker-compose-demo) - Demonstrates docker-compose formation of Senzing with queue, database, and the Senzing Entity Search WebApp.
 1. [docker-python-demo](https://github.com/Senzing/docker-python-demo) - Dockerfile demonstrating simple Flask app using Senzing.
 1. [docker-web-app-demo](https://github.com/Senzing/docker-web-app-demo) - Senzing API server and Senzing Entity WebApp combo.
-1. [hello-senzing-springboot-java](https://github.com/Senzing/hello-senzing-springboot-java) - :warning: [Obsolete] Demonstrates how to create an HTTP interface to Senzing using SpringBoot.
 1. [ibm-openshift-guide](https://github.com/Senzing/ibm-openshift-guide) - Demonstrates OpenShift deployment of Senzing with queue, Db2, and Senzing API server.
 1. [kubernetes-demo](https://github.com/Senzing/kubernetes-demo) - Demonstrates Kubernetes deployment of Senzing with queue, database, and Senzing API server.
 
@@ -49,7 +50,6 @@ Inspired by [other awesome sites](#other-awesome-sites).
 1. [docker-jupyter](https://github.com/Senzing/docker-jupyter) - Dockerfile for running example Senzing Jupyter notebooks.
 1. [docker-mysql](https://github.com/Senzing/docker-mysql) - Dockerfile of MySQL command line interpreter.
 1. [docker-mysql-init](https://github.com/Senzing/docker-mysql-init) - Dockerfile for initializing mysql database with a one-time command.
-1. [docker-poc-notebook](https://github.com/Senzing/docker-poc-notebook) - :construction: [Under construction] Jupyter notebook for showing POC results.
 1. [docker-python-demo](https://github.com/Senzing/docker-python-demo) - Dockerfile demonstrating simple Flask app using Senzing.
 1. [docker-senzing-base](https://github.com/Senzing/docker-senzing-base) - Dockerfile used in FROM statements.
 1. [docker-senzing-debug](https://github.com/Senzing/docker-senzing-debug) - Dockerfile for debugging Senzing deployments.
@@ -142,7 +142,6 @@ Inspired by [other awesome sites](#other-awesome-sites).
 
 *Tools to work with Proof of Concept engagements.*
 
-1. [docker-poc-notebook](https://github.com/Senzing/docker-poc-notebook) - :construction: [Under construction] Jupyter notebook for showing POC results.
 1. [docker-senzing-poc-utility](https://github.com/Senzing/docker-senzing-poc-utility) - Dockerfile wrapping Senzing's POC utility.
 1. [poc-csv-tools](https://github.com/Senzing/poc-csv-tools) - Exemplar artifacts (files) that can be used in other Senzing repositories.
 1. [poc-snapshot](https://github.com/Senzing/poc-snapshot) - Snapshot the current state of the records loaded in a Senzing repository.
@@ -207,6 +206,7 @@ Inspired by [other awesome sites](#other-awesome-sites).
 1. [docker-opt-senzing](https://github.com/Senzing/docker-opt-senzing) - :warning: [Obsolete] Dockerfile containing a "baked-in" /opt/senzing directory.
 1. [docker-python-db2-cluster-base](https://github.com/Senzing/docker-python-db2-cluster-base) - :warning: [Obsolete] Dockerfile for Senzing, DB2 cluster, and python 2.7.
 1. [docker-python-db2-cluster-demo](https://github.com/Senzing/docker-python-db2-cluster-demo) - :warning: [Obsolete] Dockerfile demonstrating simple Flask app using Senzing and DB2 cluster.
+1. [hello-senzing-springboot-java](https://github.com/Senzing/hello-senzing-springboot-java) - :warning: [Obsolete] Demonstrates how to create an HTTP interface to Senzing using SpringBoot.
 1. [rancher-demo](https://github.com/Senzing/rancher-demo) - :warning: [Obsolete] Demonstrates Rancher deployment of Senzing with queue, database, and Senzing API server.
 1. [webapp-drillthrough-demo](https://github.com/Senzing/webapp-drillthrough-demo) - :warning: [Obsolete] A demonstration of Senzing drill through using Senzing developer toolkit, Node-RED, and Python Flask.
 
