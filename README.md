@@ -36,10 +36,9 @@ Inspired by [other awesome sites](#other-awesome-sites).
 
 *Repositories with Dockerfiles.*
 
-1. [configurator](https://github.com/Senzing/configurator) - Web service for configuring Senzing.
-1. [docker-adminer](https://github.com/Senzing/docker-adminer) - Wrapper over adminer.
-1. [docker-apt](https://github.com/Senzing/docker-apt) - A dockerized version of apt-get.
-1. [docker-aptdownloader](https://github.com/Senzing/docker-aptdownloader) - A docker wrapper over apt-get install --download-only.
+1. [docker-adminer](https://github.com/Senzing/docker-adminer) - Dockerfile wrapping adminer, a database viewer.
+1. [docker-apt](https://github.com/Senzing/docker-apt) - Dockerfile wrapping apt-get, a package manager.
+1. [docker-aptdownloader](https://github.com/Senzing/docker-aptdownloader) - Dockerfile wrapping `apt-get install --download-only`.
 1. [docker-db2-driver-installer](https://github.com/Senzing/docker-db2-driver-installer) - Install DB2 client drivers on mounted volumes.
 1. [docker-g2command](https://github.com/Senzing/docker-g2command) - Dockerfile wrapping Senzing's G2Command.py.
 1. [docker-g2configtool](https://github.com/Senzing/docker-g2configtool) - Dockerfile wratpping G2ConfigTool.
@@ -48,15 +47,15 @@ Inspired by [other awesome sites](#other-awesome-sites).
 1. [docker-ibm-db2](https://github.com/Senzing/docker-ibm-db2) - Wrapper for `ibmcom/db2`.
 1. [docker-init-container](https://github.com/Senzing/docker-init-container) - Dockerfile used to initialize Senzing artifacts.
 1. [docker-jupyter](https://github.com/Senzing/docker-jupyter) - Dockerfile for running example Senzing Jupyter notebooks.
-1. [docker-mysql](https://github.com/Senzing/docker-mysql) - Dockerfile of MySQL command line interpreter.
+1. [docker-mysql](https://github.com/Senzing/docker-mysql) - Dockerfile wrapping MySQL command line interpreter.
 1. [docker-mysql-init](https://github.com/Senzing/docker-mysql-init) - Dockerfile for initializing mysql database with a one-time command.
 1. [docker-python-demo](https://github.com/Senzing/docker-python-demo) - Dockerfile demonstrating simple Flask app using Senzing.
 1. [docker-senzing-base](https://github.com/Senzing/docker-senzing-base) - Dockerfile used in FROM statements.
 1. [docker-senzing-debug](https://github.com/Senzing/docker-senzing-debug) - Dockerfile for debugging Senzing deployments.
 1. [docker-senzing-poc-utility](https://github.com/Senzing/docker-senzing-poc-utility) - Dockerfile wrapping Senzing's POC utility.
 1. [docker-web-app-demo](https://github.com/Senzing/docker-web-app-demo) - Senzing API server and Senzing Entity WebApp combo.
-1. [docker-yum](https://github.com/Senzing/docker-yum) - A dockerized version of yum.
-1. [docker-yumdownloader](https://github.com/Senzing/docker-yumdownloader) - A docker wrapper over yumdownloader.
+1. [docker-yum](https://github.com/Senzing/docker-yum) - Dockerfile wrapping yum, a package manager.
+1. [docker-yumdownloader](https://github.com/Senzing/docker-yumdownloader) - Dockerfile wrapping yumdownloader.
 1. [entity-search-web-app](https://github.com/Senzing/entity-search-web-app) - A lightweight http server providing a web UI for entity search through the senzing api server.
 1. [mock-data-generator](https://github.com/Senzing/mock-data-generator) - Python tool for generating mock Senzing data and sending it to Kafka, RabbitMQ, or STDOUT.
 1. [resolver](https://github.com/Senzing/resolver) - Ephemeral Senzing entity-resolution.
@@ -68,10 +67,9 @@ Inspired by [other awesome sites](#other-awesome-sites).
 
 *Git repositories with Docker images on DockerHub.*
 
-1. [configurator](https://github.com/Senzing/configurator) - Web service for configuring Senzing.
-1. [docker-adminer](https://github.com/Senzing/docker-adminer) - Wrapper over adminer.
-1. [docker-apt](https://github.com/Senzing/docker-apt) - A dockerized version of apt-get.
-1. [docker-aptdownloader](https://github.com/Senzing/docker-aptdownloader) - A docker wrapper over apt-get install --download-only.
+1. [docker-adminer](https://github.com/Senzing/docker-adminer) - Dockerfile wrapping adminer, a database viewer.
+1. [docker-apt](https://github.com/Senzing/docker-apt) - Dockerfile wrapping apt-get, a package manager.
+1. [docker-aptdownloader](https://github.com/Senzing/docker-aptdownloader) - Dockerfile wrapping `apt-get install --download-only`.
 1. [docker-db2-driver-installer](https://github.com/Senzing/docker-db2-driver-installer) - Install DB2 client drivers on mounted volumes.
 1. [docker-g2command](https://github.com/Senzing/docker-g2command) - Dockerfile wrapping Senzing's G2Command.py.
 1. [docker-g2configtool](https://github.com/Senzing/docker-g2configtool) - Dockerfile wratpping G2ConfigTool.
@@ -86,8 +84,8 @@ Inspired by [other awesome sites](#other-awesome-sites).
 1. [docker-senzing-poc-utility](https://github.com/Senzing/docker-senzing-poc-utility) - Dockerfile wrapping Senzing's POC utility.
 1. [docker-test](https://github.com/Senzing/docker-test) - Used in Spikes. Not for production.
 1. [docker-web-app-demo](https://github.com/Senzing/docker-web-app-demo) - Senzing API server and Senzing Entity WebApp combo.
-1. [docker-yum](https://github.com/Senzing/docker-yum) - A dockerized version of yum.
-1. [docker-yumdownloader](https://github.com/Senzing/docker-yumdownloader) - A docker wrapper over yumdownloader.
+1. [docker-yum](https://github.com/Senzing/docker-yum) - Dockerfile wrapping yum, a package manager.
+1. [docker-yumdownloader](https://github.com/Senzing/docker-yumdownloader) - Dockerfile wrapping yumdownloader.
 1. [entity-search-web-app](https://github.com/Senzing/entity-search-web-app) - A lightweight http server providing a web UI for entity search through the senzing api server.
 1. [mock-data-generator](https://github.com/Senzing/mock-data-generator) - Python tool for generating mock Senzing data and sending it to Kafka, RabbitMQ, or STDOUT.
 1. [resolver](https://github.com/Senzing/resolver) - Ephemeral Senzing entity-resolution.
@@ -113,14 +111,13 @@ Inspired by [other awesome sites](#other-awesome-sites).
 *Git repositories with Helm Charts for Senzing on kubernetes-based systems.*
 
 1. [charts](https://github.com/Senzing/charts) - Charts for use with Kubernetes, OpenShift, and Rancher.
-1. [configurator](https://github.com/Senzing/configurator) - Web service for configuring Senzing.
 1. [docker-db2-driver-installer](https://github.com/Senzing/docker-db2-driver-installer) - Install DB2 client drivers on mounted volumes.
 1. [docker-hello-world](https://github.com/Senzing/docker-hello-world) - Dockerfile for testing docker formations.
 1. [docker-ibm-db2](https://github.com/Senzing/docker-ibm-db2) - Wrapper for `ibmcom/db2`.
 1. [docker-init-container](https://github.com/Senzing/docker-init-container) - Dockerfile used to initialize Senzing artifacts.
 1. [docker-senzing-base](https://github.com/Senzing/docker-senzing-base) - Dockerfile used in FROM statements.
 1. [docker-senzing-debug](https://github.com/Senzing/docker-senzing-debug) - Dockerfile for debugging Senzing deployments.
-1. [docker-yum](https://github.com/Senzing/docker-yum) - A dockerized version of yum.
+1. [docker-yum](https://github.com/Senzing/docker-yum) - Dockerfile wrapping yum, a package manager.
 1. [entity-search-web-app](https://github.com/Senzing/entity-search-web-app) - A lightweight http server providing a web UI for entity search through the senzing api server.
 1. [mock-data-generator](https://github.com/Senzing/mock-data-generator) - Python tool for generating mock Senzing data and sending it to Kafka, RabbitMQ, or STDOUT.
 1. [resolver](https://github.com/Senzing/resolver) - Ephemeral Senzing entity-resolution.
@@ -168,16 +165,15 @@ Inspired by [other awesome sites](#other-awesome-sites).
 
 *Tools for working with Senzing.*
 
-1. [configurator](https://github.com/Senzing/configurator) - Web service for configuring Senzing.
-1. [docker-adminer](https://github.com/Senzing/docker-adminer) - Wrapper over adminer.
-1. [docker-apt](https://github.com/Senzing/docker-apt) - A dockerized version of apt-get.
-1. [docker-aptdownloader](https://github.com/Senzing/docker-aptdownloader) - A docker wrapper over apt-get install --download-only.
+1. [docker-adminer](https://github.com/Senzing/docker-adminer) - Dockerfile wrapping adminer, a database viewer.
+1. [docker-apt](https://github.com/Senzing/docker-apt) - Dockerfile wrapping apt-get, a package manager.
+1. [docker-aptdownloader](https://github.com/Senzing/docker-aptdownloader) - Dockerfile wrapping `apt-get install --download-only`.
 1. [docker-init-container](https://github.com/Senzing/docker-init-container) - Dockerfile used to initialize Senzing artifacts.
-1. [docker-mysql](https://github.com/Senzing/docker-mysql) - Dockerfile of MySQL command line interpreter.
+1. [docker-mysql](https://github.com/Senzing/docker-mysql) - Dockerfile wrapping MySQL command line interpreter.
 1. [docker-mysql-init](https://github.com/Senzing/docker-mysql-init) - Dockerfile for initializing mysql database with a one-time command.
 1. [docker-senzing-debug](https://github.com/Senzing/docker-senzing-debug) - Dockerfile for debugging Senzing deployments.
-1. [docker-yum](https://github.com/Senzing/docker-yum) - A dockerized version of yum.
-1. [docker-yumdownloader](https://github.com/Senzing/docker-yumdownloader) - A docker wrapper over yumdownloader.
+1. [docker-yum](https://github.com/Senzing/docker-yum) - Dockerfile wrapping yum, a package manager.
+1. [docker-yumdownloader](https://github.com/Senzing/docker-yumdownloader) - Dockerfile wrapping yumdownloader.
 1. [entity-search-web-app](https://github.com/Senzing/entity-search-web-app) - A lightweight http server providing a web UI for entity search through the senzing api server.
 1. [mock-data-generator](https://github.com/Senzing/mock-data-generator) - Python tool for generating mock Senzing data and sending it to Kafka, RabbitMQ, or STDOUT.
 1. [resolver](https://github.com/Senzing/resolver) - Ephemeral Senzing entity-resolution.
@@ -189,6 +185,7 @@ Inspired by [other awesome sites](#other-awesome-sites).
 
 *Being worked on. a.k.a Fresh meat.*
 
+1. [configurator](https://github.com/Senzing/configurator) - :construction: [Under construction] Web service for configuring Senzing.
 1. [docker-poc-notebook](https://github.com/Senzing/docker-poc-notebook) - :construction: [Under construction] Jupyter notebook for showing POC results.
 1. [elasticsearch](https://github.com/Senzing/elasticsearch) - :construction: [Under construction] Using G2 engine with ElasticSearch indexing engine.
 1. [openshift-demo](https://github.com/Senzing/openshift-demo) - :construction: [Under construction] Demonstration using minishift.
