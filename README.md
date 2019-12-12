@@ -103,14 +103,14 @@ Inspired by [other awesome sites](#other-awesome-sites).
 
 *Step-by-step instructions demonstrating use of Senzing on kubernetes-based systems.*
 
-1. [charts](https://github.com/Senzing/charts) - Charts for use with Kubernetes, OpenShift, and Rancher.
+1. [charts](https://github.com/Senzing/charts) - Helm Charts for use with Kubernetes, OpenShift, and Rancher.
 1. [kubernetes-demo](https://github.com/Senzing/kubernetes-demo) - Demonstrates Kubernetes deployment of Senzing with queue, database, and Senzing API server.
 
 ## Helm Charts
 
 *Git repositories with Helm Charts for Senzing on kubernetes-based systems.*
 
-1. [charts](https://github.com/Senzing/charts) - Charts for use with Kubernetes, OpenShift, and Rancher.
+1. [charts](https://github.com/Senzing/charts) - Helm Charts for use with Kubernetes, OpenShift, and Rancher.
 1. [docker-db2-driver-installer](https://github.com/Senzing/docker-db2-driver-installer) - Install DB2 client drivers on mounted volumes.
 1. [docker-hello-world](https://github.com/Senzing/docker-hello-world) - Dockerfile for testing docker formations.
 1. [docker-ibm-db2](https://github.com/Senzing/docker-ibm-db2) - Wrapper for `ibmcom/db2` docker image.
