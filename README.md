@@ -44,7 +44,7 @@ Inspired by [other awesome sites](#other-awesome-sites).
 1. [docker-g2configtool](https://github.com/Senzing/docker-g2configtool) - Dockerfile wrapping Senzing's `G2ConfigTool.py`.
 1. [docker-g2loader](https://github.com/Senzing/docker-g2loader) - Dockerfile wrapping Senzing's `G2Loader.py`.
 1. [docker-hello-world](https://github.com/Senzing/docker-hello-world) - Dockerfile for testing docker formations.
-1. [docker-ibm-db2](https://github.com/Senzing/docker-ibm-db2) - Wrapper for `ibmcom/db2` docker image.
+1. [docker-ibm-db2](https://github.com/Senzing/docker-ibm-db2) - Dockerfile wrapping `ibmcom/db2` docker image.
 1. [docker-init-container](https://github.com/Senzing/docker-init-container) - Dockerfile used to initialize Senzing artifacts.
 1. [docker-jupyter](https://github.com/Senzing/docker-jupyter) - Dockerfile for running example Senzing Jupyter notebooks.
 1. [docker-mysql](https://github.com/Senzing/docker-mysql) - Dockerfile wrapping `mysql` command line interpreter.
@@ -75,7 +75,7 @@ Inspired by [other awesome sites](#other-awesome-sites).
 1. [docker-g2configtool](https://github.com/Senzing/docker-g2configtool) - Dockerfile wrapping Senzing's `G2ConfigTool.py`.
 1. [docker-g2loader](https://github.com/Senzing/docker-g2loader) - Dockerfile wrapping Senzing's `G2Loader.py`.
 1. [docker-hello-world](https://github.com/Senzing/docker-hello-world) - Dockerfile for testing docker formations.
-1. [docker-ibm-db2](https://github.com/Senzing/docker-ibm-db2) - Wrapper for `ibmcom/db2` docker image.
+1. [docker-ibm-db2](https://github.com/Senzing/docker-ibm-db2) - Dockerfile wrapping `ibmcom/db2` docker image.
 1. [docker-init-container](https://github.com/Senzing/docker-init-container) - Dockerfile used to initialize Senzing artifacts.
 1. [docker-jupyter](https://github.com/Senzing/docker-jupyter) - Dockerfile for running example Senzing Jupyter notebooks.
 1. [docker-python-demo](https://github.com/Senzing/docker-python-demo) - Dockerfile demonstrating simple Flask app using Senzing.
@@ -113,7 +113,7 @@ Inspired by [other awesome sites](#other-awesome-sites).
 1. [charts](https://github.com/Senzing/charts) - Helm Charts for use with Kubernetes, OpenShift, and Rancher.
 1. [docker-db2-driver-installer](https://github.com/Senzing/docker-db2-driver-installer) - Install DB2 client drivers on mounted volumes.
 1. [docker-hello-world](https://github.com/Senzing/docker-hello-world) - Dockerfile for testing docker formations.
-1. [docker-ibm-db2](https://github.com/Senzing/docker-ibm-db2) - Wrapper for `ibmcom/db2` docker image.
+1. [docker-ibm-db2](https://github.com/Senzing/docker-ibm-db2) - Dockerfile wrapping `ibmcom/db2` docker image.
 1. [docker-init-container](https://github.com/Senzing/docker-init-container) - Dockerfile used to initialize Senzing artifacts.
 1. [docker-senzing-base](https://github.com/Senzing/docker-senzing-base) - Dockerfile used in FROM statements.
 1. [docker-senzing-debug](https://github.com/Senzing/docker-senzing-debug) - Dockerfile for debugging Senzing deployments.
