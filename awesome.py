@@ -11,24 +11,19 @@
 # -----------------------------------------------------------------------------
 
 import argparse
-import datetime
 import json
 import linecache
 import logging
 import os
-import pytz
 import signal
 import sys
 import time
 from github import Github
 import github
-from types import MethodType
-from distutils.version import StrictVersion
-from _hashlib import new
 
 __all__ = []
 __version__ = "1.0.0"  # See https://www.python.org/dev/peps/pep-0396/
-__date__ = '2019-08-27'
+__date__ = '2020-06-30'
 __updated__ = '2020-06-30'
 
 PRODUCT_ID = "5016"
@@ -38,11 +33,6 @@ log_format = '%(asctime)s %(message)s'
 # 1) Command line options, 2) Environment variables, 3) Configuration files, 4) Default values
 
 configuration_locator = {
-    "as_http": {
-        "default": False,
-        "env": "GITHUB_AS_HTTP",
-        "cli": "as-http"
-    },
     "debug": {
         "default": False,
         "env": "GITHUB_DEBUG",
@@ -53,35 +43,10 @@ configuration_locator = {
         "env": "GITHUB_ACCESS_TOKEN",
         "cli": "github-access-token"
     },
-    "github_repository_topic": {
-        "default": None,
-        "env": "GITHUB_REPOSITORY_TOPIC",
-        "cli": "github-repository-topic"
-    },
-    "label_default_repository": {
-        "default": "template-repository",
-        "env": "GITHUB_LABEL_DEFAULT_REPOSITORY",
-        "cli": "label-default-repository"
-    },
     "organization": {
         "default": "Senzing",
         "env": "GITHUB_ORGANIZATION",
         "cli": "organization"
-    },
-    "remove_employees": {
-        "default": False,
-        "env": "GITHUB_REMOVE_EMPLOYEES",
-        "cli": "remove-employees"
-    },
-    "since_in_hours": {
-        "default": 24,
-        "env": "GITHUB_SINCE_IN_HOURS",
-        "cli": "since-in-hours"
-    },
-    "sleep_time_in_seconds": {
-        "default": 0,
-        "env": "GITHUB_SLEEP_TIME_IN_SECONDS",
-        "cli": "sleep-time-in-seconds"
     },
     "subcommand": {
         "default": None,
@@ -257,28 +222,14 @@ def get_parser():
                 "--organization": {
                     "dest": "organization",
                     "metavar": "GITHUB_ORGANIZATION",
-                    "help": "GitHub account/organization name."
+                    "help": "GitHub account/organization name. Default: Senzing"
                 },
             },
         },
         'awesome-page': {
             "help": 'Create the awesome page.',
             "arguments": {
-                "--github-access-token": {
-                    "dest": "github_access_token",
-                    "metavar": "GITHUB_ACCESS_TOKEN",
-                    "help": "GitHub Personal Access token. See https://github.com/settings/tokens"
-                },
-                "--debug": {
-                    "dest": "debug",
-                    "action": "store_true",
-                    "help": "Enable debugging. (GITHUB_DEBUG) Default: False"
-                },
-                "--organization": {
-                    "dest": "organization",
-                    "metavar": "GITHUB_ORGANIZATION",
-                    "help": "GitHub account/organization name."
-                },
+
             },
         },
         'awesome-page-excluded': {
@@ -297,7 +248,7 @@ def get_parser():
                 "--organization": {
                     "dest": "organization",
                     "metavar": "GITHUB_ORGANIZATION",
-                    "help": "GitHub account/organization name."
+                    "help": "GitHub account/organization name. Default: Senzing"
                 },
             },
         },
@@ -305,6 +256,39 @@ def get_parser():
             "help": 'Print version of program.',
         },
     }
+
+    # Define argument_aspects.
+
+    argument_aspects = {
+        "github": {
+            "--github-access-token": {
+                "dest": "github_access_token",
+                "metavar": "GITHUB_ACCESS_TOKEN",
+                "help": "GitHub Personal Access token. See https://github.com/settings/tokens"
+            },
+            "--debug": {
+                "dest": "debug",
+                "action": "store_true",
+                "help": "Enable debugging. (GITHUB_DEBUG) Default: False"
+            },
+            "--organization": {
+                "dest": "organization",
+                "metavar": "GITHUB_ORGANIZATION",
+                "help": "GitHub account/organization name. Default: Senzing"
+            },
+        },
+    }
+
+    # Augment "subcommands" variable with arguments specified by aspects.
+
+    for subcommand, subcommand_value in subcommands.items():
+        if 'argument_aspects' in subcommand_value:
+            for aspect in subcommand_value['argument_aspects']:
+                if 'arguments' not in subcommands[subcommand]:
+                    subcommands[subcommand]['arguments'] = {}
+                arguments = argument_aspects.get(aspect, {})
+                for argument, argument_value in arguments.items():
+                    subcommands[subcommand]['arguments'][argument] = argument_value
 
     parser = argparse.ArgumentParser(prog="github-tasks.py", description="Reports from GitHub.")
     subparsers = parser.add_subparsers(dest='subcommand', help='Subcommands (GITHUB_SUBCOMMAND):')
@@ -450,7 +434,6 @@ def get_configuration(args):
     # Special case: Change boolean strings to booleans.
 
     booleans = [
-        'as_http',
         'debug',
     ]
     for boolean in booleans:
@@ -464,10 +447,7 @@ def get_configuration(args):
 
     # Special case: Change integer strings to integers.
 
-    integers = [
-        'since_in_hours',
-        'sleep_time_in_seconds'
-        ]
+    integers = []
     for integer in integers:
         integer_string = result.get(integer)
         result[integer] = int(integer_string)
@@ -795,7 +775,6 @@ def do_awesome_page_excluded(args):
                     found = True
             if not found:
                 print("Not  found: {}".format(repo.name))
-
 
 
 def do_version(args):
