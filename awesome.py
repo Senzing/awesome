@@ -92,7 +92,7 @@ awesome_topics = {
     },
     "docker-hub": {
         "title": "DockerHub",
-        "description": "Git repositories with Docker images on DockerHub.",
+        "description": "Git repositories with Docker images on [DockerHub](https://hub.docker.com/r/senzing/).",
         "members": []
     },
     "docker-compose": {

@@ -41,7 +41,7 @@ Inspired by [other awesome sites](#other-awesome-sites).
 1. [ibm-openshift-guide](https://github.com/Senzing/ibm-openshift-guide) - Demonstrates OpenShift deployment of Senzing with queue, Db2, and Senzing API server.
 1. [kubernetes-demo](https://github.com/Senzing/kubernetes-demo) - Demonstrates Kubernetes deployment of Senzing with queue, database, and Senzing API server.
 1. [openshift-demo](https://github.com/Senzing/openshift-demo) - Demonstration using minishift.
-1. [senzing-up](https://github.com/Senzing/senzing-up) - Super easy Senzing demonstration using docker
+1. [senzing-up](https://github.com/Senzing/senzing-up) - Super easy Senzing demonstration using docker.
 
 ## Dockerfiles
 
@@ -59,7 +59,7 @@ Inspired by [other awesome sites](#other-awesome-sites).
 1. [docker-hello-world](https://github.com/Senzing/docker-hello-world) - Dockerfile for testing docker formations.
 1. [docker-ibm-db2](https://github.com/Senzing/docker-ibm-db2) - Dockerfile wrapping `ibmcom/db2` docker image.
 1. [docker-init-container](https://github.com/Senzing/docker-init-container) - Dockerfile used to initialize Senzing artifacts.
-1. [docker-installer](https://github.com/Senzing/docker-installer) - non-root docker-based Senzing installer.
+1. [docker-installer](https://github.com/Senzing/docker-installer) - Dockerfile use to install Senzing in a non-root container.
 1. [docker-jupyter](https://github.com/Senzing/docker-jupyter) - Dockerfile for running example Senzing Jupyter notebooks.
 1. [docker-mysql](https://github.com/Senzing/docker-mysql) - Dockerfile wrapping `mysql` command line interpreter.
 1. [docker-mysql-init](https://github.com/Senzing/docker-mysql-init) - Dockerfile for initializing mysql database with a one-time command.
@@ -69,11 +69,11 @@ Inspired by [other awesome sites](#other-awesome-sites).
 1. [docker-senzing-poc-utility](https://github.com/Senzing/docker-senzing-poc-utility) - Dockerfile wrapping Senzing's POC utility.
 1. [docker-web-app-demo](https://github.com/Senzing/docker-web-app-demo) - Dockerfile combining Senzing API server and Senzing Entity WebApp.
 1. [docker-wrap-image-with-senzing-apt](https://github.com/Senzing/docker-wrap-image-with-senzing-apt) - Wrap an existing docker image with the Senzing package.
-1. [docker-xterm](https://github.com/Senzing/docker-xterm) - Web-based X-terminal
+1. [docker-xterm](https://github.com/Senzing/docker-xterm) - Web-based X-terminal.
 1. [docker-yum](https://github.com/Senzing/docker-yum) - Dockerfile wrapping `yum`, a package manager.
 1. [docker-yumdownloader](https://github.com/Senzing/docker-yumdownloader) - Dockerfile wrapping `yumdownloader`.
 1. [entity-search-web-app](https://github.com/Senzing/entity-search-web-app) - A lightweight http server providing a web UI for entity search through the senzing api server.
-1. [redoer](https://github.com/Senzing/redoer) - Perform Senzing Redo operations
+1. [redoer](https://github.com/Senzing/redoer) - Perform Senzing Redo operations.
 1. [resolver](https://github.com/Senzing/resolver) - Ephemeral Senzing entity-resolution.
 1. [senzing-api-server](https://github.com/Senzing/senzing-api-server) - Server of Senzing REST API.
 1. [senzing-environment](https://github.com/Senzing/senzing-environment) - Create an environment to use Senzing in a project / virtual environment style.
@@ -84,7 +84,7 @@ Inspired by [other awesome sites](#other-awesome-sites).
 
 ## DockerHub
 
-*Git repositories with Docker images on DockerHub.*
+*Git repositories with Docker images on [DockerHub](https://hub.docker.com/r/senzing/).*
 
 1. [docker-adminer](https://github.com/Senzing/docker-adminer) - Dockerfile wrapping `adminer`, a database viewer.
 1. [docker-apt](https://github.com/Senzing/docker-apt) - Dockerfile wrapping `apt-get`, a package manager.
@@ -105,11 +105,11 @@ Inspired by [other awesome sites](#other-awesome-sites).
 1. [docker-senzing-poc-utility](https://github.com/Senzing/docker-senzing-poc-utility) - Dockerfile wrapping Senzing's POC utility.
 1. [docker-test](https://github.com/Senzing/docker-test) - Used in Spikes. Not for production.
 1. [docker-web-app-demo](https://github.com/Senzing/docker-web-app-demo) - Dockerfile combining Senzing API server and Senzing Entity WebApp.
-1. [docker-xterm](https://github.com/Senzing/docker-xterm) - Web-based X-terminal
+1. [docker-xterm](https://github.com/Senzing/docker-xterm) - Web-based X-terminal.
 1. [docker-yum](https://github.com/Senzing/docker-yum) - Dockerfile wrapping `yum`, a package manager.
 1. [docker-yumdownloader](https://github.com/Senzing/docker-yumdownloader) - Dockerfile wrapping `yumdownloader`.
 1. [entity-search-web-app](https://github.com/Senzing/entity-search-web-app) - A lightweight http server providing a web UI for entity search through the senzing api server.
-1. [redoer](https://github.com/Senzing/redoer) - Perform Senzing Redo operations
+1. [redoer](https://github.com/Senzing/redoer) - Perform Senzing Redo operations.
 1. [resolver](https://github.com/Senzing/resolver) - Ephemeral Senzing entity-resolution.
 1. [senzing-api-server](https://github.com/Senzing/senzing-api-server) - Server of Senzing REST API.
 1. [senzing-environment](https://github.com/Senzing/senzing-environment) - Create an environment to use Senzing in a project / virtual environment style.
@@ -144,7 +144,7 @@ Inspired by [other awesome sites](#other-awesome-sites).
 1. [docker-senzing-debug](https://github.com/Senzing/docker-senzing-debug) - Dockerfile for debugging Senzing deployments.
 1. [docker-yum](https://github.com/Senzing/docker-yum) - Dockerfile wrapping `yum`, a package manager.
 1. [entity-search-web-app](https://github.com/Senzing/entity-search-web-app) - A lightweight http server providing a web UI for entity search through the senzing api server.
-1. [redoer](https://github.com/Senzing/redoer) - Perform Senzing Redo operations
+1. [redoer](https://github.com/Senzing/redoer) - Perform Senzing Redo operations.
 1. [resolver](https://github.com/Senzing/resolver) - Ephemeral Senzing entity-resolution.
 1. [senzing-api-server](https://github.com/Senzing/senzing-api-server) - Server of Senzing REST API.
 1. [senzing-package](https://github.com/Senzing/senzing-package) - Python tool for installing Senzing package.
@@ -200,15 +200,15 @@ Inspired by [other awesome sites](#other-awesome-sites).
 1. [docker-mysql](https://github.com/Senzing/docker-mysql) - Dockerfile wrapping `mysql` command line interpreter.
 1. [docker-mysql-init](https://github.com/Senzing/docker-mysql-init) - Dockerfile for initializing mysql database with a one-time command.
 1. [docker-senzing-debug](https://github.com/Senzing/docker-senzing-debug) - Dockerfile for debugging Senzing deployments.
-1. [docker-xterm](https://github.com/Senzing/docker-xterm) - Web-based X-terminal
+1. [docker-xterm](https://github.com/Senzing/docker-xterm) - Web-based X-terminal.
 1. [docker-yum](https://github.com/Senzing/docker-yum) - Dockerfile wrapping `yum`, a package manager.
 1. [docker-yumdownloader](https://github.com/Senzing/docker-yumdownloader) - Dockerfile wrapping `yumdownloader`.
 1. [entity-search-web-app](https://github.com/Senzing/entity-search-web-app) - A lightweight http server providing a web UI for entity search through the senzing api server.
 1. [github-util](https://github.com/Senzing/github-util) - Works with GitHub metadata.
 1. [postgresql-client](https://github.com/Senzing/postgresql-client) - A psql client that waits for the database to be ready before uploading SQL file.
-1. [redoer](https://github.com/Senzing/redoer) - Perform Senzing Redo operations
+1. [redoer](https://github.com/Senzing/redoer) - Perform Senzing Redo operations.
 1. [resolver](https://github.com/Senzing/resolver) - Ephemeral Senzing entity-resolution.
-1. [risk-score-calculator](https://github.com/Senzing/risk-score-calculator) - Risk scorer
+1. [risk-score-calculator](https://github.com/Senzing/risk-score-calculator) - Risk scorer.
 1. [senzing-api-server](https://github.com/Senzing/senzing-api-server) - Server of Senzing REST API.
 1. [senzing-environment](https://github.com/Senzing/senzing-environment) - Create an environment to use Senzing in a project / virtual environment style.
 1. [senzing-package](https://github.com/Senzing/senzing-package) - Python tool for installing Senzing package.
@@ -225,10 +225,10 @@ Inspired by [other awesome sites](#other-awesome-sites).
 1. [docker-poc-notebook](https://github.com/Senzing/docker-poc-notebook) - :construction: [Under construction] Jupyter notebook for showing POC results.
 1. [elasticsearch](https://github.com/Senzing/elasticsearch) - :construction: [Under construction] Using G2 engine with ElasticSearch indexing engine.
 1. [packer-senzing-demo-ubuntu-18.04](https://github.com/Senzing/packer-senzing-demo-ubuntu-18.04) - :construction: [Under construction] A packer build of a senzing demo.
-1. [rest-api-client-java](https://github.com/Senzing/rest-api-client-java) - Under construction
-1. [senzing-listener](https://github.com/Senzing/senzing-listener) - Listener framework
+1. [rest-api-client-java](https://github.com/Senzing/rest-api-client-java) - :construction: [Under construction] - Client built from OpenAPI specification.
+1. [senzing-listener](https://github.com/Senzing/senzing-listener) - :construction: [Under construction] Listener framework
 1. [stream-configuration](https://github.com/Senzing/stream-configuration) - :construction: [Under construction] Temporary Senzing configuration service.
-1. [stream-file-utility](https://github.com/Senzing/stream-file-utility) - Under construction
+1. [stream-file-utility](https://github.com/Senzing/stream-file-utility) - :construction: [Under construction]
 
 ## Obsolete
 
@@ -241,7 +241,7 @@ Inspired by [other awesome sites](#other-awesome-sites).
 1. [docker-python-db2-cluster-base](https://github.com/Senzing/docker-python-db2-cluster-base) - :warning: [Obsolete] Dockerfile for Senzing, DB2 cluster, and python 2.7.
 1. [docker-python-db2-cluster-demo](https://github.com/Senzing/docker-python-db2-cluster-demo) - :warning: [Obsolete] Dockerfile demonstrating simple Flask app using Senzing and DB2 cluster.
 1. [hello-senzing-springboot-java](https://github.com/Senzing/hello-senzing-springboot-java) - :warning: [Obsolete] Demonstrates how to create an HTTP interface to Senzing using SpringBoot.
-1. [mock-data-generator](https://github.com/Senzing/mock-data-generator) - Python tool for generating mock Senzing data and sending it to Kafka, RabbitMQ, or STDOUT.
+1. [mock-data-generator](https://github.com/Senzing/mock-data-generator) - :warning: [Obsolete] Python tool for generating mock Senzing data and sending it to Kafka, RabbitMQ, or STDOUT.
 1. [rancher-demo](https://github.com/Senzing/rancher-demo) - :warning: [Obsolete] Demonstrates Rancher deployment of Senzing with queue, database, and Senzing API server.
 1. [webapp-drillthrough-demo](https://github.com/Senzing/webapp-drillthrough-demo) - :warning: [Obsolete] A demonstration of Senzing drill through using Senzing developer toolkit, Node-RED, and Python Flask.
 
