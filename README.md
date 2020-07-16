@@ -177,7 +177,7 @@ Inspired by [other awesome sites](#other-awesome-sites).
 
 1. [awesome](https://github.com/Senzing/awesome) - Curated list of awesome software and resources for Senzing, The First Real-Time AI for Entity Resolution.
 1. [knowledge-base](https://github.com/Senzing/knowledge-base) - HOWTOs, tasks, explanations, and more knowledge.
-1. [senzing-rest-api](https://github.com/Senzing/senzing-rest-api) - OpenAPI specification of Senzing REST API.
+1. [senzing-rest-api](https://github.com/Senzing/senzing-rest-api-specification) - OpenAPI specification of Senzing REST API.
 1. [senzing-sdk-api-specification](https://github.com/Senzing/senzing-sdk-api-specification) - Software Development Kit documentation
 1. [senzing.github.io](https://github.com/Senzing/senzing.github.io) - Organization site at http://senzing.github.io.
 
