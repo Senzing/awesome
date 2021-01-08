@@ -20,6 +20,7 @@ Inspired by [other awesome sites](#other-awesome-sites).
 1. [Utilities](#utilities)
 1. [Under construction](#under-construction)
 1. [Obsolete](#obsolete)
+1. [Features and bugs](#features-and-bugs)
 1. [Other awesome sites](#other-awesome-sites)
 
 ## Documentation
@@ -274,6 +275,14 @@ Inspired by [other awesome sites](#other-awesome-sites).
 1. [rancher-demo](https://github.com/Senzing/rancher-demo) - :warning: [Obsolete] Demonstrates Rancher deployment of Senzing with queue, database, and Senzing API server.
 1. [spike-docker-store-based-images](https://github.com/Senzing/spike-docker-store-based-images) - :warning: [Obsolete] Use docker image in Docker Store.
 1. [webapp-drillthrough-demo](https://github.com/Senzing/webapp-drillthrough-demo) - :warning: [Obsolete] A demonstration of Senzing drill through using Senzing developer toolkit, Node-RED, and Python Flask.
+
+## Features and bugs
+
+*How to request new features and bug fixes.*
+
+1. [Request bug fix](https://github.com/Senzing/knowledge-base/blob/master/HOWTO/request-bug-fix.md)
+1. [Request new feature in existing repository](https://github.com/Senzing/knowledge-base/blob/master/HOWTO/request-new-feature-in-existing-repository.md)
+1. [Request new feature](https://github.com/Senzing/knowledge-base/blob/master/HOWTO/request-new-feature.md)
 
 ## Other awesome sites
 
