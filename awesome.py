@@ -174,10 +174,19 @@ prolog_lines = [
     "1. [Utilities](#utilities)",
     "1. [Under construction](#under-construction)",
     "1. [Obsolete](#obsolete)",
+    "1. [Features and bugs](#features-and-bugs)",
     "1. [Other awesome sites](#other-awesome-sites)",
 ]
 
 epilog_lines = [
+    "",
+    "## Features and bugs",
+    "",
+    "*How to request new features and bug fixes.*",
+    "",
+    "1. [Request bug fix](https://github.com/Senzing/knowledge-base/blob/master/HOWTO/request-bug-fix.md)",
+    "1. [Request new feature in existing repository](https://github.com/Senzing/knowledge-base/blob/master/HOWTO/request-new-feature-in-existing-repository.md)",
+    "1. [Request new feature](https://github.com/Senzing/knowledge-base/blob/master/HOWTO/request-new-feature.md)",
     "",
     "## Other awesome sites",
     "",
