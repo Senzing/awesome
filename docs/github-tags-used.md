@@ -47,8 +47,3 @@
 1. [ui-component](https://github.com/search?q=topic%3Aui-component+org%3ASenzing&type=Repositories)
 1. [under-construction](https://github.com/search?q=topic%3Aunder-construction+org%3ASenzing&type=Repositories)
 1. [utility](https://github.com/search?q=topic%3Autility+org%3ASenzing&type=Repositories)
-1. [xxxxxxxx](https://github.com/search?q=topic%3Axxxxxxxx+org%3ASenzing&type=Repositories)
-1. [xxxxxxxx](https://github.com/search?q=topic%3Axxxxxxxx+org%3ASenzing&type=Repositories)
-1. [xxxxxxxx](https://github.com/search?q=topic%3Axxxxxxxx+org%3ASenzing&type=Repositories)
-1. [xxxxxxxx](https://github.com/search?q=topic%3Axxxxxxxx+org%3ASenzing&type=Repositories)
-1. [xxxxxxxx](https://github.com/search?q=topic%3Axxxxxxxx+org%3ASenzing&type=Repositories)
