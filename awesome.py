@@ -24,7 +24,7 @@ import github
 __all__ = []
 __version__ = "1.0.0"  # See https://www.python.org/dev/peps/pep-0396/
 __date__ = '2020-06-30'
-__updated__ = '2020-06-30'
+__updated__ = '2021-01-08'
 
 PRODUCT_ID = "5016"
 log_format = '%(asctime)s %(message)s'
@@ -70,13 +70,17 @@ awesome_topics = {
         "description": "Documentation on Senzing usage.",
         "members": [
             {
-                    "name": "Promoted articles",
-                    "url": "https://senzing.zendesk.com/hc/en-us",
-                    "description": "Promoted articles"
+                "name": "Promoted articles",
+                "url": "https://senzing.zendesk.com/hc/en-us",
+                "description": "Promoted articles."
             }, {
-                    "name": "Senzing API for Developers",
-                    "url": "https://senzing.zendesk.com/hc/en-us/categories/360000120514-Senzing-API-for-Developers-",
-                    "description": "Senzing API for Developers"
+                "name": "Senzing API for Developers",
+                "url": "https://senzing.zendesk.com/hc/en-us/categories/360000120514-Senzing-API-for-Developers-",
+                "description": "Senzing API for Developers."
+            }, {
+                "name": "Tags used in GitHub",
+                "url": "https://github.com/Senzing/knowledge-base/blob/master/lists/github-tags-used.md",
+                "description": "GitHub tags for Senzing artifacts."
             }
         ]
     },
@@ -208,49 +212,15 @@ def get_parser():
     subcommands = {
         'awesome-groups': {
             "help": 'Print awesome groups.',
-            "arguments": {
-                "--github-access-token": {
-                    "dest": "github_access_token",
-                    "metavar": "GITHUB_ACCESS_TOKEN",
-                    "help": "GitHub Personal Access token. See https://github.com/settings/tokens"
-                },
-                "--debug": {
-                    "dest": "debug",
-                    "action": "store_true",
-                    "help": "Enable debugging. (GITHUB_DEBUG) Default: False"
-                },
-                "--organization": {
-                    "dest": "organization",
-                    "metavar": "GITHUB_ORGANIZATION",
-                    "help": "GitHub account/organization name. Default: Senzing"
-                },
-            },
+            "argument_aspects": ["github"],
         },
         'awesome-page': {
             "help": 'Create the awesome page.',
-            "arguments": {
-
-            },
+            "argument_aspects": ["github"],
         },
         'awesome-page-excluded': {
             "help": 'List repositories that are not on Awesome page.',
-            "arguments": {
-                "--github-access-token": {
-                    "dest": "github_access_token",
-                    "metavar": "GITHUB_ACCESS_TOKEN",
-                    "help": "GitHub Personal Access token. See https://github.com/settings/tokens"
-                },
-                "--debug": {
-                    "dest": "debug",
-                    "action": "store_true",
-                    "help": "Enable debugging. (GITHUB_DEBUG) Default: False"
-                },
-                "--organization": {
-                    "dest": "organization",
-                    "metavar": "GITHUB_ORGANIZATION",
-                    "help": "GitHub account/organization name. Default: Senzing"
-                },
-            },
+            "argument_aspects": ["github"],
         },
         'version': {
             "help": 'Print version of program.',
@@ -324,7 +294,7 @@ message_dictionary = {
     "102": "Updated Repository: {0} Label: {1}",
     "103": "Deleted Repository: {0} Label: {1}",
     "104": "Repository '{0}' has been archived.  Not modifying its labels.",
-    "293": "For information on warnings and errors, see https://github.com/docktermj/python-github" ,
+    "293": "For information on warnings and errors, see https://github.com/docktermj/python-github",
     "295": "Sleeping infinitely.",
     "296": "Sleeping {0} seconds.",
     "297": "Enter {0}",
