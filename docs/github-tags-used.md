@@ -1,5 +1,7 @@
 # GitHub Tags used
 
+The following tags are used to categorize Senzing Community repositories.
+
 ## Tags
 
 1. [ansible-playbook](https://github.com/search?q=topic%3Aansible-playbook+org%3ASenzing&type=Repositories)
