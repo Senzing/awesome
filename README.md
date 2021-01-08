@@ -28,7 +28,7 @@ Inspired by [other awesome sites](#other-awesome-sites).
 
 1. [Promoted articles](https://senzing.zendesk.com/hc/en-us) - Promoted articles
 1. [Senzing API for Developers](https://senzing.zendesk.com/hc/en-us/categories/360000120514-Senzing-API-for-Developers-) - Senzing API for Developers
-1. [community-roadmap](https://github.com/Senzing/community-roadmap) - A peek into the future of the Senzing Community
+1. [community-roadmap](https://github.com/Senzing/community-roadmap) - A peek into the future of the Senzing Community.
 1. [evaluate](https://github.com/Senzing/evaluate) - Information for evaluating Senzing at http://senzing.com/evaluate
 1. [video](https://github.com/Senzing/video) - Videos available at http://senzing.com/video
 
@@ -36,16 +36,16 @@ Inspired by [other awesome sites](#other-awesome-sites).
 
 *Step-by-step instructions demonstrating use of Senzing.*
 
-1. [aws-cloudformation-ecs](https://github.com/Senzing/aws-cloudformation-ecs) - Cloudformation for Senzing Stack
-1. [aws-cloudformation-ecs-poc-simple](https://github.com/Senzing/aws-cloudformation-ecs-poc-simple) - Simplified Cloudformation for Senzing Stack
-1. [docker-app-demo](https://github.com/Senzing/docker-app-demo) - Uses `docker-app` to create a docker formation demonstrating Senzing.
-1. [docker-compose-aws-ecscli-demo](https://github.com/Senzing/docker-compose-aws-ecscli-demo) - Demonstrate Senzing on AWS ECS.
-1. [docker-compose-demo](https://github.com/Senzing/docker-compose-demo) - Uses `docker-compose` to create a docker formation demonstrating Senzing.
+1. [aws-cloudformation-ecs](https://github.com/Senzing/aws-cloudformation-ecs) - Demonstrate Senzing stack using AWS Cloudformation.
+1. [aws-cloudformation-ecs-poc-simple](https://github.com/Senzing/aws-cloudformation-ecs-poc-simple) - Demonstrate Senzing stack using AWS CloudFormation - simplified.
+1. [docker-app-demo](https://github.com/Senzing/docker-app-demo) - Demonstrate Senzing stack using `docker-app`.
+1. [docker-compose-aws-ecscli-demo](https://github.com/Senzing/docker-compose-aws-ecscli-demo) - Demonstrate Senzing stack using AWS `ecs-cli`.
+1. [docker-compose-demo](https://github.com/Senzing/docker-compose-demo) - Demonstrate Senzing stack using `docker-compose`.
 1. [docker-python-demo](https://github.com/Senzing/docker-python-demo) - Dockerfile demonstrating simple Flask app using Senzing.
 1. [docker-web-app-demo](https://github.com/Senzing/docker-web-app-demo) - Dockerfile combining Senzing API server and Senzing Entity WebApp.
-1. [ibm-openshift-guide](https://github.com/Senzing/ibm-openshift-guide) - Demonstrates OpenShift deployment of Senzing with queue, Db2, and Senzing API server.
-1. [kubernetes-demo](https://github.com/Senzing/kubernetes-demo) - Demonstrates Kubernetes deployment of Senzing with queue, database, and Senzing API server.
-1. [openshift-demo](https://github.com/Senzing/openshift-demo) - Demonstration using minishift.
+1. [ibm-openshift-guide](https://github.com/Senzing/ibm-openshift-guide) - Demonstrate Senzing stack using OpenShift and IBM Db2.
+1. [kubernetes-demo](https://github.com/Senzing/kubernetes-demo) - Demonstrate Senzing stack using Kubernetes.
+1. [openshift-demo](https://github.com/Senzing/openshift-demo) - Demonstrate Senzing stack using `minishift`.
 1. [senzing-up](https://github.com/Senzing/senzing-up) - Super easy Senzing demonstration using docker on Linux or Mac.
 
 ## Dockerfiles
@@ -132,14 +132,14 @@ Inspired by [other awesome sites](#other-awesome-sites).
 
 *Docker formations using docker-compose.*
 
-1. [docker-compose-demo](https://github.com/Senzing/docker-compose-demo) - Uses `docker-compose` to create a docker formation demonstrating Senzing.
+1. [docker-compose-demo](https://github.com/Senzing/docker-compose-demo) - Demonstrate Senzing stack using `docker-compose`.
 
 ## Kubernetes
 
 *Step-by-step instructions demonstrating use of Senzing on kubernetes-based systems.*
 
 1. [charts](https://github.com/Senzing/charts) - Helm Charts for use with Kubernetes, OpenShift, and Rancher.
-1. [kubernetes-demo](https://github.com/Senzing/kubernetes-demo) - Demonstrates Kubernetes deployment of Senzing with queue, database, and Senzing API server.
+1. [kubernetes-demo](https://github.com/Senzing/kubernetes-demo) - Demonstrate Senzing stack using Kubernetes.
 
 ## Helm Charts
 
