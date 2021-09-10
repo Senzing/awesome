@@ -234,6 +234,7 @@ Inspired by [other awesome sites](#other-awesome-sites).
 1. [risk-score-calculator](https://github.com/Senzing/risk-score-calculator) - Risk scorer.
 1. [senzing-api-server](https://github.com/Senzing/senzing-api-server) - Server of Senzing REST API.
 1. [senzing-environment](https://github.com/Senzing/senzing-environment) - Create an environment to use Senzing in a project / virtual environment style.
+1. [senzing-listener](https://github.com/Senzing/senzing-listener) - Listener framework.
 1. [senzing-package](https://github.com/Senzing/senzing-package) - Python tool for installing Senzing package.
 1. [stream-loader](https://github.com/Senzing/stream-loader) - Python tool for loading Senzing Engine from RabbitMQ, Kafka, or AWS SQS.
 1. [stream-logger](https://github.com/Senzing/stream-logger) - A utility for dumping the contents of a stream to a log.
@@ -253,7 +254,6 @@ Inspired by [other awesome sites](#other-awesome-sites).
 1. [java-g2loader](https://github.com/Senzing/java-g2loader) - :construction: [Under construction] 
 1. [packer-senzing-demo-ubuntu-18.04](https://github.com/Senzing/packer-senzing-demo-ubuntu-18.04) - :construction: [Under construction] A packer build of a senzing demo.
 1. [rest-api-client-java](https://github.com/Senzing/rest-api-client-java) - :construction: [Under construction] - Client built from OpenAPI specification.
-1. [senzing-listener](https://github.com/Senzing/senzing-listener) - :construction: [Under construction] Listener framework.
 1. [stream-configuration](https://github.com/Senzing/stream-configuration) - :construction: [Under construction] Temporary Senzing configuration service.
 1. [stream-file-utility](https://github.com/Senzing/stream-file-utility) - :construction: [Under construction]
 
