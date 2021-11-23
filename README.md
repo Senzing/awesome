@@ -171,7 +171,7 @@ Inspired by [other awesome sites](#other-awesome-sites).
 1. [mapper-csv](https://github.com/Senzing/mapper-csv) - Exemplar artifacts (files) that can be used in other Senzing repositories.
 1. [mapper-dnb](https://github.com/Senzing/mapper-dnb) - Map DNB format to Senzing format.
 1. [mapper-dowjones](https://github.com/Senzing/mapper-dowjones) - Map Dow Jones Watchlist format to Senzing format.
-1. [mapper-ijic](https://github.com/Senzing/mapper-ijic) - Map ICIJ format to Senzing format.
+1. [mapper-icij](https://github.com/Senzing/mapper-icij) - Map ICIJ format to Senzing format.
 1. [mapper-nomino](https://github.com/Senzing/mapper-nomino) -  Map Nomino format to Senzing format.
 1. [mapper-npi](https://github.com/Senzing/mapper-npi) - Map NPPES NPI Registry to Senzing format.
 1. [mapper-ofac](https://github.com/Senzing/mapper-ofac) - Map OFAC to Senzing format.
