@@ -66,8 +66,8 @@ keys_to_redact = [
 
 awesome_topics = {
     "top-pick": {
-        "title": "Top Picks",
-        "description": "Most-used projects.",
+        "title": "Senzing's Top Picks",
+        "description": "Recommended projects from the team at Senzing.",
         "members": []
     },
     "documentation": {
@@ -139,11 +139,6 @@ awesome_topics = {
         "description": "Convert industry standard formats to Senzing-ready format.",
         "members": []
     },
-    "proof-of-concept": {
-        "title": "Proof of Concept",
-        "description": "Tools to work with Proof of Concept engagements.",
-        "members": []
-    },
     "resource": {
         "title": "Resources",
         "description": "Non-code information.",
@@ -162,11 +157,6 @@ awesome_topics = {
     "utility": {
         "title": "Utilities",
         "description": "Tools for working with Senzing.",
-        "members": []
-    },
-    "g2-python": {
-        "title": "G2 Python",
-        "description": "Components of the /opt/senzing/g2/python directory.",
         "members": []
     },
     "under-construction": {
@@ -189,7 +179,7 @@ prolog_lines = [
     "",
     "## Contents",
     "",
-    "1. [Top Picks](#top-picks)",
+    "1. [Senzing's Top Picks](#senzings-top-picks)",
     "1. [Documentation](#documentation)",
     "1. [Demonstrations](#demonstrations)",
     "1. Docker",
@@ -202,7 +192,6 @@ prolog_lines = [
     "    1. [AWS environment](#aws-environment)",
     "    1. [Azure environment](#azure-environment)",
     "1. [Mapper](#mapper)",
-    "1. [Proof of Concept](#proof-of-concept)",
     "1. [Resources](#resources)",
     "1. [User Interface](#user-interface)",
     "1. [Utilities](#utilities)",
