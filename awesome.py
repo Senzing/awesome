@@ -65,6 +65,11 @@ keys_to_redact = [
 # -----------------------------------------------------------------------------
 
 awesome_topics = {
+    "top-pick": {
+        "title": "Senzing's Top Picks",
+        "description": "Recommended projects from the team at Senzing.",
+        "members": []
+    },
     "documentation": {
         "title": "Documentation",
         "description": "Documentation on Senzing usage.",
@@ -114,19 +119,34 @@ awesome_topics = {
         "description": "Git repositories with Helm Charts for Senzing on kubernetes-based systems.",
         "members": []
     },
+    "aws-environment": {
+        "title": "AWS Environment",
+        "description": "Projects specific to Amazon Web Services environment.",
+        "members": []
+    },
+    "azure-environment": {
+        "title": "Azure Environment",
+        "description": "Projects specific to Microsoft's Azure environment.",
+        "members": []
+    },
+    "example": {
+        "title": "Examples",
+        "description": "Code that shows how to perform a task.",
+        "members": []
+    },
     "mapper": {
         "title": "Mapper",
         "description": "Convert industry standard formats to Senzing-ready format.",
         "members": []
     },
-    "proof-of-concept": {
-        "title": "Proof of Concept",
-        "description": "Tools to work with Proof of Concept engagements.",
-        "members": []
-    },
     "resource": {
         "title": "Resources",
         "description": "Non-code information.",
+        "members": []
+    },
+    "sdk": {
+        "title": "SDKs",
+        "description": "Software development kits for various platforms.",
         "members": []
     },
     "ui-component": {
@@ -159,6 +179,7 @@ prolog_lines = [
     "",
     "## Contents",
     "",
+    "1. [Senzing's Top Picks](#senzings-top-picks)",
     "1. [Documentation](#documentation)",
     "1. [Demonstrations](#demonstrations)",
     "1. Docker",
@@ -167,8 +188,10 @@ prolog_lines = [
     "    1. [docker-compose](#docker-compose)",
     "    1. [Kubernetes](#kubernetes)",
     "    1. [Helm Charts](#helm-charts)",
+    "1. Environment",
+    "    1. [AWS environment](#aws-environment)",
+    "    1. [Azure environment](#azure-environment)",
     "1. [Mapper](#mapper)",
-    "1. [Proof of Concept](#proof-of-concept)",
     "1. [Resources](#resources)",
     "1. [User Interface](#user-interface)",
     "1. [Utilities](#utilities)",
@@ -652,6 +675,9 @@ def do_awesome_page(args):
         elif "deprecated" in topics:
             continue
 
+        elif "not-in-awesome" in topics:
+            continue
+
         # Separate out "obsolete" repositories.
 
         elif "obsolete" in topics:
@@ -745,6 +771,8 @@ def do_awesome_page_excluded(args):
             print("  Archived: {}".format(repo.name))
         elif "deprecated" in topics:
             print("Deprecated: {}".format(repo.name))
+        elif "not-in-awesome" in topics:
+            print("  Excluded: {}".format(repo.name))
         elif len(topics) == 0:
             print("No  topics: {}".format(repo.name))
         else:
