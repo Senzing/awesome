@@ -42,7 +42,7 @@ Inspired by [other awesome sites](#other-awesome-sites).
 
 1. [Promoted articles](https://senzing.zendesk.com/hc/en-us) - Promoted articles.
 1. [Senzing API for Developers](https://senzing.zendesk.com/hc/en-us/categories/360000120514-Senzing-API-for-Developers-) - Senzing API for Developers.
-1. [Tags used in GitHub](https://github.com/Senzing/knowledge-base/blob/master/lists/github-tags-used.md) - GitHub tags for Senzing artifacts.
+1. [Tags used in GitHub](https://github.com/Senzing/knowledge-base/blob/main/lists/github-tags-used.md) - GitHub tags for Senzing artifacts.
 1. [community-roadmap](https://github.com/Senzing/community-roadmap) - A peek into the future of the Senzing Community.
 1. [evaluate](https://github.com/Senzing/evaluate) - Information for evaluating Senzing at http://senzing.com/evaluate
 1. [video](https://github.com/Senzing/video) - Videos available at http://senzing.com/video
@@ -338,9 +338,9 @@ Inspired by [other awesome sites](#other-awesome-sites).
 
 *How to request new features and bug fixes.*
 
-1. [Request bug fix](https://github.com/Senzing/knowledge-base/blob/master/HOWTO/request-bug-fix.md)
-1. [Request new feature in existing repository](https://github.com/Senzing/knowledge-base/blob/master/HOWTO/request-new-feature-in-existing-repository.md)
-1. [Request new feature](https://github.com/Senzing/knowledge-base/blob/master/HOWTO/request-new-feature.md)
+1. [Request bug fix](https://github.com/Senzing/knowledge-base/blob/main/HOWTO/request-bug-fix.md)
+1. [Request new feature in existing repository](https://github.com/Senzing/knowledge-base/blob/main/HOWTO/request-new-feature-in-existing-repository.md)
+1. [Request new feature](https://github.com/Senzing/knowledge-base/blob/main/HOWTO/request-new-feature.md)
 
 ## Other awesome sites
 

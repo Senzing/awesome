@@ -84,7 +84,7 @@ awesome_topics = {
                 "description": "Senzing API for Developers."
             }, {
                 "name": "Tags used in GitHub",
-                "url": "https://github.com/Senzing/knowledge-base/blob/master/lists/github-tags-used.md",
+                "url": "https://github.com/Senzing/knowledge-base/blob/main/lists/github-tags-used.md",
                 "description": "GitHub tags for Senzing artifacts."
             }
         ]
@@ -207,9 +207,9 @@ epilog_lines = [
     "",
     "*How to request new features and bug fixes.*",
     "",
-    "1. [Request bug fix](https://github.com/Senzing/knowledge-base/blob/master/HOWTO/request-bug-fix.md)",
-    "1. [Request new feature in existing repository](https://github.com/Senzing/knowledge-base/blob/master/HOWTO/request-new-feature-in-existing-repository.md)",
-    "1. [Request new feature](https://github.com/Senzing/knowledge-base/blob/master/HOWTO/request-new-feature.md)",
+    "1. [Request bug fix](https://github.com/Senzing/knowledge-base/blob/main/HOWTO/request-bug-fix.md)",
+    "1. [Request new feature in existing repository](https://github.com/Senzing/knowledge-base/blob/main/HOWTO/request-new-feature-in-existing-repository.md)",
+    "1. [Request new feature](https://github.com/Senzing/knowledge-base/blob/main/HOWTO/request-new-feature.md)",
     "",
     "## Other awesome sites",
     "",
