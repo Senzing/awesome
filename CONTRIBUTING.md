@@ -115,7 +115,7 @@ TODO:
 
 ### Pull Requests
 
-Code in the master branch is modified via GitHub pull request.
+Code in the main branch is modified via GitHub pull request.
 Follow GitHub's
 [Creating a pull request from a branch](https://help.github.com/articles/creating-a-pull-request/)
 or
