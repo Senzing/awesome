@@ -3,6 +3,7 @@ disable=
     broad-except,
     consider-iterating-dictionary,
     consider-using-f-string,
+    import-error,
     invalid-name,
     len-as-condition,
     line-too-long,
