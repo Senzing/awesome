@@ -24,7 +24,7 @@ import github
 __all__ = []
 __version__ = "1.0.0"  # See https://www.python.org/dev/peps/pep-0396/
 __date__ = '2020-06-30'
-__updated__ = '2021-01-08'
+__updated__ = '2022-06-20'
 
 PRODUCT_ID = "5016"
 log_format = '%(asctime)s %(message)s'
@@ -162,11 +162,6 @@ awesome_topics = {
     "under-construction": {
         "title": "Under construction",
         "description": "Being worked on. a.k.a. Fresh meat.",
-        "members": []
-    },
-    "obsolete": {
-        "title": "Obsolete",
-        "description": "Although no longer current, may be informative.",
         "members": []
     },
 }
@@ -681,12 +676,7 @@ def do_awesome_page(args):
         # Separate out "obsolete" repositories.
 
         elif "obsolete" in topics:
-            member = {
-                "name": repo.name,
-                "url": repo.html_url,
-                "description": repo.description
-            }
-            awesome_topics.get("obsolete", []).get("members", []).append(member)
+            continue
 
         # Separate out "obsolete" repositories.
 
