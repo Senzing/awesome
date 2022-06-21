@@ -24,7 +24,7 @@ import github
 __all__ = []
 __version__ = "1.0.0"  # See https://www.python.org/dev/peps/pep-0396/
 __date__ = '2020-06-30'
-__updated__ = '2021-01-08'
+__updated__ = '2022-06-20'
 
 PRODUCT_ID = "5016"
 log_format = '%(asctime)s %(message)s'
@@ -109,6 +109,11 @@ awesome_topics = {
         "description": "Docker formations using docker-compose.",
         "members": []
     },
+    "g2tool": {
+        "title": "G2Tools",
+        "description": "G2Tools distributed with Senzing API package.",
+        "members": []
+    },
     "kubernetes": {
         "title": "Kubernetes",
         "description": "Step-by-step instructions demonstrating use of Senzing on kubernetes-based systems.",
@@ -164,11 +169,6 @@ awesome_topics = {
         "description": "Being worked on. a.k.a. Fresh meat.",
         "members": []
     },
-    "obsolete": {
-        "title": "Obsolete",
-        "description": "Although no longer current, may be informative.",
-        "members": []
-    },
 }
 
 prolog_lines = [
@@ -195,8 +195,8 @@ prolog_lines = [
     "1. [Resources](#resources)",
     "1. [User Interface](#user-interface)",
     "1. [Utilities](#utilities)",
+    "    1. [G2Tools](#g2tools)",
     "1. [Under construction](#under-construction)",
-    "1. [Obsolete](#obsolete)",
     "1. [Features and bugs](#features-and-bugs)",
     "1. [Other awesome sites](#other-awesome-sites)",
 ]
@@ -681,12 +681,7 @@ def do_awesome_page(args):
         # Separate out "obsolete" repositories.
 
         elif "obsolete" in topics:
-            member = {
-                "name": repo.name,
-                "url": repo.html_url,
-                "description": repo.description
-            }
-            awesome_topics.get("obsolete", []).get("members", []).append(member)
+            continue
 
         # Separate out "obsolete" repositories.
 
