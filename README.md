@@ -23,7 +23,6 @@ Inspired by [other awesome sites](#other-awesome-sites).
 1. [Utilities](#utilities)
     1. [G2Tools](#g2tools)
 1. [Under construction](#under-construction)
-1. [Obsolete](#obsolete)
 1. [Features and bugs](#features-and-bugs)
 1. [Other awesome sites](#other-awesome-sites)
 
@@ -47,6 +46,8 @@ Inspired by [other awesome sites](#other-awesome-sites).
 1. [Tags used in GitHub](https://github.com/Senzing/knowledge-base/blob/main/lists/github-tags-used.md) - GitHub tags for Senzing artifacts.
 1. [community-roadmap](https://github.com/Senzing/community-roadmap) - A peek into the future of the Senzing Community.
 1. [evaluate](https://github.com/Senzing/evaluate) - Information for evaluating Senzing at http://senzing.com/evaluate
+1. [postgresql-performance](https://github.com/Senzing/postgresql-performance) - Tweaks to PostgreSQL and the Senzing DDL
+1. [rabbitmq-performance](https://github.com/Senzing/rabbitmq-performance) - Tweeks to RabbitMQ
 1. [video](https://github.com/Senzing/video) - Videos available at http://senzing.com/video
 
 ## Demonstrations
@@ -93,6 +94,7 @@ Inspired by [other awesome sites](#other-awesome-sites).
 1. [docker-yum](https://github.com/Senzing/docker-yum) - Dockerfile wrapping `yum`, a package manager.
 1. [docker-yumdownloader](https://github.com/Senzing/docker-yumdownloader) - Dockerfile wrapping `yumdownloader`.
 1. [entity-search-web-app](https://github.com/Senzing/entity-search-web-app) - A lightweight http server providing a web UI for entity search through the senzing api server.
+1. [entity-search-web-app-console](https://github.com/Senzing/entity-search-web-app-console) - A side-car for the Entity Search Web App
 1. [postgresql-client](https://github.com/Senzing/postgresql-client) - A psql client that waits for the database to be ready before uploading SQL file.
 1. [redoer](https://github.com/Senzing/redoer) - Perform Senzing Redo operations.
 1. [resolver](https://github.com/Senzing/resolver) - Ephemeral Senzing entity-resolution.
@@ -123,7 +125,6 @@ Inspired by [other awesome sites](#other-awesome-sites).
 1. [docker-senzing-base](https://github.com/Senzing/docker-senzing-base) - Dockerfile used in FROM statements.
 1. [docker-senzing-console](https://github.com/Senzing/docker-senzing-console) - Docker-based console enabled for interacting with Senzing programs.
 1. [docker-sshd](https://github.com/Senzing/docker-sshd) - Dockerfile wrapping `sshd`.
-1. [docker-test](https://github.com/Senzing/docker-test) - Used in Spikes. Not for production.
 1. [docker-web-app-demo](https://github.com/Senzing/docker-web-app-demo) - Dockerfile combining Senzing API server and Senzing Entity WebApp.
 1. [docker-xterm](https://github.com/Senzing/docker-xterm) - Web-based X-terminal.
 1. [docker-yum](https://github.com/Senzing/docker-yum) - Dockerfile wrapping `yum`, a package manager.
@@ -304,6 +305,7 @@ Inspired by [other awesome sites](#other-awesome-sites).
 1. [docker-yumdownloader](https://github.com/Senzing/docker-yumdownloader) - Dockerfile wrapping `yumdownloader`.
 1. [entity-search-web-app](https://github.com/Senzing/entity-search-web-app) - A lightweight http server providing a web UI for entity search through the senzing api server.
 1. [g2-python](https://github.com/Senzing/g2-python) - Tools found at g2/python in the SenzingAPI package.
+1. [g2search](https://github.com/Senzing/g2search) - Reads formatted search records, calls Senzing, and outputs for analysis
 1. [github-util](https://github.com/Senzing/github-util) - Works with GitHub metadata.
 1. [governor-postgresql-transaction-id](https://github.com/Senzing/governor-postgresql-transaction-id) - Governor plugin for PostgreSQL transaction IDs.
 1. [packer-ansible](https://github.com/Senzing/packer-ansible) - Use Packer to build virtual machines with Ansible.
@@ -326,19 +328,12 @@ Inspired by [other awesome sites](#other-awesome-sites).
 *Being worked on. a.k.a. Fresh meat.*
 
 1. [configurator](https://github.com/Senzing/configurator) - Web service for configuring Senzing.
-1. [data-mart-replicator](https://github.com/Senzing/data-mart-replicator) - Data mart
+1. [data-mart-replicator](https://github.com/Senzing/data-mart-replicator) - :construction: Data mart
 1. [docker-terraform-aws](https://github.com/Senzing/docker-terraform-aws) - :construction: [Under construction] 
 1. [java-g2loader](https://github.com/Senzing/java-g2loader) - :construction: [Under construction] 
 1. [packer-senzing-demo-ubuntu-18.04](https://github.com/Senzing/packer-senzing-demo-ubuntu-18.04) - :construction: [Under construction] A packer build of a senzing demo.
+1. [ready-for-senzing](https://github.com/Senzing/ready-for-senzing) - :construction: [Under construction] 
 1. [rest-api-client-java](https://github.com/Senzing/rest-api-client-java) - :construction: [Under construction] - Client built from OpenAPI specification.
-1. [stream-configuration](https://github.com/Senzing/stream-configuration) - :construction: [Under construction] Temporary Senzing configuration service.
-
-## Obsolete
-
-*Although no longer current, may be informative.*
-
-1. [docker-python-db2-cluster-base](https://github.com/Senzing/docker-python-db2-cluster-base) - :warning: [Obsolete] Dockerfile for Senzing, DB2 cluster, and python 2.7.
-1. [spike-docker-store-based-images](https://github.com/Senzing/spike-docker-store-based-images) - :warning: [Obsolete] Use docker image in Docker Store.
 
 ## Features and bugs
 
