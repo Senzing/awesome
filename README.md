@@ -70,7 +70,7 @@ Inspired by [other awesome sites](#other-awesome-sites).
 *Repositories with Dockerfiles.*
 
 1. [connector-neo4j](https://github.com/Senzing/connector-neo4j) - Transform Senzing data into Neo4j graph database.
-1. [data-encryption-aes256cbc-sample](https://github.com/Senzing/data-encryption-aes256cbc-sample) - This is a sample encryption plugin, for use with the G2 engine to encrypt sensitive data in the data repository. 
+1. [data-encryption-aes256cbc-sample](https://github.com/Senzing/data-encryption-aes256cbc-sample) - This is a sample encryption plugin, for use with the G2 engine to encrypt sensitive data in the data repository.
 1. [docker-adminer](https://github.com/Senzing/docker-adminer) - Dockerfile wrapping `adminer`, a database viewer.
 1. [docker-apt](https://github.com/Senzing/docker-apt) - Dockerfile wrapping `apt-get`, a package manager.
 1. [docker-aptdownloader](https://github.com/Senzing/docker-aptdownloader) - Dockerfile wrapping `apt-get install --download-only`.
@@ -112,7 +112,7 @@ Inspired by [other awesome sites](#other-awesome-sites).
 
 *Git repositories with Docker images on [DockerHub](https://hub.docker.com/r/senzing/).*
 
-1. [data-encryption-aes256cbc-sample](https://github.com/Senzing/data-encryption-aes256cbc-sample) - This is a sample encryption plugin, for use with the G2 engine to encrypt sensitive data in the data repository. 
+1. [data-encryption-aes256cbc-sample](https://github.com/Senzing/data-encryption-aes256cbc-sample) - This is a sample encryption plugin, for use with the G2 engine to encrypt sensitive data in the data repository.
 1. [docker-adminer](https://github.com/Senzing/docker-adminer) - Dockerfile wrapping `adminer`, a database viewer.
 1. [docker-apt](https://github.com/Senzing/docker-apt) - Dockerfile wrapping `apt-get`, a package manager.
 1. [docker-aptdownloader](https://github.com/Senzing/docker-aptdownloader) - Dockerfile wrapping `apt-get install --download-only`.
@@ -236,7 +236,7 @@ Inspired by [other awesome sites](#other-awesome-sites).
 
 *Code that shows how to perform a task.*
 
-1. [data-encryption-aes256cbc-sample](https://github.com/Senzing/data-encryption-aes256cbc-sample) - This is a sample encryption plugin, for use with the G2 engine to encrypt sensitive data in the data repository. 
+1. [data-encryption-aes256cbc-sample](https://github.com/Senzing/data-encryption-aes256cbc-sample) - This is a sample encryption plugin, for use with the G2 engine to encrypt sensitive data in the data repository.
 
 ## Mapper
 
@@ -330,10 +330,10 @@ Inspired by [other awesome sites](#other-awesome-sites).
 
 1. [configurator](https://github.com/Senzing/configurator) - Web service for configuring Senzing.
 1. [data-mart-replicator](https://github.com/Senzing/data-mart-replicator) - :construction: Data mart
-1. [docker-terraform-aws](https://github.com/Senzing/docker-terraform-aws) - :construction: [Under construction] 
-1. [java-g2loader](https://github.com/Senzing/java-g2loader) - :construction: [Under construction] 
+1. [docker-terraform-aws](https://github.com/Senzing/docker-terraform-aws) - :construction: [Under construction]
+1. [java-g2loader](https://github.com/Senzing/java-g2loader) - :construction: [Under construction]
 1. [packer-senzing-demo-ubuntu-18.04](https://github.com/Senzing/packer-senzing-demo-ubuntu-18.04) - :construction: [Under construction] A packer build of a senzing demo.
-1. [ready-for-senzing](https://github.com/Senzing/ready-for-senzing) - :construction: [Under construction] 
+1. [ready-for-senzing](https://github.com/Senzing/ready-for-senzing) - :construction: [Under construction]
 1. [rest-api-client-java](https://github.com/Senzing/rest-api-client-java) - :construction: [Under construction] - Client built from OpenAPI specification.
 
 ## Features and bugs
