@@ -109,6 +109,11 @@ awesome_topics = {
         "description": "Docker formations using docker-compose.",
         "members": []
     },
+    "g2tool": {
+        "title": "G2Tools",
+        "description": "G2Tools distributed with Senzing API package.",
+        "members": []
+    },
     "kubernetes": {
         "title": "Kubernetes",
         "description": "Step-by-step instructions demonstrating use of Senzing on kubernetes-based systems.",
@@ -190,8 +195,8 @@ prolog_lines = [
     "1. [Resources](#resources)",
     "1. [User Interface](#user-interface)",
     "1. [Utilities](#utilities)",
+    "    1. [G2Tools](#g2tools)",
     "1. [Under construction](#under-construction)",
-    "1. [Obsolete](#obsolete)",
     "1. [Features and bugs](#features-and-bugs)",
     "1. [Other awesome sites](#other-awesome-sites)",
 ]
