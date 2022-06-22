@@ -63,6 +63,7 @@ Inspired by [other awesome sites](#other-awesome-sites).
 1. [ibm-openshift-guide](https://github.com/Senzing/ibm-openshift-guide) - Demonstrate Senzing stack using OpenShift and IBM Db2.
 1. [kubernetes-demo](https://github.com/Senzing/kubernetes-demo) - Demonstrate Senzing stack using Kubernetes.
 1. [openshift-demo](https://github.com/Senzing/openshift-demo) - Demonstrate Senzing stack using `minishift`.
+1. [senzinggo](https://github.com/Senzing/senzinggo) - Quickly and easily start the Senzing REST API server, demo web app & Swagger in containers.
 
 ## Dockerfiles
 
