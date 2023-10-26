@@ -19,6 +19,7 @@ disable=
     unused-argument,
     unused-import,
     unused-variable,
+    used-before-assignment,
 good-names=
     template-python
 ignore=
