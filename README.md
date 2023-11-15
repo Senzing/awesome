@@ -95,7 +95,6 @@ Inspired by [other awesome sites](#other-awesome-sites).
 1. [docker-yum](https://github.com/Senzing/docker-yum) - Dockerfile wrapping `yum`, a package manager.
 1. [docker-yumdownloader](https://github.com/Senzing/docker-yumdownloader) - Dockerfile wrapping `yumdownloader`.
 1. [entity-search-web-app](https://github.com/Senzing/entity-search-web-app) - A lightweight http server providing a web UI for entity search through the senzing api server.
-1. [entity-search-web-app-console](https://github.com/Senzing/entity-search-web-app-console) - A side-car for the Entity Search Web App
 1. [postgresql-client](https://github.com/Senzing/postgresql-client) - A psql client that waits for the database to be ready before uploading SQL file.
 1. [redoer](https://github.com/Senzing/redoer) - Perform Senzing Redo operations.
 1. [resolver](https://github.com/Senzing/resolver) - Ephemeral Senzing entity-resolution.
