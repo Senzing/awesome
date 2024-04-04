@@ -5,28 +5,11 @@ Inspired by [other awesome sites](#other-awesome-sites).
 
 ## Contents
 
-1. [Senzing's Top Picks](#senzings-top-picks)
 1. [Documentation](#documentation)
-1. [Demonstrations](#demonstrations)
-1. Docker
-    1. [Dockerfiles](#dockerfiles)
-    1. [DockerHub](#dockerhub)
-    1. [docker-compose](#docker-compose)
-    1. [Kubernetes](#kubernetes)
-    1. [Helm Charts](#helm-charts)
-1. Environment
-    1. [AWS environment](#aws-environment)
-    1. [Azure environment](#azure-environment)
 1. [Mapper](#mapper)
 1. [Resources](#resources)
-1. [User Interface](#user-interface)
-1. [Utilities](#utilities)
-    1. [G2Tools](#g2tools)
-1. [Under construction](#under-construction)
 1. [Features and bugs](#features-and-bugs)
 1. [Other awesome sites](#other-awesome-sites)
-
-## Senzing's Top Picks
 
 ## Documentation
 
