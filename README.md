@@ -37,7 +37,7 @@ Inspired by [other awesome sites](#other-awesome-sites).
 1. [mapper-ofac](https://github.com/Senzing/mapper-ofac) - Map OFAC to Senzing format.
 1. [mapper-openc](https://github.com/Senzing/mapper-openc) - Map Open Corporate into Senzing format.
 1. [mapper-opensanctions](https://github.com/Senzing/mapper-opensanctions) - Map Open Sanctions into Senzing format.
-1. [mapper-sayari](https://github.com/Senzing/mapper-sayari) - Map Sayari's global corporate data into Senzing format.
+1. [mapper-sayari-spark](https://github.com/Senzing/mapper-sayari-spark) - Map Sayari's global corporate data into Senzing format.
 
 ## Resources
 
