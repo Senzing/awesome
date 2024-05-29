@@ -8,6 +8,9 @@ env:
   CREATOR: ${{ github.event.pull_request.user.login }}
   GITHUB_TOKEN: ${{ secrets.SENZING_GITHUB_ACCESS_TOKEN }}
 
+permissions:
+  repository-projects: write
+
 jobs:
   add-to-project-dependabot:
     name: add issue to Senzing Community project
