@@ -10,6 +10,7 @@ disable=
     missing-function-docstring,
     missing-module-docstring,
     no-else-continue,
+    possibly-used-before-assignment,
     redefined-builtin,
     redefined-outer-name,
     too-many-branches,
