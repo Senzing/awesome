@@ -19,8 +19,7 @@ Inspired by [other awesome sites](#other-awesome-sites).
 1. [Senzing API for Developers](https://senzing.zendesk.com/hc/en-us/categories/360000120514-Senzing-API-for-Developers-) - Senzing API for Developers.
 1. [postgresql-performance](https://github.com/Senzing/postgresql-performance) - Tweaks to PostgreSQL and the Senzing DDL
 1. [rabbitmq-performance](https://github.com/Senzing/rabbitmq-performance) - Tweeks to RabbitMQ
-1. [video](https://github.com/Senzing/video) - Videos available at http://senzing.com/video
-
+1. [video](https://github.com/Senzing/video) - Videos available at <http://senzing.com/video>
 
 ## Mapper
 
@@ -28,16 +27,17 @@ Inspired by [other awesome sites](#other-awesome-sites).
 
 1. [mapper-base](https://github.com/Senzing/mapper-base) - Base functions used to map a variety of formats to a Senzing-acceptable format.
 1. [mapper-csv](https://github.com/Senzing/mapper-csv) - Exemplar artifacts (files) that can be used in other Senzing repositories.
-1. [mapper-dnb](https://github.com/Senzing/mapper-dnb) - Map DNB format to Senzing format.
-1. [mapper-dowjones](https://github.com/Senzing/mapper-dowjones) - Map Dow Jones Watchlist format to Senzing format.
-1. [mapper-icij](https://github.com/Senzing/mapper-icij) - Map ICIJ format to Senzing format.
-1. [mapper-leie](https://github.com/Senzing/mapper-leie) - Map US HHS LEIE to Senzing format.
-1. [mapper-nomino](https://github.com/Senzing/mapper-nomino) -  Map Nomino format to Senzing format.
-1. [mapper-npi](https://github.com/Senzing/mapper-npi) - Map NPPES NPI Registry to Senzing format.
-1. [mapper-ofac](https://github.com/Senzing/mapper-ofac) - Map OFAC to Senzing format.
+1. [mapper-dnb](https://github.com/Senzing/mapper-dnb) - Map DNB format into Senzing format.
+1. [mapper-dowjones](https://github.com/Senzing/mapper-dowjones) - Map Dow Jones Watchlist format into Senzing format.
+1. [mapper-icij](https://github.com/Senzing/mapper-icij) - Map ICIJ format into Senzing format.
+1. [mapper-leie](https://github.com/Senzing/mapper-leie) - Map US HHS LEIE into Senzing format.
+1. [mapper-nomino](https://github.com/Senzing/mapper-nomino) -  Map Nomino format into Senzing format.
+1. [mapper-npi](https://github.com/Senzing/mapper-npi) - Map NPPES NPI Registry into Senzing format.
+1. [mapper-ofac](https://github.com/Senzing/mapper-ofac) - Map OFAC into Senzing format.
 1. [mapper-openc](https://github.com/Senzing/mapper-openc) - Map Open Corporate into Senzing format.
 1. [mapper-opensanctions](https://github.com/Senzing/mapper-opensanctions) - Map Open Sanctions into Senzing format.
 1. [mapper-sayari-spark](https://github.com/Senzing/mapper-sayari-spark) - Map Sayari's global corporate data into Senzing format.
+1. [mapper-spire](https://github.com/Senzing/mapper-spire) - Map Spire vessel master and owners into Senzing format.
 
 ## Resources
 
@@ -45,8 +45,7 @@ Inspired by [other awesome sites](#other-awesome-sites).
 
 1. [awesome](https://github.com/Senzing/awesome) - Curated list of awesome software and resources for Senzing, The First Real-Time AI for Entity Resolution.
 1. [senzing-entity-specification](https://github.com/Senzing/senzing-entity-specification) - Complete Senzing Entity Specification and Attribute Dictionary.
-1. [senzing.github.io](https://github.com/Senzing/senzing.github.io) - Organization site at http://hub.senzing.com
-
+1. [senzing.github.io](https://github.com/Senzing/senzing.github.io) - Organization site at <http://hub.senzing.com>
 
 ## Features and bugs
 
