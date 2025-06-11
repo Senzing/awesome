@@ -1,2 +1,7 @@
 .DS_Store
+
+# Visual Studio code
+.vscode/*
+!.vscode/cspell.json
+*.code-workspace
 .history
