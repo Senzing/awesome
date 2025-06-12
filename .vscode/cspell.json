@@ -1,0 +1,45 @@
+{
+  // Version of the setting file.  Always 0.2
+  "version": "0.2",
+  // language - current active spelling language
+  "language": "en",
+  // words - list of words to be always considered correct
+  "words": [
+    "akullpp",
+    "analysing",
+    "avelino",
+    "CCLA",
+    "CODEOWNER",
+    "Dockerfiles",
+    "dockerhub",
+    "dowjones",
+    "ICIJ",
+    "ICLA",
+    "LEIE",
+    "mypy",
+    "Nomino",
+    "NPPES",
+    "OFAC",
+    "openc",
+    "opensanctions",
+    "pydev",
+    "pylint",
+    "rabbitmq",
+    "Sayari's",
+    "sayari",
+    "Senzing",
+    "senzings",
+    "shellcheck",
+    "sindresorhus",
+    "sorrycc",
+    "stackoverflow",
+    "uhub",
+    "vinta",
+    "Watchlist",
+    "ziadoz"
+  ],
+  "ignorePaths": [
+    ".git/**",
+    ".mypy_cache/**"
+  ]
+}
