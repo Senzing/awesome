@@ -30,13 +30,11 @@ _Convert industry standard formats to Senzing-ready format._
 1. [mapper-dnb] - Map DNB format into Senzing format.
 1. [mapper-dowjones] - Map Dow Jones Watchlist format into Senzing format.
 1. [mapper-icij] - Map ICIJ format into Senzing format.
-1. [mapper-leie] - Map US HHS LEIE into Senzing format.
 1. [mapper-nomino] - Map Nomino format into Senzing format.
 1. [mapper-npi] - Map NPPES NPI Registry into Senzing format.
 1. [mapper-ofac] - Map OFAC into Senzing format.
-1. [mapper-openc] - Map Open Corporate into Senzing format.
-1. [mapper-opensanctions] - Map Open Sanctions into Senzing format.
-1. [mapper-sayari-spark] - Map Sayari's global corporate data into Senzing format.
+1. [mapper-open-ownership] - Map Open Ownership Register into Senzing format.
+1. [mapper-safegraph] - Map SafeGraph format to Senzing format.
 1. [mapper-spire] - Map Spire vessel master and owners into Senzing format.
 
 ## Resources
@@ -79,13 +77,11 @@ _Our thanks to those who blazed the 'awesome' trail before us._
 [mapper-dnb]: https://github.com/Senzing/mapper-dnb
 [mapper-dowjones]: https://github.com/Senzing/mapper-dowjones
 [mapper-icij]: https://github.com/Senzing/mapper-icij
-[mapper-leie]: https://github.com/Senzing/mapper-leie
 [mapper-nomino]: https://github.com/Senzing/mapper-nomino
 [mapper-npi]: https://github.com/Senzing/mapper-npi
 [mapper-ofac]: https://github.com/Senzing/mapper-ofac
-[mapper-openc]: https://github.com/Senzing/mapper-openc
-[mapper-opensanctions]: https://github.com/Senzing/mapper-opensanctions
-[mapper-sayari-spark]: https://github.com/Senzing/mapper-sayari-spark
+[mapper-open-ownership]: https://github.com/Senzing/mapper-open-ownership
+[mapper-safegraph]: https://github.com/Senzing/mapper-safegraph
 [mapper-spire]: https://github.com/Senzing/mapper-spire
 [Mapper]: #mapper
 [other awesome sites]: #other-awesome-sites
