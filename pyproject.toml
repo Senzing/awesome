@@ -1,0 +1,52 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[dependency-groups]
+test = ["pytest", "coverage"]
+
+[tool.bandit]
+skips = ["B101"]
+
+[tool.black]
+line-length = 120
+
+[tool.flake8]
+extend-ignore = ["E203", "E501", "E704", "W503"]
+max-line-length = 120
+
+[tool.isort]
+profile = "black"
+src_paths = ["examples", "src", "tests"]
+
+[[tool.mypy.overrides]]
+module = "senzing_abstract.szengineflags.*"
+ignore_missing_imports = "true"
+warn_unused_ignores = "false"
+
+[[tool.mypy.overrides]]
+module = "pytest_schema.*"
+ignore_missing_imports = "true"
+
+[tool.pylint]
+ignored-argument-names = "args|kwargs"
+disable = [
+    "broad-except",
+    "consider-using-f-string",
+    "line-too-long",
+    "too-many-branches",
+    "too-many-locals"
+]
+good-names = [
+    "template-python"
+]
+ignore = [
+    "__init__.py",
+    "docs/source/conf.py"
+]
+notes = [
+    "FIXME"
+]
