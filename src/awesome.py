@@ -18,8 +18,9 @@ import os
 import signal
 import sys
 import time
-from github import Github
+
 import github
+from github import Github
 
 __all__ = []
 __version__ = "1.0.0"  # See https://www.python.org/dev/peps/pep-0396/
