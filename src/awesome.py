@@ -290,12 +290,8 @@ def get_parser():
                 for argument, argument_value in arguments.items():
                     subcommands[subcommand]["arguments"][argument] = argument_value
 
-    parser = argparse.ArgumentParser(
-        prog="github-tasks.py", description="Reports from GitHub."
-    )
-    subparsers = parser.add_subparsers(
-        dest="subcommand", help="Subcommands (GITHUB_SUBCOMMAND):"
-    )
+    parser = argparse.ArgumentParser(prog="github-tasks.py", description="Reports from GitHub.")
+    subparsers = parser.add_subparsers(dest="subcommand", help="Subcommands (GITHUB_SUBCOMMAND):")
 
     for subcommand_key, subcommand_values in subcommands.items():
         subcommand_help = subcommand_values.get("help", "")
@@ -352,9 +348,7 @@ message_dictionary = {
 
 def message(index, *args):
     index_string = str(index)
-    template = message_dictionary.get(
-        index_string, "No message for index {0}.".format(index_string)
-    )
+    template = message_dictionary.get(index_string, "No message for index {0}.".format(index_string))
     return template.format(*args)
 
 
@@ -639,11 +633,7 @@ def do_awesome_groups(args):
 
         members = sorted(topic_value.get("members", []), key=key_member_name)
         for member in members:
-            print(
-                "1. [{0}]({1}) - {2}".format(
-                    member.get("name"), member.get("url"), member.get("description", "")
-                )
-            )
+            print("1. [{0}]({1}) - {2}".format(member.get("name"), member.get("url"), member.get("description", "")))
 
     # Epilog.
 
@@ -703,9 +693,7 @@ def do_awesome_page(args):
                 "url": repo.html_url,
                 "description": repo.description,
             }
-            awesome_topics.get("under-construction", []).get("members", []).append(
-                member
-            )
+            awesome_topics.get("under-construction", []).get("members", []).append(member)
 
         # After passing the "guards" (obsolete, deprecated, archived), process repository.
 
@@ -737,11 +725,7 @@ def do_awesome_page(args):
 
         members = sorted(topic_value.get("members", []), key=key_member_name)
         for member in members:
-            print(
-                "1. [{0}]({1}) - {2}".format(
-                    member.get("name"), member.get("url"), member.get("description", "")
-                )
-            )
+            print("1. [{0}]({1}) - {2}".format(member.get("name"), member.get("url"), member.get("description", "")))
 
     # Print epilog.
 

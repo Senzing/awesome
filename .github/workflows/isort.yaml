@@ -39,4 +39,4 @@ jobs:
         uses: isort/isort-action@v1
         with:
           requirements-files: requirements.txt
-          sort-paths: "examples src/template_python tests"
+          sort-paths: "src"
