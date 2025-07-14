@@ -23,35 +23,31 @@ import github
 
 __all__ = []
 __version__ = "1.0.0"  # See https://www.python.org/dev/peps/pep-0396/
-__date__ = '2020-06-30'
-__updated__ = '2022-06-20'
+__date__ = "2020-06-30"
+__updated__ = "2022-06-20"
 
 PRODUCT_ID = "5016"
-log_format = '%(asctime)s %(message)s'
+log_format = "%(asctime)s %(message)s"
 
 # The "configuration_locator" describes where configuration variables are in:
 # 1) Command line options, 2) Environment variables, 3) Configuration files, 4) Default values
 
 configuration_locator = {
-    "debug": {
-        "default": False,
-        "env": "GITHUB_DEBUG",
-        "cli": "debug"
-    },
+    "debug": {"default": False, "env": "GITHUB_DEBUG", "cli": "debug"},
     "github_access_token": {
         "default": None,
         "env": "GITHUB_ACCESS_TOKEN",
-        "cli": "github-access-token"
+        "cli": "github-access-token",
     },
     "organization": {
         "default": "Senzing",
         "env": "GITHUB_ORGANIZATION",
-        "cli": "organization"
+        "cli": "organization",
     },
     "subcommand": {
         "default": None,
         "env": "GITHUB_SUBCOMMAND",
-    }
+    },
 }
 
 # Enumerate keys in 'configuration_locator' that should not be printed to the log.
@@ -68,7 +64,7 @@ awesome_topics = {
     "top-pick": {
         "title": "Senzing's Top Picks",
         "description": "Recommended projects from the team at Senzing.",
-        "members": []
+        "members": [],
     },
     "documentation": {
         "title": "Documentation",
@@ -77,97 +73,99 @@ awesome_topics = {
             {
                 "name": "Promoted articles",
                 "url": "https://senzing.zendesk.com/hc/en-us",
-                "description": "Promoted articles."
-            }, {
+                "description": "Promoted articles.",
+            },
+            {
                 "name": "Senzing API for Developers",
                 "url": "https://senzing.zendesk.com/hc/en-us/categories/360000120514-Senzing-API-for-Developers-",
-                "description": "Senzing API for Developers."
-            }, {
+                "description": "Senzing API for Developers.",
+            },
+            {
                 "name": "Tags used in GitHub",
                 "url": "https://github.com/Senzing/knowledge-base/blob/main/lists/github-tags-used.md",
-                "description": "GitHub tags for Senzing artifacts."
-            }
-        ]
+                "description": "GitHub tags for Senzing artifacts.",
+            },
+        ],
     },
     "demonstration": {
         "title": "Demonstrations",
         "description": "Step-by-step instructions demonstrating use of Senzing.",
-        "members": []
+        "members": [],
     },
     "dockerfile": {
         "title": "Dockerfiles",
         "description": "Repositories with Dockerfiles.",
-        "members": []
+        "members": [],
     },
     "docker-hub": {
         "title": "DockerHub",
         "description": "Git repositories with Docker images on [DockerHub](https://hub.docker.com/r/senzing/).",
-        "members": []
+        "members": [],
     },
     "docker-compose": {
         "title": "docker-compose",
         "description": "Docker formations using docker-compose.",
-        "members": []
+        "members": [],
     },
     "g2tool": {
         "title": "G2Tools",
         "description": "G2Tools distributed with Senzing API package.",
-        "members": []
+        "members": [],
     },
     "kubernetes": {
         "title": "Kubernetes",
         "description": "Step-by-step instructions demonstrating use of Senzing on kubernetes-based systems.",
-        "members": []
+        "members": [],
     },
     "helm-chart": {
         "title": "Helm Charts",
         "description": "Git repositories with Helm Charts for Senzing on kubernetes-based systems.",
-        "members": []
+        "members": [],
     },
     "aws-environment": {
         "title": "AWS Environment",
         "description": "Projects specific to Amazon Web Services environment.",
-        "members": []
+        "members": [],
     },
     "azure-environment": {
         "title": "Azure Environment",
         "description": "Projects specific to Microsoft's Azure environment.",
-        "members": []
+        "members": [],
     },
     "example": {
         "title": "Examples",
         "description": "Code that shows how to perform a task.",
-        "members": []
+        "members": [],
     },
     "mapper": {
         "title": "Mapper",
         "description": "Convert industry standard formats to Senzing-ready format.",
-        "members": []
+        "members": [],
     },
     "resource": {
         "title": "Resources",
         "description": "Non-code information.",
-        "members": []
+        "members": [],
     },
     "sdk": {
         "title": "SDKs",
         "description": "Software development kits for various platforms.",
-        "members": []
+        "members": [],
     },
     "ui-component": {
         "title": "User Interface",
         "description": "User interfaces for Senzing.",
-        "members": []
+        "members": [],
     },
     "utility": {
         "title": "Utilities",
         "description": "Tools for working with Senzing.",
-        "members": []
+        "members": [],
     },
     "under-construction": {
         "title": "Under construction",
         "description": "Being worked on. a.k.a. Fresh meat.",
-        "members": []
+        "members": [],
     },
 }
 
@@ -239,23 +237,23 @@ epilog_lines = [
 
 
 def get_parser():
-    ''' Parse commandline arguments. '''
+    """Parse commandline arguments."""
 
     subcommands = {
-        'awesome-groups': {
-            "help": 'Print awesome groups.',
+        "awesome-groups": {
+            "help": "Print awesome groups.",
             "argument_aspects": ["github"],
         },
-        'awesome-page': {
-            "help": 'Create the awesome page.',
+        "awesome-page": {
+            "help": "Create the awesome page.",
             "argument_aspects": ["github"],
         },
-        'awesome-page-excluded': {
-            "help": 'List repositories that are not on Awesome page.',
+        "awesome-page-excluded": {
+            "help": "List repositories that are not on Awesome page.",
             "argument_aspects": ["github"],
         },
-        'version': {
-            "help": 'Print version of program.',
+        "version": {
+            "help": "Print version of program.",
         },
     }
 
@@ -266,17 +264,17 @@ def get_parser():
             "--github-access-token": {
                 "dest": "github_access_token",
                 "metavar": "GITHUB_ACCESS_TOKEN",
-                "help": "GitHub Personal Access token. See https://github.com/settings/tokens"
+                "help": "GitHub Personal Access token. See https://github.com/settings/tokens",
             },
             "--debug": {
                 "dest": "debug",
                 "action": "store_true",
-                "help": "Enable debugging. (GITHUB_DEBUG) Default: False"
+                "help": "Enable debugging. (GITHUB_DEBUG) Default: False",
             },
             "--organization": {
                 "dest": "organization",
                 "metavar": "GITHUB_ORGANIZATION",
-                "help": "GitHub account/organization name. Default: Senzing"
+                "help": "GitHub account/organization name. Default: Senzing",
             },
         },
     }
@@ -284,25 +282,30 @@ def get_parser():
     # Augment "subcommands" variable with arguments specified by aspects.
 
     for subcommand, subcommand_value in subcommands.items():
-        if 'argument_aspects' in subcommand_value:
-            for aspect in subcommand_value['argument_aspects']:
-                if 'arguments' not in subcommands[subcommand]:
-                    subcommands[subcommand]['arguments'] = {}
+        if "argument_aspects" in subcommand_value:
+            for aspect in subcommand_value["argument_aspects"]:
+                if "arguments" not in subcommands[subcommand]:
+                    subcommands[subcommand]["arguments"] = {}
                 arguments = argument_aspects.get(aspect, {})
                 for argument, argument_value in arguments.items():
-                    subcommands[subcommand]['arguments'][argument] = argument_value
+                    subcommands[subcommand]["arguments"][argument] = argument_value
 
-    parser = argparse.ArgumentParser(prog="github-tasks.py", description="Reports from GitHub.")
-    subparsers = parser.add_subparsers(dest='subcommand', help='Subcommands (GITHUB_SUBCOMMAND):')
+    parser = argparse.ArgumentParser(
+        prog="github-tasks.py", description="Reports from GitHub."
+    )
+    subparsers = parser.add_subparsers(
+        dest="subcommand", help="Subcommands (GITHUB_SUBCOMMAND):"
+    )
 
     for subcommand_key, subcommand_values in subcommands.items():
-        subcommand_help = subcommand_values.get('help', "")
-        subcommand_arguments = subcommand_values.get('arguments', {})
+        subcommand_help = subcommand_values.get("help", "")
+        subcommand_arguments = subcommand_values.get("arguments", {})
         subparser = subparsers.add_parser(subcommand_key, help=subcommand_help)
         for argument_key, argument_values in subcommand_arguments.items():
             subparser.add_argument(argument_key, **argument_values)
 
     return parser
+
 
 # -----------------------------------------------------------------------------
 # Message handling
@@ -349,7 +352,9 @@ message_dictionary = {
 
 def message(index, *args):
     index_string = str(index)
-    template = message_dictionary.get(index_string, "No message for index {0}.".format(index_string))
+    template = message_dictionary.get(
+        index_string, "No message for index {0}.".format(index_string)
+    )
     return template.format(*args)
 
 
@@ -375,7 +380,7 @@ def message_debug(index, *args):
 
 
 def get_exception():
-    ''' Get details about an exception. '''
+    """Get details about an exception."""
     exception_type, exception_object, traceback = sys.exc_info()
     frame = traceback.tb_frame
     line_number = traceback.tb_lineno
@@ -391,31 +396,32 @@ def get_exception():
         "traceback": traceback,
     }
 
+
 # -----------------------------------------------------------------------------
 # Configuration
 # -----------------------------------------------------------------------------
 
 
 def get_configuration(args):
-    ''' Order of precedence: CLI, OS environment variables, INI file, default. '''
+    """Order of precedence: CLI, OS environment variables, INI file, default."""
     result = {}
 
     # Copy default values into configuration dictionary.
 
     for key, value in list(configuration_locator.items()):
-        result[key] = value.get('default', None)
+        result[key] = value.get("default", None)
 
     # "Prime the pump" with command line args. This will be done again as the last step.
 
     for key, value in list(args.__dict__.items()):
-        new_key = key.format(subcommand.replace('-', '_'))
+        new_key = key.format(subcommand.replace("-", "_"))
         if value:
             result[new_key] = value
 
     # Copy OS environment variables into configuration dictionary.
 
     for key, value in list(configuration_locator.items()):
-        os_env_var = value.get('env', None)
+        os_env_var = value.get("env", None)
         if os_env_var:
             os_env_value = os.getenv(os_env_var, None)
             if os_env_value:
@@ -424,25 +430,25 @@ def get_configuration(args):
     # Copy 'args' into configuration dictionary.
 
     for key, value in list(args.__dict__.items()):
-        new_key = key.format(subcommand.replace('-', '_'))
+        new_key = key.format(subcommand.replace("-", "_"))
         if value:
             result[new_key] = value
 
     # Special case: subcommand from command-line
 
     if args.subcommand:
-        result['subcommand'] = args.subcommand
+        result["subcommand"] = args.subcommand
 
     # Special case: Change boolean strings to booleans.
 
     booleans = [
-        'debug',
+        "debug",
     ]
     for boolean in booleans:
         boolean_value = result.get(boolean)
         if isinstance(boolean_value, str):
             boolean_value_lower_case = boolean_value.lower()
-            if boolean_value_lower_case in ['true', '1', 't', 'y', 'yes']:
+            if boolean_value_lower_case in ["true", "1", "t", "y", "yes"]:
                 result[boolean] = True
             else:
                 result[boolean] = False
@@ -458,18 +464,18 @@ def get_configuration(args):
 
 
 def validate_configuration(config):
-    ''' Check aggregate configuration from commandline options, environment variables, config files, and defaults. '''
+    """Check aggregate configuration from commandline options, environment variables, config files, and defaults."""
 
     user_warning_messages = []
     user_error_messages = []
 
     # Perform subcommand specific checking.
 
-    subcommand = config.get('subcommand')
+    subcommand = config.get("subcommand")
 
-    if subcommand in ['comments']:
+    if subcommand in ["comments"]:
 
-        if not config.get('github_access_token'):
+        if not config.get("github_access_token"):
             user_error_messages.append(message_error(701))
 
     # Log warning messages.
@@ -494,11 +500,12 @@ def validate_configuration(config):
 
 
 def redact_configuration(config):
-    ''' Return a shallow copy of config with certain keys removed. '''
+    """Return a shallow copy of config with certain keys removed."""
     result = config.copy()
     for key in keys_to_redact:
         result.pop(key)
     return result
+
 
 # -----------------------------------------------------------------------------
 # Utility functions
@@ -506,9 +513,9 @@ def redact_configuration(config):
 
 
 def create_signal_handler_function(args):
-    ''' Tricky code.  Uses currying technique. Create a function for signal handling.
-        that knows about "args".
-    '''
+    """Tricky code.  Uses currying technique. Create a function for signal handling.
+    that knows about "args".
+    """
 
     def result_function(signal_number, frame):
         logging.info(message_info(298, args))
@@ -522,9 +529,9 @@ def bootstrap_signal_handler(signal, frame):
 
 
 def entry_template(config):
-    ''' Format of entry message. '''
+    """Format of entry message."""
     debug = config.get("debug", False)
-    config['start_time'] = time.time()
+    config["start_time"] = time.time()
     if debug:
         final_config = config
     else:
@@ -534,11 +541,11 @@ def entry_template(config):
 
 
 def exit_template(config):
-    ''' Format of exit message. '''
+    """Format of exit message."""
     debug = config.get("debug", False)
     stop_time = time.time()
-    config['stop_time'] = stop_time
-    config['elapsed_time'] = stop_time - config.get('start_time', stop_time)
+    config["stop_time"] = stop_time
+    config["elapsed_time"] = stop_time - config.get("start_time", stop_time)
     if debug:
         final_config = config
     else:
@@ -548,19 +555,20 @@ def exit_template(config):
 
 
 def exit_error(index, *args):
-    ''' Log error message and exit program. '''
+    """Log error message and exit program."""
     logging.error(message_error(index, *args))
     logging.error(message_error(698))
     sys.exit(1)
 
 
 def exit_silently():
-    ''' Exit program. '''
+    """Exit program."""
     sys.exit(1)
 
 
 def key_member_name(object):
     return object.get("name")
+
 
 # -----------------------------------------------------------------------------
 # do_* functions
@@ -569,7 +577,7 @@ def key_member_name(object):
 
 
 def do_awesome_groups(args):
-    ''' Do a task. '''
+    """Do a task."""
 
     # Get context from CLI, environment variables, and ini files.
 
@@ -617,7 +625,7 @@ def do_awesome_groups(args):
                 member = {
                     "name": repo.name,
                     "url": repo.html_url,
-                    "description": repo.description
+                    "description": repo.description,
                 }
                 awesome_topics.get(topic, []).get("members", []).append(member)
 
@@ -631,7 +639,11 @@ def do_awesome_groups(args):
 
         members = sorted(topic_value.get("members", []), key=key_member_name)
         for member in members:
-            print("1. [{0}]({1}) - {2}".format(member.get("name"), member.get("url"), member.get("description", "")))
+            print(
+                "1. [{0}]({1}) - {2}".format(
+                    member.get("name"), member.get("url"), member.get("description", "")
+                )
+            )
 
     # Epilog.
 
@@ -639,7 +651,7 @@ def do_awesome_groups(args):
 
 
 def do_awesome_page(args):
-    ''' Do a task. '''
+    """Do a task."""
 
     # Get context from CLI, environment variables, and ini files.
 
@@ -689,9 +701,11 @@ def do_awesome_page(args):
             member = {
                 "name": repo.name,
                 "url": repo.html_url,
-                "description": repo.description
+                "description": repo.description,
             }
-            awesome_topics.get("under-construction", []).get("members", []).append(member)
+            awesome_topics.get("under-construction", []).get("members", []).append(
+                member
+            )
 
         # After passing the "guards" (obsolete, deprecated, archived), process repository.
 
@@ -704,7 +718,7 @@ def do_awesome_page(args):
                     member = {
                         "name": repo.name,
                         "url": repo.html_url,
-                        "description": repo.description
+                        "description": repo.description,
                     }
                     awesome_topics.get(topic, []).get("members", []).append(member)
 
@@ -723,7 +737,11 @@ def do_awesome_page(args):
 
         members = sorted(topic_value.get("members", []), key=key_member_name)
         for member in members:
-            print("1. [{0}]({1}) - {2}".format(member.get("name"), member.get("url"), member.get("description", "")))
+            print(
+                "1. [{0}]({1}) - {2}".format(
+                    member.get("name"), member.get("url"), member.get("description", "")
+                )
+            )
 
     # Print epilog.
 
@@ -732,7 +750,7 @@ def do_awesome_page(args):
 
 
 def do_awesome_page_excluded(args):
-    ''' Do a task. '''
+    """Do a task."""
 
     # Get context from CLI, environment variables, and ini files.
 
@@ -780,9 +798,10 @@ def do_awesome_page_excluded(args):
 
 
 def do_version(args):
-    ''' Log version information. '''
+    """Log version information."""
 
     logging.info(message_info(294, __version__, __updated__))
+
 
 # -----------------------------------------------------------------------------
 # Main
@@ -800,7 +819,7 @@ if __name__ == "__main__":
         "fatal": logging.FATAL,
         "warning": logging.WARNING,
         "error": logging.ERROR,
-        "critical": logging.CRITICAL
+        "critical": logging.CRITICAL,
     }
 
     log_level_parameter = os.getenv("GITHUB_LOG_LEVEL", "info").lower()
@@ -837,7 +856,7 @@ if __name__ == "__main__":
 
     # Transform subcommand from CLI parameter to function name string.
 
-    subcommand_function_name = "do_{0}".format(subcommand.replace('-', '_'))
+    subcommand_function_name = "do_{0}".format(subcommand.replace("-", "_"))
 
     # Test to see if function exists in the code.
 

@@ -1,16 +1,20 @@
-name: pylint
+name: black
 
-on: [push]
+on:
+  push:
+    branches-ignore: [main]
+  pull_request:
+    branches: [main]
 
 permissions:
   contents: read
 
 jobs:
-  pylint:
-    outputs:
-      status: ${{ job.status }}
+  black:
+    name: black Python ${{ matrix.python-version }}
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false
       matrix:
         python-version: ["3.9", "3.10", "3.11", "3.12"]
 
@@ -32,16 +36,7 @@ jobs:
           python -m pip install --requirement development-requirements.txt
           python -m pip install --requirement requirements.txt
 
-      - name: Analysing the code with pylint
+      - name: Run black testing
         run: |
           # shellcheck disable=SC2046
-          pylint $(git ls-files '*.py' ':!:docs/source/*')
-
-  slack-notification:
-    needs: [pylint]
-    if: ${{ always() && contains(fromJSON('["failure", "cancelled"]'), needs.pylint.outputs.status ) && github.ref_name == github.event.repository.default_branch }}
-    secrets:
-      SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
-    uses: senzing-factory/build-resources/.github/workflows/build-failure-slack-notification.yaml@v2
-    with:
-      job-status: ${{ needs.pylint.outputs.status }}
+          black --diff --check $(git ls-files '*.py' ':!:docs/source/*')
