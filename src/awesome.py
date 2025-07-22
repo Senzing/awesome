@@ -19,7 +19,6 @@ import signal
 import sys
 import time
 
-import github
 from github import Github
 
 __all__ = []
@@ -354,7 +353,6 @@ def message(index, *args):
 
 
 def message_generic(generic_index, index, *args):
-    index_string = str(index)
     return "{0} {1}".format(message(generic_index, index), message(index, *args))
 
 
@@ -593,11 +591,11 @@ def do_awesome_groups(args):
 
     # Log into GitHub.
 
-    github = Github(github_access_token)
+    github_access = Github(github_access_token)
 
     # Iterate through all repositories.
 
-    github_organization = github.get_organization(organization)
+    github_organization = github_access.get_organization(organization)
     for repo in github_organization.get_repos():
 
         # Get topics for the repository.

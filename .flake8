@@ -1,0 +1,10 @@
+[flake8]
+extend-ignore =
+    # E203 and E704 needed for black
+    F401,
+    E203,
+    E704,
+    E501,
+    F821,
+    W503
+max-line-length=88
