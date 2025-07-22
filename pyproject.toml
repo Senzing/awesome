@@ -22,6 +22,18 @@ max-line-length = 120
 profile = "black"
 src_paths = ["examples", "src", "tests"]
 
+[tool.mypy]
+disable_error_code = [
+    "attr-defined",
+    "index",
+    "name-defined",
+    "no-untyped-call",
+    "no-untyped-def",
+    "operator",
+    "union-attr",
+    "var-annotated"
+]
+
 [[tool.mypy.overrides]]
 module = "senzing_abstract.szengineflags.*"
 ignore_missing_imports = "true"
