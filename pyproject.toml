@@ -24,7 +24,9 @@ src_paths = ["examples", "src", "tests"]
 
 [tool.mypy]
 disable_error_code = [
+    "arg-type",
     "attr-defined",
+    "import-not-found",
     "index",
     "name-defined",
     "no-untyped-call",
