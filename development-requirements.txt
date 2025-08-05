@@ -1,7 +1,7 @@
 bandit==1.8.6
 black==25.1.0
 build==1.2.2.post1
-coverage==7.10.1
+coverage==7.10.2
 cryptography==45.0.5
 flake8==7.3.0
 fpvs==0.3.0
