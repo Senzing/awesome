@@ -8,7 +8,7 @@ fpvs==0.3.0
 isort==6.0.1
 mypy==1.17.1
 psutil==7.0.0
-pylint-per-file-ignores==1.4.0
+pylint-per-file-ignores==2.0.3
 pylint==3.3.8
 pytest-cov==6.2.1
 pytest-schema==0.1.2
