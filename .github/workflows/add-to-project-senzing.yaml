@@ -6,8 +6,7 @@ on:
       - opened
       - reopened
 
-permissions:
-  repository-projects: write
+permissions: {}
 
 jobs:
   add-to-project:
