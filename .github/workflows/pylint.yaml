@@ -2,13 +2,14 @@ name: pylint
 
 on: [push]
 
-permissions:
-  contents: read
+permissions: {}
 
 jobs:
   pylint:
     outputs:
       status: ${{ job.status }}
+    permissions:
+      contents: read
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -17,6 +18,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
+        with:
+          persist-credentials: false
 
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v6
