@@ -5,7 +5,7 @@ coverage==7.10.7
 cryptography==46.0.2
 flake8==7.3.0
 fpvs==0.3.0
-isort==6.0.1
+isort==6.1.0
 mypy==1.18.2
 psutil==7.1.0
 pylint-per-file-ignores==2.0.3
