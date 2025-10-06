@@ -9,7 +9,7 @@ isort==6.1.0
 mypy==1.18.2
 psutil==7.1.0
 pylint-per-file-ignores==2.0.3
-pylint==3.3.8
+pylint==3.3.9
 pytest-cov==7.0.0
 pytest-schema==0.1.2
 pytest==8.4.2
