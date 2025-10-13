@@ -7,42 +7,6 @@ on:
 permissions: {}
 
 jobs:
-  fpvs:
-    permissions:
-      contents: read
-    runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        python-version: ["3.12"]
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v5
-        with:
-          persist-credentials: false
-
-      - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v6
-        with:
-          python-version: ${{ matrix.python-version }}
-
-      - name: Install dependencies
-        run: |
-          python -m venv ./venv
-          source ./venv/bin/activate
-          echo "PATH=${PATH}" >> "${GITHUB_ENV}"
-          python -m pip install --upgrade pip
-          python -m pip install --requirement development-requirements.txt
-          python -m pip install --requirement requirements.txt
-          python -m pip wheel -r requirements.txt --wheel-dir=vendor
-
-      - name: Run fpvs scan
-        run: |
-          python -m pip install fpvs
-          git clone https://gitlab.com/gitlab-org/security-products/gemnasium-db.git
-          fpvs-scan --verbose
-
   pip-audit:
     permissions:
       contents: read
@@ -68,10 +32,9 @@ jobs:
           python -m venv ./venv
           source ./venv/bin/activate
           echo "PATH=${PATH}" >> "${GITHUB_ENV}"
-          python -m pip install --requirement requirements.txt
           python -m pip install .
 
       - name: Run pip-audit
         uses: pypa/gh-action-pip-audit@v1.1.0
         with:
-          inputs: requirements.txt
+          inputs: ${{ github.workspace}}
