@@ -44,7 +44,7 @@ development = [
   "pytest-schema==0.1.2",
   "pytest==8.4.2",
   "twine==6.2.0",
-  "virtualenv==20.35.3",
+  "virtualenv==20.35.4",
   "wheel==0.46.1",
 ]
 documentation = [
