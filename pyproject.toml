@@ -73,7 +73,7 @@ lint = [
   "flake8==7.3.0",
   "isort==6.1.0; python_version < '3.10'",
   "isort==7.0.0; python_version > '3.9'",
-  "mypy==1.19.0",
+  "mypy==1.19.1",
   "pylint==3.3.9; python_version < '3.10'",
   "pylint==4.0.0; python_version > '3.9'",
   "pylint-per-file-ignores==2.0.3; python_version < '3.10'",
