@@ -57,7 +57,7 @@ documentation = [
   "sphinx-prompt==1.10.1; python_version > '3.11'",
   "sphinx-rtd-theme==3.0.2; python_version > '3.11'",
   "sphinx-tabs==3.4.*; python_version > '3.11'",
-  "sphinx-toolbox==4.1.0; python_version > '3.11'",
+  "sphinx-toolbox==4.1.1; python_version > '3.11'",
   "sphinxcontrib-applehelp==2.0.0; python_version > '3.11'",
   "sphinxcontrib-devhelp==2.0.0; python_version > '3.11'",
   "sphinxcontrib-htmlhelp==2.1.0; python_version > '3.11'",
