@@ -42,7 +42,7 @@ development = [
   "psutil==7.2.1",
   "pytest-cov==7.0.0",
   "pytest-schema==0.1.2",
-  "pytest==8.4.2",
+  "pytest==9.0.2",
   "twine==6.2.0",
   "virtualenv==20.35.4",
   "wheel==0.46.1",
@@ -79,7 +79,7 @@ lint = [
   "pylint-per-file-ignores==2.0.3; python_version < '3.10'",
   "pylint-per-file-ignores==3.1.0; python_version > '3.9'",
 ]
-test = ["pytest==8.4.2", "coverage==7.10.7"]
+test = ["pytest==9.0.2", "coverage==7.10.7"]
 
 [tool.bandit]
 skips = ["B101"]
