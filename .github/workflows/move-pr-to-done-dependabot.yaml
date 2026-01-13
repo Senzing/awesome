@@ -1,4 +1,4 @@
-name: move pr to done dependabot
+name: Move pr to done dependabot
 
 on:
   pull_request:
