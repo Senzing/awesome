@@ -1,10 +1,12 @@
-name: bandit
+name: Bandit
 
 on:
-  push:
-    branches-ignore: [main]
   pull_request:
     branches: [main]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref || github.ref_name }}
+  cancel-in-progress: true
 
 permissions: {}
 
@@ -16,7 +18,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        python-version: ["3.12"]
+        python-version: ["3.13"]
+    timeout-minutes: 10
 
     steps:
       - name: Run Bandit Scan

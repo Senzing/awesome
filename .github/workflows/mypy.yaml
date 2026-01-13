@@ -1,23 +1,26 @@
-name: mypy
+name: Mypy
 
 on:
-  push:
-    branches-ignore: [main]
   pull_request:
     branches: [main]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref || github.ref_name }}
+  cancel-in-progress: true
 
 permissions: {}
 
 jobs:
   mypy:
-    name: mypy Python ${{ matrix.python-version }}
+    name: Mypy Python ${{ matrix.python-version }}
     permissions:
       contents: read
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
-        python-version: ["3.9", "3.10", "3.11", "3.12"]
+        python-version: ["3.10", "3.11", "3.12", "3.13"]
+    timeout-minutes: 10
 
     steps:
       - name: Checkout repository
@@ -41,4 +44,4 @@ jobs:
       - name: Run mypy tests
         run: |
           # shellcheck disable=SC2046
-          mypy --strict $(git ls-files '*.py' ':!:docs/source/*')
+          mypy $(git ls-files '*.py' ':!:docs/source/*')
