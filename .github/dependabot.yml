@@ -1,14 +1,24 @@
 version: 2
 updates:
-  - package-ecosystem: github-actions
+  - package-ecosystem: "github-actions"
+    assignees:
+      - "kernelsam"
     cooldown:
       default-days: 21
-    directory: /
+      exclude-patterns:
+        - "senzing-factory/*"
+    directory: "/"
+    groups:
+      senzing-factory:
+        patterns:
+          - "senzing-factory/*"
     schedule:
-      interval: daily
-  - package-ecosystem: pip
+      interval: "daily"
+  - package-ecosystem: "pip"
     cooldown:
       default-days: 21
-    directory: /
+      exclude-patterns:
+        - "senzing-factory/*"
+    directory: "/"
     schedule:
-      interval: daily
+      interval: "daily"
