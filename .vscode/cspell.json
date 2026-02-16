@@ -24,6 +24,7 @@
     "isort",
     "jquery",
     "jsmath",
+    "kernelsam",
     "kwargs",
     "LEIE",
     "lukehinds",
