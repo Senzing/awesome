@@ -35,7 +35,7 @@ all = [
 development = [
   "build==1.4.0",
   "coverage==7.10.7; python_version <= '3.11'",
-  "coverage==7.13.2; python_version > '3.11'",
+  "coverage==7.13.3; python_version > '3.11'",
   "cryptography==46.0.4",
   "psutil==7.2.2",
   "pytest-cov==7.0.0",
@@ -84,7 +84,7 @@ test = [
   "pytest==8.4.2; python_version <= '3.11'",
   "pytest==9.0.2; python_version > '3.11'",
   "coverage==7.10.7; python_version <= '3.11'",
-  "coverage==7.13.2; python_version > '3.11'",
+  "coverage==7.13.3; python_version > '3.11'",
 ]
 
 [tool.setuptools.packages.find]
