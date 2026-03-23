@@ -12,8 +12,6 @@ permissions: {}
 
 jobs:
   pylint:
-    outputs:
-      status: ${{ job.status }}
     permissions:
       contents: read
     runs-on: ubuntu-latest
@@ -49,10 +47,10 @@ jobs:
 
   slack-notification:
     needs: [pylint]
-    if: ${{ always() && contains(fromJSON('["failure", "cancelled"]'), needs.pylint.outputs.status ) && github.ref_name == github.event.repository.default_branch }}
+    if: ${{ always() && contains(fromJSON('["failure", "cancelled"]'), needs.pylint.result ) && github.ref_name == github.event.repository.default_branch }}
     secrets:
       SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
       SLACK_CHANNEL: ${{ secrets.SLACK_CHANNEL }}
     uses: senzing-factory/build-resources/.github/workflows/build-failure-slack-notification.yaml@v4
     with:
-      job-status: ${{ needs.pylint.outputs.status }}
+      job-status: ${{ needs.pylint.result }}
