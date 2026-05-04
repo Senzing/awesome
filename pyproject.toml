@@ -33,7 +33,7 @@ all = [
   { include-group = "test" },
 ]
 development = [
-  "build==1.4.2",
+  "build==1.4.3",
   "coverage==7.10.7; python_version <= '3.11'",
   "coverage==7.13.5; python_version > '3.11'",
   "cryptography==46.0.7",
