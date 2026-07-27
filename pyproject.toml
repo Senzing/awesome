@@ -22,7 +22,7 @@ changelog = "https://github.com/senzing/awesome/blob/main/CHANGELOG.md"
 source = "https://github.com/senzing/awesome"
 
 [build-system]
-requires = ["setuptools>=82.0.1", "wheel"]
+requires = ["setuptools>=83.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [dependency-groups]
