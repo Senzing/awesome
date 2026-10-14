@@ -71,7 +71,7 @@ lint = [
   "bandit==1.9.4; python_version > '3.11'",
   "black==25.11.0; python_version <= '3.11'",
   "black==26.5.1; python_version > '3.11'",
-  "flake8==7.3.0",
+  "flake8==7.4.1",
   "isort==6.1.0; python_version <= '3.11'",
   "isort==9.0.1; python_version > '3.11'",
   "mypy==2.3.1",
